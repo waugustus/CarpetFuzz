@@ -1,0 +1,3938 @@
+{
+    "tiffcp": {
+        "synopsis": "tiffcp OPTIONS @@ /tmp/foo",
+        "options": {
+            "-l": [
+                "100"
+            ],
+            "-o": [
+                "16"
+            ],
+            "-r": [
+                "4"
+            ],
+            "-w": [
+                "100"
+            ],
+            "-m": [
+                "512"
+            ],
+            "-c": [
+                "none",
+                "packbits",
+                "lzw",
+                "zip",
+                "lzma",
+                "jpeg",
+                "g3",
+                "g4",
+                "sgilog"
+            ],
+            "-f": [
+                "lsb2msb",
+                "msb2lsb"
+            ],
+            "-p": [
+                "contig",
+                "separate"
+            ]
+        }
+    },
+    "tiffcrop": {
+        "synopsis": "tiffcrop OPTIONS @@ /tmp/foo",
+        "options": {
+            "-m": [
+                "0.5,0.25,0.75,0.25"
+            ],
+            "-X": [
+                "1"
+            ],
+            "-Y": [
+                "2"
+            ],
+            "-Z": [
+                "1:4,3:3"
+            ],
+            "-z": [
+                "1,1,2048,2048:1,2049,2048,4097"
+            ],
+            "-H": [
+                "300"
+            ],
+            "-V": [
+                "300"
+            ],
+            "-J": [
+                "0.25"
+            ],
+            "-K": [
+                "0.25"
+            ],
+            "-P": [
+                "300.0x300.0"
+            ],
+            "-S": [
+                "2:2"
+            ],
+            "-k": [
+                "512"
+            ],
+            "-l": [
+                "100"
+            ],
+            "-r": [
+                "4"
+            ],
+            "-w": [
+                "100"
+            ],
+            "-N": [
+                "odd",
+                "even",
+                "%d,%d-%d,%d",
+                "%d,%d-%d,last"
+            ],
+            "-E": [
+                "top",
+                "bottom",
+                "left",
+                "right"
+            ],
+            "-e": [
+                "combined",
+                "divided",
+                "image",
+                "multiple",
+                "separate"
+            ],
+            "-U": [
+                "in",
+                "cm",
+                "px"
+            ],
+            "-F": [
+                "horiz",
+                "vert"
+            ],
+            "-R": [
+                "90",
+                "180",
+                "270"
+            ],
+            "-I": [
+                "black",
+                "white",
+                "data",
+                "both"
+            ],
+            "-O": [
+                "portrait",
+                "landscape",
+                "auto"
+            ],
+            "-c": [
+                "none",
+                "packbits",
+                "lzw",
+                "jpeg",
+                "zip",
+                "g3",
+                "g4"
+            ],
+            "-f": [
+                "lsb2msb",
+                "msb2lsb"
+            ],
+            "-p": [
+                "contig",
+                "separate"
+            ]
+        }
+    },
+    "cmark": {
+        "synopsis": "cmark OPTIONS @@",
+        "options": {
+            "--width": [
+                "128"
+            ],
+            "--to": [
+                "html",
+                "man",
+                "xml",
+                "latex",
+                "commonmark"
+            ]
+        }
+    },
+    "openssl-ec": {
+        "synopsis": "openssl ec OPTIONS -in @@ -out /tmp/foo",
+        "options": {
+            "-passin": [
+                "pass:123456"
+            ],
+            "-passout": [
+                "pass:123456"
+            ],
+            "-inform": [
+                "DER",
+                "PEM",
+                "P12",
+                "ENGINE"
+            ],
+            "-outform": [
+                "DER",
+                "PEM"
+            ],
+            "-conv_form": [
+                "compressed",
+                "uncompressed",
+                "hybrid"
+            ],
+            "-param_enc": [
+                "named_curve",
+                "explicit"
+            ]
+        }
+    },
+    "openssl-rsa": {
+        "synopsis": "openssl rsa OPTIONS -in @@ -out /tmp/foo",
+        "options": {
+            "-passin": [
+                "pass:123456"
+            ],
+            "-passout": [
+                "pass:123456"
+            ],
+            "-inform": [
+                "DER",
+                "PEM",
+                "P12",
+                "ENGINE"
+            ],
+            "-outform": [
+                "DER",
+                "PEM"
+            ]
+        }
+    },
+    "openssl-asn1parse": {
+        "synopsis": "openssl asn1parse OPTIONS -in @@ -out /tmp/foo",
+        "options": {
+            "-offset": [
+                "16"
+            ],
+            "-length": [
+                "128"
+            ],
+            "-dlimit": [
+                "16"
+            ],
+            "-strparse": [
+                "16"
+            ],
+            "-genstr": [
+                "UTF8:Hello World"
+            ],
+            "-inform": [
+                "DER",
+                "PEM"
+            ],
+            "item": [
+                "ACCESS_DESCRIPTION",
+                "ASIdOrRange",
+                "ASIdentifierChoice",
+                "ASIdentifiers",
+                "ASN1_ANY",
+                "ASN1_BIT_STRING",
+                "ASN1_BMPSTRING",
+                "ASN1_BOOLEAN",
+                "ASN1_ENUMERATED",
+                "ASN1_FBOOLEAN",
+                "ASN1_GENERALIZEDTIME",
+                "ASN1_GENERALSTRING",
+                "ASN1_IA5STRING",
+                "ASN1_INTEGER",
+                "ASN1_NULL",
+                "ASN1_OBJECT",
+                "ASN1_OCTET_STRING_NDEF",
+                "ASN1_OCTET_STRING",
+                "ASN1_PRINTABLESTRING",
+                "ASN1_PRINTABLE",
+                "ASN1_SEQUENCE_ANY",
+                "ASN1_SEQUENCE",
+                "ASN1_SET_ANY",
+                "ASN1_T61STRING",
+                "ASN1_TBOOLEAN",
+                "ASN1_TIME",
+                "ASN1_UNIVERSALSTRING",
+                "ASN1_UTCTIME",
+                "ASN1_UTF8STRING",
+                "ASN1_VISIBLESTRING",
+                "ASRange",
+                "AUTHORITY_INFO_ACCESS",
+                "AUTHORITY_KEYID",
+                "BASIC_CONSTRAINTS",
+                "BIGNUM",
+                "CBIGNUM",
+                "CERTIFICATEPOLICIES",
+                "CMS_ContentInfo",
+                "CMS_ReceiptRequest",
+                "CRL_DIST_POINTS",
+                "DHparams",
+                "DIRECTORYSTRING",
+                "DISPLAYTEXT",
+                "DIST_POINT_NAME",
+                "DIST_POINT",
+                "ECPARAMETERS",
+                "ECPKPARAMETERS",
+                "EDIPARTYNAME",
+                "EXTENDED_KEY_USAGE",
+                "GENERAL_NAMES",
+                "GENERAL_NAME",
+                "GENERAL_SUBTREE",
+                "IPAddressChoice",
+                "IPAddressFamily",
+                "IPAddressOrRange",
+                "IPAddressRange",
+                "ISSUING_DIST_POINT",
+                "LONG",
+                "NAME_CONSTRAINTS",
+                "NETSCAPE_CERT_SEQUENCE",
+                "NETSCAPE_SPKAC",
+                "NETSCAPE_SPKI",
+                "NOTICEREF",
+                "OCSP_BASICRESP",
+                "OCSP_CERTID",
+                "OCSP_CERTSTATUS",
+                "OCSP_CRLID",
+                "OCSP_ONEREQ",
+                "OCSP_REQINFO",
+                "OCSP_REQUEST",
+                "OCSP_RESPBYTES",
+                "OCSP_RESPDATA",
+                "OCSP_RESPID",
+                "OCSP_RESPONSE",
+                "OCSP_REVOKEDINFO",
+                "OCSP_SERVICELOC",
+                "OCSP_SIGNATURE",
+                "OCSP_SINGLERESP",
+                "OTHERNAME",
+                "PBE2PARAM",
+                "PBEPARAM",
+                "PBKDF2PARAM",
+                "PKCS12_AUTHSAFES",
+                "PKCS12_BAGS",
+                "PKCS12_MAC_DATA",
+                "PKCS12_SAFEBAGS",
+                "PKCS12_SAFEBAG",
+                "PKCS12",
+                "PKCS7_ATTR_SIGN",
+                "PKCS7_ATTR_VERIFY",
+                "PKCS7_DIGEST",
+                "PKCS7_ENCRYPT",
+                "PKCS7_ENC_CONTENT",
+                "PKCS7_ENVELOPE",
+                "PKCS7_ISSUER_AND_SERIAL",
+                "PKCS7_RECIP_INFO",
+                "PKCS7_SIGNED",
+                "PKCS7_SIGNER_INFO",
+                "PKCS7_SIGN_ENVELOPE",
+                "PKCS7",
+                "PKCS8_PRIV_KEY_INFO",
+                "PKEY_USAGE_PERIOD",
+                "POLICYINFO",
+                "POLICYQUALINFO",
+                "POLICY_CONSTRAINTS",
+                "POLICY_MAPPINGS",
+                "POLICY_MAPPING",
+                "PROXY_CERT_INFO_EXTENSION",
+                "PROXY_POLICY",
+                "RSAPrivateKey",
+                "RSAPublicKey",
+                "RSA_OAEP_PARAMS",
+                "RSA_PSS_PARAMS",
+                "SCRYPT_PARAMS",
+                "SXNETID",
+                "SXNET",
+                "ISSUER_SIGN_TOOL",
+                "USERNOTICE",
+                "X509_ALGORS",
+                "X509_ALGOR",
+                "X509_ATTRIBUTE",
+                "X509_CERT_AUX",
+                "X509_CINF",
+                "X509_CRL_INFO",
+                "X509_CRL",
+                "X509_EXTENSIONS",
+                "X509_EXTENSION",
+                "X509_NAME_ENTRY",
+                "X509_NAME",
+                "X509_PUBKEY",
+                "X509_REQ_INFO",
+                "X509_REQ",
+                "X509_REVOKED",
+                "X509_SIG",
+                "X509_VAL",
+                "X509",
+                "ZLONG",
+                "INT32",
+                "UINT32",
+                "ZINT32",
+                "ZUINT32",
+                "INT64",
+                "UINT64",
+                "ZINT64",
+                "ZUINT64"
+            ]
+        }
+    },
+    "img2sixel": {
+        "synopsis": "img2sixel OPTIONS @@ -o /tmp/foo",
+        "options": {
+            "-p": [
+                "128"
+            ],
+            "-n": [
+                "8"
+            ],
+            "-C": [
+                "1"
+            ],
+            "-c": [
+                "500x400+0+0"
+            ],
+            "-w": [
+                "128"
+            ],
+            "-h": [
+                "128"
+            ],
+            "-B": [
+                "rgb:128/0/0"
+            ],
+            "-d": [
+                "auto",
+                "none",
+                "fs",
+                "atkinson",
+                "jajuni",
+                "stucki",
+                "burkes",
+                "a_dither",
+                "x_dither"
+            ],
+            "-f": [
+                "auto",
+                "norm",
+                "lum"
+            ],
+            "-s": [
+                "auto",
+                "center",
+                "average",
+                "histogram"
+            ],
+            "-r": [
+                "nearest",
+                "gaussian",
+                "hanning",
+                "hamming",
+                "bilinear",
+                "welsh",
+                "bicubic",
+                "lanczos2",
+                "lanczos3",
+                "lanczos4"
+            ],
+            "-q": [
+                "auto",
+                "high",
+                "low",
+                "full"
+            ],
+            "-l": [
+                "auto",
+                "force",
+                "disable"
+            ],
+            "-t": [
+                "auto",
+                "hls",
+                "rgb"
+            ],
+            "-b": [
+                "xterm16",
+                "xterm256",
+                "vt340mono",
+                "vt340color"
+            ],
+            "-E": [
+                "auto",
+                "fast",
+                "size"
+            ]
+        }
+    },
+    "pdftops": {
+        "synopsis": "pdftops OPTIONS @@ /tmp/foo",
+        "options": {
+            "-f": [
+                "2"
+            ],
+            "-l": [
+                "5"
+            ],
+            "-paperw": [
+                "400"
+            ],
+            "-paperh": [
+                "500"
+            ],
+            "-opw": [
+                "123456"
+            ],
+            "-upw": [
+                "123456"
+            ],
+            "-paper": [
+                "letter",
+                "legal",
+                "A4",
+                "A3",
+                "match"
+            ]
+        }
+    },
+    "pdftotext": {
+        "synopsis": "pdftotext OPTIONS @@ /tmp/foo",
+        "options": {
+            "-f": [
+                "2"
+            ],
+            "-l": [
+                "5"
+            ],
+            "-fixed": [
+                "8"
+            ],
+            "-linespacing": [
+                "4"
+            ],
+            "-marginl": [
+                "0.5"
+            ],
+            "-marginr": [
+                "0.25"
+            ],
+            "-margint": [
+                "0.75"
+            ],
+            "-marginb": [
+                "0.25"
+            ],
+            "-opw": [
+                "123456"
+            ],
+            "-upw": [
+                "123456"
+            ],
+            "-enc": [
+                "Latin1",
+                "ASCII7",
+                "Symbol",
+                "ZapfDingbats",
+                "UTF-8",
+                "UCS-2"
+            ],
+            "-eol": [
+                "unix",
+                "dos",
+                "mac"
+            ]
+        }
+    },
+    "ogg123": {
+        "synopsis": "ogg123 OPTIONS @@ -d wav -f /tmp/foo",
+        "options": {
+            "--audio-buffer": [
+                "128"
+            ],
+            "-b": [
+                "128"
+            ],
+            "-p": [
+                "60"
+            ],
+            "-k": [
+                "2"
+            ],
+            "-K": [
+                "10"
+            ],
+            "-x": [
+                "5"
+            ],
+            "-y": [
+                "5"
+            ],
+            "-o": [
+                "debug",
+                "quiet",
+                "verbose",
+                "matrix:L,R,C,LFE,BL,BR,SL,SR"
+            ]
+        }
+    },
+    "podofoencrypt": {
+        "synopsis": "podofoencrypt OPTIONS -o 123456 @@ /tmp/foo",
+        "options": {
+            "-u": [
+                "123456"
+            ]
+        }
+    },
+    "lrzip": {
+        "synopsis": "lrzip OPTIONS -f -p 1 @@ -o /tmp/foo",
+        "options": {
+            "--encrypt": [
+                "=123456"
+            ],
+            "-S": [
+                ".lrzip"
+            ],
+            "-L": [
+                "5"
+            ],
+            "-N": [
+                "8"
+            ],
+            "-w": [
+                "8"
+            ]
+        }
+    },
+    "speexdec": {
+        "synopsis": "speexdec OPTIONS @@ /tmp/foo",
+        "options": {}
+    },
+    "jpegoptim": {
+        "synopsis": "jpegoptim OPTIONS @@",
+        "options": {
+            "-d": [
+                "*temp"
+            ],
+            "-m": [
+                "*80"
+            ],
+            "-S": [
+                "*50%"
+            ],
+            "-T": [
+                "*50%"
+            ]
+        }
+    },
+    "jq": {
+        "synopsis": "jq OPTIONS . @@",
+        "options": {
+            "-L": [
+                "/tmp"
+            ],
+            "--arg": [
+                "foo bar"
+            ],
+            "--argjson": [
+                "foo 123"
+            ],
+            "--slurpfile": [
+                "foo tests/modules/data.json"
+            ],
+            "--argfile": [
+                "foo bar"
+            ]
+        }
+    },
+    "jpegtran": {
+        "synopsis": "jpegtran OPTIONS -outfile /tmp/foo @@",
+        "options": {
+            "-restart": [
+                "4"
+            ],
+            "-crop": [
+                "500x400+0+0"
+            ],
+            "-wipe": [
+                "500x400+0+0"
+            ],
+            "-drop": [
+                "+500+400 input/not_kitty.jpg"
+            ],
+            "-maxmemory": [
+                "4m"
+            ],
+            "-maxscans": [
+                "3"
+            ],
+            "-flip": [
+                "horizontal",
+                "vertical"
+            ],
+            "-rotate": [
+                "90",
+                "180",
+                "270"
+            ],
+            "-copy": [
+                "none",
+                "comments",
+                "icc",
+                "all"
+            ]
+        }
+    },
+    "tcpreplay": {
+        "synopsis": "tcpreplay OPTIONS -i eth0 @@",
+        "options": {
+            "-d": [
+                "1"
+            ],
+            "--maxsleep": [
+                "10"
+            ],
+            "-A": [
+                "nnt"
+            ],
+            "-c": [
+                "small_capture.cache"
+            ],
+            "-I": [
+                "lo"
+            ],
+            "-l": [
+                "4"
+            ],
+            "--loopdelay-ms": [
+                "10"
+            ],
+            "-L": [
+                "16"
+            ],
+            "--duration": [
+                "3"
+            ],
+            "-x": [
+                "2.0"
+            ],
+            "-p": [
+                "200"
+            ],
+            "-M": [
+                "0.8"
+            ],
+            "--pps-multi": [
+                "3"
+            ],
+            "--unique-ip-loops": [
+                "3"
+            ],
+            "--nm-delay": [
+                "20"
+            ],
+            "--flow-expiry": [
+                "30"
+            ],
+            "--stats": [
+                "1"
+            ],
+            "-T": [
+                "nano",
+                "select",
+                "ioport",
+                "gtod"
+            ]
+        }
+    },
+    "tcpprep": {
+        "synopsis": "tcpprep OPTIONS -i @@ -o /tmp/foo",
+        "options": {
+            "-d": [
+                "1"
+            ],
+            "-c": [
+                "192.168.0.0/16,172.16.0.0/12,10.0.0.0/8"
+            ],
+            "-r": [
+                "192.168.*.*"
+            ],
+            "-e": [
+                "52:54:00:12:35:02"
+            ],
+            "-C": [
+                "hello world"
+            ],
+            "-s": [
+                "/etc/services"
+            ],
+            "-R": [
+                "3.0"
+            ],
+            "-m": [
+                "24"
+            ],
+            "-M": [
+                "16"
+            ],
+            "-A": [
+                "\"-aAeNqRStuvxX\""
+            ],
+            "-a": [
+                "bridge",
+                "router",
+                "client",
+                "server",
+                "first"
+            ],
+            "-x": [
+                "S:10.0.0.0/8,192.168.0.0/16",
+                "D:10.0.0.0/8,192.168.0.0/16",
+                "B:10.0.0.0/8,192.168.0.0/16",
+                "E:10.0.0.0/8,192.168.0.0/16",
+                "P:1-5,9,15,72-",
+                "F:\"tcp port 22\""
+            ],
+            "-X": [
+                "S:10.0.0.0/8,192.168.0.0/16",
+                "D:10.0.0.0/8,192.168.0.0/16",
+                "B:10.0.0.0/8,192.168.0.0/16",
+                "E:10.0.0.0/8,192.168.0.0/16",
+                "P:1-5,9,15,72-",
+                "F:\"tcp port 22\""
+            ]
+        }
+    },
+    "eu-elfclassify": {
+        "synopsis": "eu-elfclassify OPTIONS @@",
+        "options": {}
+    },
+    "editcap": {
+        "synopsis": "editcap OPTIONS @@ /tmp/foo",
+        "options": {
+            "-a": [
+                "1:\"New TCP SYN\""
+            ],
+            "-A": [
+                "\"2014-11-10 11:30:00\""
+            ],
+            "-B": [
+                "\"2014-11-10 11:35:00\""
+            ],
+            "-c": [
+                "128"
+            ],
+            "-C": [
+                "5:10"
+            ],
+            "-D": [
+                "101"
+            ],
+            "-E": [
+                "0.02"
+            ],
+            "-i": [
+                "0.5"
+            ],
+            "-I": [
+                "26"
+            ],
+            "-o": [
+                "64"
+            ],
+            "-s": [
+                "64"
+            ],
+            "--seed": [
+                "128"
+            ],
+            "-S": [
+                "0.000001"
+            ],
+            "-t": [
+                "3600"
+            ],
+            "-w": [
+                "0.1"
+            ],
+            "--capture-comment": [
+                "\"New TCP SYN\""
+            ],
+            "--log-domains": [
+                "GUI,Epan,sshdump"
+            ],
+            "--log-debug": [
+                "GUI,Epan,sshdump"
+            ],
+            "--log-noisy": [
+                "GUI,Epan,sshdump"
+            ],
+            "--log-file": [
+                "/tmp/editcap.log"
+            ],
+            "-F": [
+                "pcap",
+                "pcapng",
+                "5views",
+                "btsnoop",
+                "commview-ncf",
+                "commview-ncfx",
+                "dct2000",
+                "erf"
+            ],
+            "-T": [
+                "ap1394",
+                "arcnet",
+                "arcnet_linux",
+                "ascend",
+                "atm-pdus",
+                "atm-pdus-untruncated",
+                "atm-rfc1483"
+            ],
+            "--log-level": [
+                "noisy",
+                "debug",
+                "info",
+                "message",
+                "warning",
+                "critical",
+                "error"
+            ],
+            "--log-fatal": [
+                "noisy",
+                "debug",
+                "info",
+                "message",
+                "warning",
+                "critical",
+                "error"
+            ]
+        }
+    },
+    "avconv": {
+        "synopsis": "avconv OPTIONS -i @@ -r 24 /tmp/test.avi",
+        "options": {
+            "-preme": [
+                "4"
+            ],
+            "-subq": [
+                "4"
+            ],
+            "-bf": [
+                "2"
+            ],
+            "-bt": [
+                "2"
+            ],
+            "-g": [
+                "3"
+            ],
+            "-cpuflags": [
+                "1"
+            ],
+            "-ar": [
+                "60"
+            ],
+            "-ac": [
+                "1"
+            ],
+            "-cutoff": [
+                "20"
+            ],
+            "-frame_size": [
+                "0.5"
+            ],
+            "-qblur": [
+                "0.5"
+            ],
+            "-qmin": [
+                "16"
+            ],
+            "-qmax": [
+                "32"
+            ],
+            "-qdiff": [
+                "8"
+            ],
+            "-b_qfactor": [
+                "0.5"
+            ],
+            "-b_strategy": [
+                "0"
+            ],
+            "-ps": [
+                "64"
+            ],
+            "-b_qoffset": [
+                "0.5"
+            ],
+            "-mpeg_quant": [
+                "2"
+            ],
+            "-maxrate": [
+                "128k"
+            ],
+            "-minrate": [
+                "64k"
+            ],
+            "-bufsize": [
+                "64k"
+            ],
+            "-i_qfactor": [
+                "0.5"
+            ],
+            "-i_qoffset": [
+                "0.5"
+            ],
+            "-lumi_mask": [
+                "0.8"
+            ],
+            "-tcplx_mask": [
+                "0.5"
+            ],
+            "-scplx_mask": [
+                "0.5"
+            ],
+            "-p_mask": [
+                "0.5"
+            ],
+            "-dark_mask": [
+                "0.5"
+            ],
+            "-dia_size": [
+                "16"
+            ],
+            "-last_pred": [
+                "16"
+            ],
+            "-pre_dia_size": [
+                "16"
+            ],
+            "-me_range": [
+                "1023"
+            ],
+            "-context": [
+                "0"
+            ],
+            "-sc_threshold": [
+                "8"
+            ],
+            "-nr": [
+                "1"
+            ],
+            "-rc_init_occupancy": [
+                "64"
+            ],
+            "-dc": [
+                "8"
+            ],
+            "-nssew": [
+                "32"
+            ],
+            "-skip_top": [
+                "8"
+            ],
+            "-skip_bottom": [
+                "8"
+            ],
+            "-skip_threshold": [
+                "16"
+            ],
+            "-skip_factor": [
+                "16"
+            ],
+            "-skip_exp": [
+                "16"
+            ],
+            "-mblmin": [
+                "4"
+            ],
+            "-mblmax": [
+                "8"
+            ],
+            "-mepc": [
+                "1.0"
+            ],
+            "-bidir_refine": [
+                "2"
+            ],
+            "-brd_scale": [
+                "8"
+            ],
+            "-keyint_min": [
+                "16"
+            ],
+            "-refs": [
+                "16"
+            ],
+            "-chromaoffset": [
+                "16"
+            ],
+            "-trellis": [
+                "16"
+            ],
+            "-mv0_threshold": [
+                "1"
+            ],
+            "-compression_level": [
+                "16"
+            ],
+            "-channel_layout": [
+                "0"
+            ],
+            "-request_channel_layout": [
+                "0"
+            ],
+            "-slices": [
+                "4"
+            ],
+            "-refcounted_frames": [
+                "4"
+            ],
+            "-probesize": [
+                "4"
+            ],
+            "-packetsize": [
+                "16"
+            ],
+            "-analyzeduration": [
+                "20"
+            ],
+            "-cryptokey": [
+                "62d34be4f8cd489f6d5b8e0e"
+            ],
+            "-indexmem": [
+                "64"
+            ],
+            "-rtbufsize": [
+                "64"
+            ],
+            "-max_delay": [
+                "20"
+            ],
+            "-fpsprobesize": [
+                "4"
+            ],
+            "-max_interleave_delta": [
+                "4"
+            ],
+            "-max_ts_probe": [
+                "16"
+            ],
+            "-protocol_blacklist": [
+                "\"crypto, ffrtmphttp, file, gopher, hls\""
+            ],
+            "-protocol_whitelist": [
+                "\"crypto, ffrtmphttp, file, gopher, hls\""
+            ],
+            "-loop": [
+                "4"
+            ],
+            "-t": [
+                "2"
+            ],
+            "-fs": [
+                "8M"
+            ],
+            "-ss": [
+                "2"
+            ],
+            "-itsoffset": [
+                "2"
+            ],
+            "-metadata": [
+                "title=\"my title\""
+            ],
+            "-dframes": [
+                "16"
+            ],
+            "-frames": [
+                "16"
+            ],
+            "-q": [
+                "10"
+            ],
+            "-b": [
+                "16k"
+            ],
+            "-dump_attachment": [
+                "*:t:0 /tmp/out.tff"
+            ],
+            "-vframes": [
+                "16"
+            ],
+            "-s": [
+                "1920x1200"
+            ],
+            "-aspect": [
+                "4:3"
+            ],
+            "-passlogfile": [
+                "av2pass"
+            ],
+            "-vdt": [
+                "8"
+            ],
+            "-rc_override": [
+                "2"
+            ],
+            "-vstats_file": [
+                "/tmp/test.stat"
+            ],
+            "-top": [
+                "1"
+            ],
+            "-force_key_frames": [
+                "8"
+            ],
+            "-filter_hw_device": [
+                "device"
+            ],
+            "-hwaccel_device": [
+                "device"
+            ],
+            "-aframes": [
+                "16"
+            ],
+            "-aq": [
+                "10"
+            ],
+            "-map": [
+                "0"
+            ],
+            "-map_metadata": [
+                "0:s:0"
+            ],
+            "-map_chapters": [
+                "0"
+            ],
+            "-timelimit": [
+                "1"
+            ],
+            "-async": [
+                "1"
+            ],
+            "-muxdelay": [
+                "4"
+            ],
+            "-muxpreload": [
+                "2"
+            ],
+            "-streamid": [
+                "0:33"
+            ],
+            "-filter_complex": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-max_muxing_queue_size": [
+                "128"
+            ],
+            "-precmp": [
+                "sad",
+                "sse",
+                "satd",
+                "dct",
+                "psnr",
+                "bit",
+                "rd",
+                "zero",
+                "vsad",
+                "vsse",
+                "nsse",
+                "dctmax",
+                "chroma"
+            ],
+            "-acodec": [
+                "mpeg1video",
+                "mpeg2video",
+                "h261",
+                "h263",
+                "rv10"
+            ],
+            "-tag": [
+                "hvc1",
+                "hev1",
+                "fMP4"
+            ],
+            "-mbd": [
+                "simple",
+                "bits",
+                "rd"
+            ],
+            "-loglevel": [
+                "quiet",
+                "panic",
+                "fatal",
+                "error",
+                "warning",
+                "info",
+                "verbose",
+                "debug",
+                "trace"
+            ],
+            "-flags": [
+                "unaligned",
+                "mv4",
+                "qpel",
+                "loop",
+                "qscale",
+                "pass1",
+                "pass2",
+                "gray"
+            ],
+            "-bug": [
+                "autodetect",
+                "xvid_ilace",
+                "ump4",
+                "no_padding",
+                "amv",
+                "qpel_chroma",
+                "std_qpel",
+                "qpel_chroma2",
+                "direct_blocksize",
+                "edge"
+            ],
+            "-dct": [
+                "auto",
+                "fastint",
+                "int",
+                "mmx"
+            ],
+            "-idct": [
+                "auto",
+                "int",
+                "simple",
+                "simplemmx",
+                "arm",
+                "altivec",
+                "simplearm",
+                "simplearmv5te",
+                "simplearmv6",
+                "ximpleneon",
+                "xvid",
+                "faani"
+            ],
+            "-ec": [
+                "guess_mvs",
+                "deblock"
+            ],
+            "-pred": [
+                "left",
+                "plane",
+                "median"
+            ],
+            "-debug": [
+                "pict",
+                "rc",
+                "bitstream",
+                "qp",
+                "dct_coeff",
+                "mmco",
+                "bugs",
+                "thread_ops"
+            ],
+            "-cmp": [
+                "sad",
+                "sse",
+                "satd",
+                "dct",
+                "psnr",
+                "bit",
+                "rd",
+                "zero",
+                "vsad",
+                "vsse",
+                "nsse",
+                "dctmax",
+                "chroma"
+            ],
+            "-subcmp": [
+                "sad",
+                "sse",
+                "satd",
+                "dct",
+                "psnr",
+                "bit",
+                "rd",
+                "zero",
+                "vsad",
+                "vsse",
+                "nsse",
+                "dctmax",
+                "chroma"
+            ],
+            "-mbcmp": [
+                "sad",
+                "sse",
+                "satd",
+                "dct",
+                "psnr",
+                "bit",
+                "rd",
+                "zero",
+                "vsad",
+                "vsse",
+                "nsse",
+                "dctmax",
+                "chroma"
+            ],
+            "-ildctcmp": [
+                "sad",
+                "sse",
+                "satd",
+                "dct",
+                "psnr",
+                "bit",
+                "rd",
+                "zero",
+                "vsad",
+                "vsse",
+                "nsse",
+                "dctmax",
+                "chroma"
+            ],
+            "-global_quality": [
+                "vlc",
+                "ac",
+                "raw",
+                "rle"
+            ],
+            "-flags2": [
+                "fast",
+                "noout",
+                "ignorecrop",
+                "local_header"
+            ],
+            "-threads": [
+                "auto"
+            ],
+            "-profile": [
+                "unknown",
+                "aac_main",
+                "aac_low",
+                "aac_ssr",
+                "aac_ltp",
+                "aac_he",
+                "aac_he_v2",
+                "aac_ld",
+                "aac_eld",
+                "mpeg2_aac_low",
+                "mpeg2_aac_he",
+                "dts",
+                "dts_es",
+                "dts_96_24",
+                "dts_hd_hra",
+                "dts_hd_ma",
+                "main10"
+            ],
+            "-level": [
+                "unknown"
+            ],
+            "-skipcmp": [
+                "sad",
+                "sse",
+                "satd",
+                "dct",
+                "psnr",
+                "bit",
+                "rd",
+                "zero",
+                "vsad",
+                "vsse",
+                "nsse",
+                "dctmax",
+                "chroma"
+            ],
+            "-skip_loop_filter": [
+                "none",
+                "default",
+                "noref",
+                "bidir",
+                "nokey",
+                "all"
+            ],
+            "-skip_idct": [
+                "none",
+                "default",
+                "noref",
+                "bidir",
+                "nokey",
+                "all"
+            ],
+            "-skip_frame": [
+                "none",
+                "default",
+                "noref",
+                "bidir",
+                "nokey",
+                "all"
+            ],
+            "-rc_max_vbv_use": [
+                "bt709",
+                "unknown",
+                "bt470m",
+                "bt470bg",
+                "smpte170m",
+                "smpte240m",
+                "film",
+                "bt2020",
+                "smpte428",
+                "smpte431",
+                "smpte432",
+                "jedec-p22",
+                "unspecified",
+                "smptest428_1"
+            ],
+            "-color_trc": [
+                "bt709",
+                "unknown",
+                "gamma22",
+                "gamma28",
+                "smpte170m"
+            ],
+            "-colorspace": [
+                "rgb",
+                "bt709",
+                "unknown",
+                "fcc",
+                "bt470bg",
+                "smpte170m",
+                "smpte240m",
+                "ycgco",
+                "bt2020nc",
+                "bt2020c",
+                "smpte2085",
+                "unspecified",
+                "ycocg",
+                "bt2020_ncl",
+                "bt2020_cl"
+            ],
+            "-color_range": [
+                "unknown",
+                "tv",
+                "pc",
+                "unspecified",
+                "mpeg",
+                "jpeg"
+            ],
+            "-chroma_sample_location": [
+                "unknown",
+                "left",
+                "center",
+                "topleft",
+                "top",
+                "bottomleft",
+                "bottom",
+                "unspecified"
+            ],
+            "-thread_type": [
+                "slice",
+                "frame"
+            ],
+            "-audio_service_type": [
+                "ma",
+                "ef",
+                "vi",
+                "hi",
+                "di",
+                "co",
+                "em",
+                "vo",
+                "ka"
+            ],
+            "-request_sample_fmt": [
+                "u8",
+                "s16",
+                "s32",
+                "flt",
+                "dbl",
+                "u8p",
+                "s16p",
+                "s32p",
+                "fltp",
+                "dplp"
+            ],
+            "-fflags": [
+                "flush_packets",
+                "ignidx",
+                "genpts",
+                "nofillin",
+                "noparse",
+                "igndts",
+                "discardcorrupt",
+                "nobuffer",
+                "bitexact"
+            ],
+            "-fdebug": [
+                "ts"
+            ],
+            "-f_err_detect": [
+                "crccheck",
+                "bitstream",
+                "buffer",
+                "explode"
+            ],
+            "-err_detect": [
+                "crccheck",
+                "bitstream",
+                "buffer",
+                "explode"
+            ],
+            "-f_strict": [
+                "strict",
+                "normal",
+                "experimental"
+            ],
+            "-strict": [
+                "very",
+                "strict",
+                "normal",
+                "experimental"
+            ],
+            "-avoid_negative_ts": [
+                "auto",
+                "make_non_negative",
+                "make_zero"
+            ],
+            "-f": [
+                "alsa",
+                "bktr",
+                "fbdev",
+                "jack",
+                "libdc1394",
+                "oss",
+                "pulse",
+                "sndio",
+                "video4linux2",
+                "vfwcap",
+                "x11grab"
+            ],
+            "-c": [
+                "mpeg1video",
+                "mpeg2video",
+                "h261",
+                "h263",
+                "rv10",
+                "rv20",
+                "mjpeg",
+                "mpeg4"
+            ],
+            "-target": [
+                "vcd",
+                "svcd",
+                "dvd",
+                "dv",
+                "dv50"
+            ],
+            "-filter": [
+                "aformat",
+                "amix",
+                "anull",
+                "asetpts",
+                "asettb",
+                "ashowinfo",
+                "asplit",
+                "asyncts",
+                "atrim"
+            ],
+            "-vcodec": [
+                "mpeg1video",
+                "mpeg2video",
+                "h261",
+                "h263",
+                "rv10",
+                "rv20",
+                "mjpeg",
+                "mpeg4"
+            ],
+            "-pass": [
+                "1",
+                "2"
+            ],
+            "-vf": [
+                "aformat",
+                "amix",
+                "anull",
+                "asetpts",
+                "asettb",
+                "ashowinfo",
+                "asplit",
+                "asyncts",
+                "atrim"
+            ],
+            "-pix_fmt": [
+                "yuv420p",
+                "yuyv422",
+                "rgb24",
+                "bgr24",
+                "yuv422p",
+                "yuv444p",
+                "yuv410p",
+                "yuv411p"
+            ],
+            "-sws_flags": [
+                "fast_bilinear",
+                "bilinear",
+                "bicubic",
+                "experimental",
+                "neighbor",
+                "area",
+                "bicublin"
+            ],
+            "-vtag": [
+                "hvc1",
+                "hev1",
+                "fMP4"
+            ],
+            "-init_hw_device": [
+                "cuda=device",
+                "dxva2=device",
+                "vaapi=device",
+                "vdpau=device",
+                "qsv=device"
+            ],
+            "-hwaccel": [
+                "none",
+                "auto",
+                "vda",
+                "vdpau",
+                "dxva2",
+                "vaapi",
+                "qsv"
+            ],
+            "-sample_fmt": [
+                "u8",
+                "s16",
+                "s32",
+                "flt",
+                "dbl",
+                "u8p",
+                "s16p",
+                "s32p",
+                "fltp",
+                "dblp"
+            ],
+            "-af": [
+                "aformat",
+                "amix",
+                "anull",
+                "asetpts",
+                "asettb",
+                "ashowinfo",
+                "asplit",
+                "asyncts",
+                "atrim"
+            ],
+            "-atag": [
+                "hvc1",
+                "hev1",
+                "fMP4"
+            ],
+            "-scodec": [
+                "mpeg1video",
+                "mpeg2video",
+                "h261",
+                "h263",
+                "rv10"
+            ],
+            "-vsync": [
+                "passthrouhg",
+                "cfr",
+                "vfr",
+                "auto"
+            ],
+            "-bsf": [
+                "aac_adtstoasc",
+                "chomp",
+                "dump_extra",
+                "extract_extradata",
+                "h264_metadata",
+                "h264_mp4toannexb",
+                "hevc_metadata",
+                "hevc_mp4toannexb",
+                "imxdump",
+                "mjpeg2jpeg",
+                "mpegadump",
+                "mov2textsub",
+                "mpeg2_metadata",
+                "null",
+                "text2movsub",
+                "noise",
+                "remove_extra",
+                "trace_headers",
+                "vp9_raw_reorder",
+                "vp9_superframe",
+                "vp9_superframe_split"
+            ]
+        }
+    },
+    "bison": {
+        "synopsis": "bison OPTIONS @@ -o /tmp/foo",
+        "options": {
+            "-p": [
+                "./"
+            ],
+            "-b": [
+                "./"
+            ],
+            "-D": [
+                "NAME=1234"
+            ],
+            "-F": [
+                "NAME=1234"
+            ],
+            "-L": [
+                "C",
+                "C++",
+                "Python",
+                "Rust",
+                "Java"
+            ],
+            "-f": [
+                "caret",
+                "fixit",
+                "syntax-only",
+                "all",
+                "none"
+            ],
+            "-W": [
+                "conflict-sr",
+                "conflict-rr",
+                "cex",
+                "dangling-alias",
+                "deprecated",
+                "empty-rule",
+                "midrule-values",
+                "precedence",
+                "yacc",
+                "other",
+                "all",
+                "no-CATEGORY",
+                "none",
+                "error"
+            ],
+            "--color": [
+                "*=always",
+                "*=never",
+                "*=auto"
+            ],
+            "-r": [
+                "states",
+                "itemsets",
+                "lookaheads",
+                "solved",
+                "cex",
+                "all",
+                "none"
+            ],
+            "-M": [
+                "OLD",
+                "NEW"
+            ]
+        }
+    },
+    "cflow": {
+        "synopsis": "cflow OPTIONS --number --tree -o /tmp/foo @@",
+        "options": {
+            "-d": [
+                "10"
+            ],
+            "-D": [
+                "HELLO=1234"
+            ],
+            "-m": [
+                "main"
+            ],
+            "-p": [
+                "512"
+            ],
+            "--preprocess": [
+                "=\"echo test\""
+            ],
+            "-U": [
+                "HELLO"
+            ],
+            "--level-indent": [
+                "=\t"
+            ],
+            "--debug": [
+                "=1"
+            ],
+            "-f": [
+                "gnu",
+                "posix"
+            ],
+            "-i": [
+                "-_",
+                "-s",
+                "-t",
+                "-x",
+                "^_",
+                "^s",
+                "^t",
+                "^x"
+            ]
+        }
+    },
+    "cjpeg": {
+        "synopsis": "cjpeg OPTIONS @@",
+        "options": {
+            "-quality": [
+                "75"
+            ],
+            "-restart": [
+                "1"
+            ],
+            "-smooth": [
+                "1"
+            ],
+            "-maxmemory": [
+                "4m"
+            ],
+            "-sample": [
+                "160x90"
+            ],
+            "-outfile": [
+                "/tmp/foo"
+            ],
+            "-dct": [
+                "int",
+                "fast",
+                "float"
+            ]
+        }
+    },
+    "djpeg": {
+        "synopsis": "djpeg OPTIONS @@",
+        "options": {
+            "-colors": [
+                "128"
+            ],
+            "-quantize": [
+                "256"
+            ],
+            "-scale": [
+                "1/4"
+            ],
+            "-maxmemory": [
+                "4m"
+            ],
+            "-skip": [
+                "10,20"
+            ],
+            "-crop": [
+                "40x20+10+10"
+            ],
+            "-outfile": [
+                "/tmp/foo"
+            ],
+            "-dct": [
+                "int",
+                "fast",
+                "float"
+            ],
+            "-dither": [
+                "fs",
+                "ordered",
+                "none"
+            ]
+        }
+    },
+    "dwarfdump": {
+        "synopsis": "dwarfdump OPTIONS -b -a -r -f -i -ls -c -ta @@",
+        "options": {
+            "--search-match": [
+                "=foo"
+            ],
+            "--search-match-count": [
+                "=foo"
+            ],
+            "--search-any": [
+                "=foo"
+            ],
+            "--search-regex": [
+                "=f*"
+            ],
+            "--format-producer": [
+                "=S&T"
+            ],
+            "--format-group-number": [
+                "=2"
+            ],
+            "-u": [
+                "geckoservo"
+            ],
+            "-x": [
+                "line5=s2l",
+                "line5=std",
+                "line5=orig",
+                "line5=orig2l"
+            ]
+        }
+    },
+    "exiv2": {
+        "synopsis": "exiv2 OPTIONS @@",
+        "options": {
+            "-Y": [
+                "1"
+            ],
+            "-O": [
+                "1"
+            ],
+            "-D": [
+                "1"
+            ],
+            "-c": [
+                "helloworld"
+            ],
+            "-l": [
+                "/tmp"
+            ],
+            "action": [
+                "pr",
+                "ex",
+                "in",
+                "rm",
+                "ad",
+                "mo",
+                "mv",
+                "fi",
+                "fc"
+            ],
+            "-Q": [
+                "d",
+                "i",
+                "w",
+                "e"
+            ],
+            "-g": [
+                "webready",
+                "time",
+                "pattern",
+                "image"
+            ],
+            "-K": [
+                "Exif.Photo.DateTimeDigitized",
+                "Exif.Photo.DateTimeOriginal"
+            ],
+            "-n": [
+                "UTF-8",
+                "GBK"
+            ],
+            "-r": [
+                "basename_%Y%m",
+                "dirname_%Y%m",
+                "parentname_%Y%m"
+            ],
+            "-a": [
+                "1",
+                "1:01",
+                "-0:00:30"
+            ],
+            "-p": [
+                "s",
+                "a",
+                "e",
+                "t",
+                "v",
+                "h",
+                "i",
+                "h",
+                "x",
+                "c",
+                "p",
+                "C",
+                "R",
+                "S",
+                "X"
+            ],
+            "-P": [
+                "E",
+                "I",
+                "X",
+                "x",
+                "g",
+                "k",
+                "l",
+                "n",
+                "y",
+                "c",
+                "s",
+                "v",
+                "V",
+                "t",
+                "h"
+            ],
+            "-d": [
+                "a",
+                "e",
+                "t",
+                "i",
+                "x",
+                "c",
+                "C",
+                "I"
+            ],
+            "-i": [
+                "a",
+                "e",
+                "t",
+                "i",
+                "x",
+                "c",
+                "C",
+                "I",
+                "X",
+                "XX",
+                "-"
+            ],
+            "-e": [
+                "a",
+                "e",
+                "t",
+                "i",
+                "x",
+                "c",
+                "C",
+                "I",
+                "C",
+                "X",
+                "XX",
+                "-"
+            ],
+            "-M": [
+                "\"reg myprefix http://ns.myprefix.me/\"",
+                "\"add Xmp.myprefix.Whom Mr. Smith\"",
+                "\"set Exif.Image.Artist Mr. Smith\"",
+                "\"set Exif.Photo.UserComment charset=Ascii My photo\"",
+                "\"set Exif.Photo.UserComment charset=Unicode Robin\"",
+                "\"set Exif.GPSInfo.GPSProcessingMethod HYBRID-FIX\"",
+                "\"-Mset Exif.Photo.MaxApertureValue 557429/62500\"",
+                "\"-Mset Exif.Photo.MaxApertureValue F5.6\"",
+                "\"set Xmp.dc.title lang=\"de-DE\" Euros\"",
+                "\"set Xmp.dc.title lang=\"en-GB\" Pounds\"",
+                "\"set Xmp.dc.title lang=\"en-US\" In God We Trust\"",
+                "\"set Xmp.dc.title lang=fr-FR Euros\"",
+                "\"set Xmp.dc.title lang=jp Yen\"",
+                "\"set Xmp.dc.title All others pay cash\"",
+                "\"set Xmp.dc.title lang=\"en-US\"\"",
+                "\"del Xmp.dc.title\""
+            ],
+            "-S": [
+                ".jpg",
+                ".png",
+                ".bmp",
+                ".tiff",
+                ".gif"
+            ]
+        }
+    },
+    "ffmpeg": {
+        "synopsis": "ffmpeg OPTIONS -i @@ -f mp4 -y /tmp/test.avi",
+        "options": {
+            "-reinit_filter": [
+                "64"
+            ],
+            "-stream_loop": [
+                "3"
+            ],
+            "-fs": [
+                "3"
+            ],
+            "-cpucount": [
+                "2"
+            ],
+            "-max_alloc": [
+                "300"
+            ],
+            "-itsoffset": [
+                "200ms"
+            ],
+            "-ss": [
+                "200ms"
+            ],
+            "-sseof": [
+                "200ms"
+            ],
+            "-itsscale": [
+                "1.1"
+            ],
+            "-timestamp": [
+                "now"
+            ],
+            "-dframes": [
+                "1"
+            ],
+            "-frames": [
+                "2"
+            ],
+            "-filter_threads": [
+                "2"
+            ],
+            "-stats_period": [
+                "0.5"
+            ],
+            "-progress": [
+                "www.baidu.com"
+            ],
+            "-vframes": [
+                "1"
+            ],
+            "-fpsmax": [
+                "200"
+            ],
+            "-s": [
+                "4"
+            ],
+            "-aspect": [
+                "1.333"
+            ],
+            "-pass": [
+                "1"
+            ],
+            "-passlogfile": [
+                "ffmpeg2pass"
+            ],
+            "-top": [
+                "1"
+            ],
+            "-force_key_frames": [
+                "now"
+            ],
+            "-aframes": [
+                "1"
+            ],
+            "-ar": [
+                "200"
+            ],
+            "-guess_layout_max": [
+                "2"
+            ],
+            "-canvas_size": [
+                "20"
+            ],
+            "-map": [
+                "0"
+            ],
+            "-map_chapters": [
+                "0"
+            ],
+            "-timelimit": [
+                "200ms"
+            ],
+            "-readrate": [
+                "1.5"
+            ],
+            "-frame_drop_threshold": [
+                "1.0"
+            ],
+            "-apad": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-adrift_threshold": [
+                "now"
+            ],
+            "-muxdelay": [
+                "200"
+            ],
+            "-muxpreload": [
+                "200"
+            ],
+            "-timecode": [
+                "01:02:03.04"
+            ],
+            "-filter_complex_threads": [
+                "2"
+            ],
+            "-thread_queue_size": [
+                "2"
+            ],
+            "-streamid": [
+                "0:33"
+            ],
+            "-bsf": [
+                "h264_mp4toannexb"
+            ],
+            "-filter": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-filter_complex": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-lavfi": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-vf": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-af": [
+                "[0:v][1:v]overlay[out]"
+            ],
+            "-dump_attachment": [
+                "/tmp/dump.txt"
+            ],
+            "-r": [
+                "24"
+            ],
+            "-loglevel": [
+                "panic",
+                "quiet",
+                "fatal",
+                "error",
+                "warning",
+                "info",
+                "verbose",
+                "debug",
+                "trace"
+            ],
+            "-cpuflags": [
+                "mmx",
+                "mmxext",
+                "sse",
+                "sse2",
+                "sse2slow",
+                "sse3",
+                "sse3slow",
+                "ssse3",
+                "atom",
+                "sse4.1",
+                "sse4.2",
+                "avx",
+                "avx2",
+                "fma3"
+            ],
+            "-target": [
+                "vcd",
+                "svcd",
+                "dvd",
+                "dv",
+                "dv50"
+            ],
+            "-init_hw_device": [
+                "cuda",
+                "dxva2",
+                "d3d11va",
+                "vaapi",
+                "vdpau",
+                "qsv"
+            ],
+            "-hwaccel": [
+                "none",
+                "auto",
+                "vdpau",
+                "dxva2",
+                "d3d11va",
+                "vaapi",
+                "qsv"
+            ],
+            "-copytb": [
+                "1",
+                "0",
+                "-1"
+            ],
+            "-enc_time_base": [
+                "0",
+                "-1"
+            ],
+            "-discard": [
+                "none",
+                "default",
+                "noref",
+                "bidir",
+                "nokey",
+                "all"
+            ],
+            "-abort_on": [
+                "empty_output",
+                "empty_output_stream"
+            ],
+            "-vsync": [
+                "passthrough",
+                "cfr",
+                "vfr",
+                "drop",
+                "auto"
+            ],
+            "-atag": [
+                "hvc1",
+                "hev1",
+                "fMP4"
+            ],
+            "-scodec": [
+                "mpeg1video",
+                "mpeg2video",
+                "h261",
+                "h263",
+                "rv10"
+            ],
+            "-tag": [
+                "hvc1",
+                "hev1",
+                "fMP4"
+            ],
+            "-f": [
+                "mp4",
+                "avi",
+                "flv",
+                "gif",
+                "mov",
+                "mpeg"
+            ]
+        }
+    },
+    "gm": {
+        "synopsis": "gm SUB OPTIONS @@",
+        "options": {
+            "-authenticate": [
+                "password"
+            ],
+            "-asc-cdl": [
+                "1.0,0.0,1.0:1.0,0.0,1.0:1.0,0.0,1.0:1.0"
+            ],
+            "-blue-primary": [
+                "10,10"
+            ],
+            "-blur": [
+                "50"
+            ],
+            "-border": [
+                "50x50"
+            ],
+            "-borderwidth": [
+                "50"
+            ],
+            "-charcoal": [
+                "10"
+            ],
+            "-chop": [
+                "20x20+5+5"
+            ],
+            "-colorize": [
+                "7,21,50"
+            ],
+            "-colors": [
+                "8"
+            ],
+            "-comment": [
+                "\"MIFF:bird.miff 512x480\""
+            ],
+            "-crop": [
+                "20x20+5+5"
+            ],
+            "-cycle": [
+                "8"
+            ],
+            "-debug": [
+                "All",
+                "None",
+                "Cache",
+                "Configure",
+                "Error",
+                "Deprecate,Information,X11"
+            ],
+            "-density": [
+                "50x50"
+            ],
+            "-depth": [
+                "16"
+            ],
+            "-displace": [
+                "50x50"
+            ],
+            "-dissolve": [
+                "50"
+            ],
+            "-edge": [
+                "50"
+            ],
+            "-emboss": [
+                "50"
+            ],
+            "-extent": [
+                "20x20+5+5"
+            ],
+            "-fuzz": [
+                "50%"
+            ],
+            "-gamma": [
+                "2.0"
+            ],
+            "-gaussian": [
+                "30"
+            ],
+            "-geometry": [
+                "20x20+5+5"
+            ],
+            "-green-primary": [
+                "30,40"
+            ],
+            "-hald-clut": [
+                "8"
+            ],
+            "-iconGeometry": [
+                "20x20+5+5"
+            ],
+            "-implode": [
+                "8"
+            ],
+            "-label": [
+                "\"MIFF:bird.miff 512x480\""
+            ],
+            "-lat": [
+                "20x20+5"
+            ],
+            "-level": [
+                "10,1.0,250"
+            ],
+            "-log": [
+                "\"%u %m:%l %e\""
+            ],
+            "-loop": [
+                "8"
+            ],
+            "-median": [
+                "50"
+            ],
+            "-minify": [
+                "8"
+            ],
+            "-modulate": [
+                "120,90"
+            ],
+            "-motion-blur": [
+                "50x1"
+            ],
+            "-paint": [
+                "10"
+            ],
+            "-pause": [
+                "1"
+            ],
+            "-pointsize": [
+                "8"
+            ],
+            "-raise": [
+                "50x30"
+            ],
+            "-recolor": [
+                "\"1 0 0, 0 1 0, 0 0 1\""
+            ],
+            "-red-primary": [
+                "50,30"
+            ],
+            "-region": [
+                "20x20+5+5"
+            ],
+            "-repage": [
+                "20x20+5+5"
+            ],
+            "-resample": [
+                "30x30"
+            ],
+            "-resize": [
+                "50x30"
+            ],
+            "-roll": [
+                "50+30"
+            ],
+            "-sample": [
+                "20x20+5+5"
+            ],
+            "-sampling-factor": [
+                "2x1"
+            ],
+            "-scale": [
+                "20x20+5+5"
+            ],
+            "-scenes": [
+                "0-12"
+            ],
+            "-set": [
+                "\"attr 16\""
+            ],
+            "-segment": [
+                "0.015x1.5"
+            ],
+            "-shade": [
+                "2x1"
+            ],
+            "-shadow": [
+                "20x1"
+            ],
+            "-sharpen": [
+                "20x1"
+            ],
+            "-shave": [
+                "1x1"
+            ],
+            "-size": [
+                "384x256+64"
+            ],
+            "-snaps": [
+                "4"
+            ],
+            "-spread": [
+                "4"
+            ],
+            "-stegano": [
+                "2"
+            ],
+            "-strokewidth": [
+                "10"
+            ],
+            "-swirl": [
+                "10"
+            ],
+            "-threshold": [
+                "50%"
+            ],
+            "-thumbnail": [
+                "38x25"
+            ],
+            "-title": [
+                "\"MIFF:bird.miff 512x480\""
+            ],
+            "-treedepth": [
+                "5"
+            ],
+            "-update": [
+                "1"
+            ],
+            "-unsharp": [
+                "0x1.0+1.0+0.05"
+            ],
+            "-view": [
+                "viewstring"
+            ],
+            "-watermark": [
+                "30x30"
+            ],
+            "-wave": [
+                "30x30"
+            ],
+            "-white-point": [
+                "30,30"
+            ],
+            "-white-threshold": [
+                "50%,50%,50%,50%"
+            ],
+            "-window": [
+                "root"
+            ],
+            "-write": [
+                "/tmp/foo"
+            ],
+            "SUB": [
+                "animate",
+                "compare",
+                "convert",
+                "mogrify",
+                "montage"
+            ],
+            "-fill": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-background": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-black-threshold": [
+                "50%,50%,50%,50%"
+            ],
+            "-bordercolor": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-box": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-colormap": [
+                "shared",
+                "private"
+            ],
+            "-convolve": [
+                "20,20"
+            ],
+            "-colorspace": [
+                "CineonLog",
+                "CMYK",
+                "GRAY",
+                "HSL",
+                "HWB",
+                "RGB",
+                "XYZ",
+                "YUV"
+            ],
+            "-compose": [
+                "Over",
+                "In",
+                "Out",
+                "Atop",
+                "Xor",
+                "Plus",
+                "Minus",
+                "Divide",
+                "CopyCyan"
+            ],
+            "-compress": [
+                "None",
+                "BZip",
+                "Fax",
+                "Group3",
+                "JPEG",
+                "LZW",
+                "LZMA",
+                "WebP"
+            ],
+            "-define": [
+                "cineon:colorspace=rgb",
+                "dpx:bits-per-sample=8",
+                "dpx:colorspace=cineonlog",
+                "dpx:packing-method=lsbpad",
+                "dpx:pixel-endian=msb",
+                "dpx:swap-samples=true",
+                "dpx:swap-samples-read=true",
+                "jp2:rate=0.75",
+                "jpeg:block-smoothing=true",
+                "pdf:use-cropbox=true",
+                "pdf:stop-on-error=true",
+                "tiff:alpha=associated",
+                "tiff:group-three-options=4",
+                "tiff:report-warnings=true",
+                "tiff:strip-per-page=true"
+            ],
+            "-dispose": [
+                "\"Undefined No disposal specified\"",
+                "\"None Do not dispose between frames\"",
+                "\"Background Overwrite the image area with the background color\"",
+                "\"Previous Overwrite the image area with what was there prior to rendering the image\""
+            ],
+            "-draw": [
+                "\"point x,y\"",
+                "\"line x0,y0 x1,y1\"",
+                "\"rectangle x0,y0 x1,y1\"",
+                "\"roundRectangle x0,y0 x1,y1 wc,hc\"",
+                "\"arc x0,y0 x1,y1 a0,a1\"",
+                "\"ellipse x0,y0 rx,ry a0,a1\"",
+                "\"circle x0,y0 x1,y1\"",
+                "\"polyline x0,y0 ... xn,yn\"",
+                "\"polygon x0,y0 ... xn,yn\"",
+                "\"Bezier x0,y0 ... xn,yn\""
+            ],
+            "-encoding": [
+                "AdobeCustom",
+                "BIG5",
+                "GB2312",
+                "None",
+                "unicode"
+            ],
+            "-endian": [
+                "MSB",
+                "LSB",
+                "Native"
+            ],
+            "-filter": [
+                "Point",
+                "Box",
+                "Triangle",
+                "Hermite",
+                "Hanning",
+                "Hamming",
+                "Blackman",
+                "Gaussian",
+                "Quadratic",
+                "Cubic",
+                "Catrom",
+                "Mitchell",
+                "Lanczos",
+                "Bessel",
+                "Sinc"
+            ],
+            "-font": [
+                "PostScript",
+                "TrueType",
+                "X11"
+            ],
+            "-foreground": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-format": [
+                "BMP",
+                "3FR",
+                "8BIM",
+                "ART"
+            ],
+            "-gravity": [
+                "NorthWest",
+                "Center",
+                "East",
+                "SouthEast"
+            ],
+            "-highlight-color": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-intent": [
+                "Absolute",
+                "Perceptual",
+                "Relative",
+                "Saturation"
+            ],
+            "-interlace": [
+                "None",
+                "Line",
+                "Plane",
+                "Partition"
+            ],
+            "-limit": [
+                "\"Disk 1GB\"",
+                "\"Memory 32MB\"",
+                "\"Pixels 10K\"",
+                "\"Width 1920\"",
+                "\"Height 1080\""
+            ],
+            "-list": [
+                "Color",
+                "Delegate",
+                "Format",
+                "Magic",
+                "Module",
+                "Resource",
+                "Type"
+            ],
+            "-map": [
+                "best",
+                "default",
+                "gray",
+                "red",
+                "green",
+                "blue"
+            ],
+            "-mattecolor": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-metric": [
+                "MAE",
+                "MSE",
+                "PAE",
+                "PSNR",
+                "RMSE"
+            ],
+            "-mode": [
+                "frame",
+                "unframe",
+                "concatenate"
+            ],
+            "-noise": [
+                "\"10|Uniform\"",
+                "\"10|Gaussian\"",
+                "\"10|Impulse\"",
+                "\"10|Poisson\""
+            ],
+            "-opaque": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-operator": [
+                "\"Red Add 50%\"",
+                "\"Green And 10%\"",
+                "\"Blue Assign 60%\"",
+                "\"Gray Depth 30%\"",
+                "\"All Multiply 50%\"",
+                "\"Matte Or 20%\"",
+                "\"Black Pow 40%\""
+            ],
+            "-ordered-dither": [
+                "\"All 4x4\"",
+                "\"Intensity 6x6\"",
+                "\"Green 3x3\"",
+                "\"Magenta 7x7\"",
+                "\"Opacity 1x1\""
+            ],
+            "-orient": [
+                "undefined",
+                "TopLeft",
+                "TopRight",
+                "BottomLeft",
+                "RightBottom"
+            ],
+            "-page": [
+                "11x17",
+                "+100+200",
+                "612x792",
+                "2380x3368"
+            ],
+            "-pen": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-preview": [
+                "Rotate",
+                "Shear",
+                "Roll",
+                "Hue",
+                "Blur",
+                "Shade",
+                "Wave",
+                "JPEG"
+            ],
+            "-process": [
+                "Analyze=1,2,3",
+                "Convert=1,2,3"
+            ],
+            "-quality": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "-random-threshold": [
+                "\"All 10x30\"",
+                "\"Intensity 10x30\"",
+                "\"Red 10x30\"",
+                "\"Green 10x30\"",
+                "\"Blue 10x30\"",
+                "\"Opacity 10x30\""
+            ],
+            "-rotate": [
+                "-90",
+                "\"90>\"",
+                "\"-90<\"",
+                "180"
+            ],
+            "-stroke": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-transparent": [
+                "blue",
+                "\"#1f1f1f\"",
+                "\"#efefef01\"",
+                "\"rgb(65000,65000,65535)\""
+            ],
+            "-type": [
+                "Bilevel",
+                "Grayscale",
+                "Palette",
+                "TrueColor",
+                "Optimize"
+            ],
+            "-units": [
+                "Undefined",
+                "PixelsPerInch",
+                "PixelsPerCentimeter"
+            ],
+            "-virtual-pixel": [
+                "Constant",
+                "Edge",
+                "Mirror",
+                "Tile"
+            ],
+            "-visual": [
+                "StaticGray",
+                "GrayScale",
+                "StaticColor",
+                "PseudoColor",
+                "TrueColor",
+                "DirectColor",
+                "default",
+                "\"visual id\""
+            ]
+        }
+    },
+    "gs": {
+        "synopsis": "gs OPTIONS -sDEVICE=pdfwrite -SOutputFile=/tmp/foo @@",
+        "options": {
+            "-g": [
+                "*720x480"
+            ],
+            "-I": [
+                "*/tmp"
+            ],
+            "-D": [
+                "*NOCACHE",
+                "*NOBIND",
+                "*NODISPLAY",
+                "*NOPAUSE",
+                "*NOPLATFONTS",
+                "*SAFER",
+                "*WRITESYSTEMDICT",
+                "*DEVICEWIDTH=72",
+                "*DEVICEHEIGHT=40"
+            ],
+            "-S": [
+                "*DEVICE=pdfwrite",
+                "*DEVICE=epson",
+                "*sDEVICE=bbox",
+                "*PAPERSIZE=a4",
+                "*sPAPERSIZE=legal"
+            ],
+            "-r": [
+                "*60x72",
+                "*240x72"
+            ]
+        }
+    },
+    "jasper": {
+        "synopsis": "jasper OPTIONS -f @@ -F /tmp/foo.jpg",
+        "options": {
+            "--debug-level": [
+                "quiet",
+                "panic",
+                "fatal",
+                "error",
+                "warning",
+                "info",
+                "verbose",
+                "debug",
+                "trace"
+            ],
+            "--input-format": [
+                "pnm",
+                "bmp",
+                "ras",
+                "jp2",
+                "jpc",
+                "jpg",
+                "pgx"
+            ],
+            "--output-format": [
+                "pnm",
+                "bmp",
+                "ras",
+                "jp2",
+                "jpc",
+                "jpg",
+                "pgx"
+            ],
+            "--input-option": [
+                "cblkwidtth=64",
+                "cblkheight=32",
+                "nomct",
+                "numrlvls=4",
+                "rate=0.015625"
+            ],
+            "--output-option": [
+                "cblkwidtth=64",
+                "cblkheight=32",
+                "nomct",
+                "numrlvls=4",
+                "rate=0.015625"
+            ]
+        }
+    },
+    "mpg123": {
+        "synopsis": "mpg123 OPTIONS -w /tmp/foo @@",
+        "options": {
+            "-k": [
+                "10"
+            ],
+            "-n": [
+                "1024"
+            ],
+            "-p": [
+                "none"
+            ],
+            "-u": [
+                "root:123456"
+            ],
+            "--streamdump": [
+                "/tmp/dump.txt"
+            ],
+            "--icy-interval": [
+                "128"
+            ],
+            "-@": [
+                "test.mp3"
+            ],
+            "-l": [
+                "1"
+            ],
+            "--loop": [
+                "3"
+            ],
+            "--timeout": [
+                "5"
+            ],
+            "--index-size": [
+                "1"
+            ],
+            "--preframes": [
+                "2"
+            ],
+            "-O": [
+                "/tmp/foo"
+            ],
+            "--au": [
+                "/tmp/foo.au"
+            ],
+            "--cdr": [
+                "/tmp/foo.cdr"
+            ],
+            "-g": [
+                "5"
+            ],
+            "-f": [
+                "32768"
+            ],
+            "-r": [
+                "0.8"
+            ],
+            "--pitch": [
+                "0.05"
+            ],
+            "-d": [
+                "4"
+            ],
+            "-h": [
+                "3"
+            ],
+            "-D": [
+                "1"
+            ],
+            "-b": [
+                "4096"
+            ],
+            "--preload": [
+                "0.2"
+            ],
+            "--devbuffer": [
+                "2"
+            ],
+            "--name": [
+                "foo"
+            ],
+            "--fifo": [
+                "/tmp/foo.fifo"
+            ],
+            "-a": [
+                "/dev/audio",
+                "/dev/dsp"
+            ],
+            "-o": [
+                "oss",
+                "raw",
+                "cdr",
+                "wav",
+                "au",
+                "test",
+                "hex",
+                "txt",
+                "h",
+                "s",
+                "l"
+            ],
+            "--cpu": [
+                "generic"
+            ],
+            "--resample": [
+                "NtoM",
+                "dirty",
+                "fine"
+            ],
+            "-e": [
+                "f32",
+                "s32",
+                "u32"
+            ]
+        }
+    },
+    "mutool": {
+        "synopsis": "mutool SUB OPTIONS -o /tmp/foo @@",
+        "options": {
+            "-p": [
+                "123456"
+            ],
+            "-R": [
+                "90"
+            ],
+            "-r": [
+                "144"
+            ],
+            "-w": [
+                "400"
+            ],
+            "-h": [
+                "300"
+            ],
+            "-B": [
+                "768"
+            ],
+            "-W": [
+                "400"
+            ],
+            "-H": [
+                "300"
+            ],
+            "-S": [
+                "18"
+            ],
+            "-G": [
+                "0.7"
+            ],
+            "-A": [
+                "16"
+            ],
+            "-x": [
+                "4"
+            ],
+            "-y": [
+                "4"
+            ],
+            "SUB": [
+                "draw",
+                "clean",
+                "extract",
+                "info",
+                "create",
+                "pages",
+                "poster",
+                "show",
+                "convert"
+            ],
+            "-F": [
+                "pbm",
+                "pgm",
+                "ppm",
+                "pam",
+                "png",
+                "pwg",
+                "pcl",
+                "ps"
+            ],
+            "-c": [
+                "mono",
+                "gray",
+                "grayalpha",
+                "rgb",
+                "rgbalpha",
+                "cmyk",
+                "cmykalpha"
+            ],
+            "-s": [
+                "m",
+                "f",
+                "t",
+                "5"
+            ],
+            "-O": [
+                "decompress",
+                "compress",
+                "conpress-fonts",
+                "compress-images",
+                "ascii",
+                "pretty",
+                "linearize",
+                "sanitize",
+                "garbage"
+            ]
+        }
+    },
+    "nasm": {
+        "synopsis": "nasm OPTIONS @@ -o /tmp/foo",
+        "options": {
+            "-D": [
+                "macro=hello"
+            ],
+            "-I": [
+                "/tmp/"
+            ],
+            "-MG": [
+                "/tmp/foo.mg"
+            ],
+            "-MF": [
+                "/tmp/foo.mf"
+            ],
+            "-MD": [
+                "/tmp/foo.md"
+            ],
+            "-MT": [
+                "/tmp/foo.mt"
+            ],
+            "-MQ": [
+                "/tmp/foo.mq"
+            ],
+            "-U": [
+                "macro"
+            ],
+            "-w": [
+                "*+other",
+                "*+macro-params",
+                "*+macro-selfref",
+                "*+macro-defaults",
+                "*+orphan-labels",
+                "*+number-overflow",
+                "*+gnu-elf-extensions",
+                "*+float-overflow",
+                "*+float-denorm",
+                "*+float-underflow",
+                "*+float-toolong",
+                "*+user",
+                "*+lock",
+                "*+hle",
+                "*+bnd",
+                "*+zext-reloc",
+                "*+ptr",
+                "*+bad-pragma",
+                "*+unknown-pragma",
+                "*+not-my-pragma",
+                "*+unknown-warning",
+                "*+all",
+                "*-other",
+                "*-macro-params",
+                "*-macro-selfref",
+                "*-macro-defaults",
+                "*-orphan-labels",
+                "*-number-overflow",
+                "*-gnu-elf-extensions",
+                "*-float-overflow",
+                "*-float-denorm",
+                "*-float-underflow",
+                "*-float-toolong",
+                "*-user",
+                "*-lock",
+                "*-hle",
+                "*-bnd",
+                "*-zext-reloc",
+                "*-ptr",
+                "*-bad-pragma",
+                "*-unknown-pragma",
+                "*-not-my-pragma",
+                "*-unknown-warning",
+                "*-all"
+            ],
+            "-Z": [
+                "/tmp/foo.err"
+            ],
+            "-f": [
+                "bin",
+                "ith",
+                "srec",
+                "aout",
+                "aoutb",
+                "coff",
+                "elf32",
+                "elf64",
+                "elfx32",
+                "as86",
+                "obj",
+                "win32",
+                "win64",
+                "rdf",
+                "ieee",
+                "macho32",
+                "macho64",
+                "dbg",
+                "elf",
+                "macho",
+                "win"
+            ],
+            "-F": [
+                "dwarf",
+                "stabs",
+                "borland",
+                "cv8",
+                "ladsoft",
+                "debug"
+            ],
+            "-O": [
+                "*1",
+                "*2",
+                "*x"
+            ],
+            "-X": [
+                "gnu",
+                "vc"
+            ]
+        }
+    },
+    "objdump": {
+        "synopsis": "objdump OPTIONS @@",
+        "options": {
+            "--adjust-vma": [
+                "=256"
+            ],
+            "-b": [
+                "oasys"
+            ],
+            "-d": [
+                "main"
+            ],
+            "--source-comment": [
+                "=\"# default comment\""
+            ],
+            "--prefix": [
+                "=/"
+            ],
+            "--prefix-strip": [
+                "=3"
+            ],
+            "--insn-width": [
+                "=32"
+            ],
+            "--dwarf-depth": [
+                "=1"
+            ],
+            "--dwarf-start": [
+                "=1"
+            ],
+            "--start-address": [
+                "=0x00"
+            ],
+            "--stop-address": [
+                "=0x10"
+            ],
+            "-j": [
+                ".text",
+                ".data",
+                ".bss"
+            ],
+            "-m": [
+                "x86-64",
+                "i386",
+                "i80086"
+            ],
+            "-M": [
+                "x86-64",
+                "i386",
+                "i80086",
+                "intel",
+                "att",
+                "amd64",
+                "intel64",
+                "addr64",
+                "addr32",
+                "addr16",
+                "data32",
+                "data16",
+                "suffix",
+                "msa",
+                "no-alias",
+                "virt",
+                "xpa"
+            ],
+            "-P": [
+                "header",
+                "aout",
+                "sections",
+                "syms",
+                "relocs",
+                "lineno",
+                "loader",
+                "except",
+                "typchk",
+                "traceback",
+                "toc",
+                "ldinfo"
+            ],
+            "-W": [
+                "*l",
+                "*L",
+                "*i",
+                "*a",
+                "*p",
+                "*r",
+                "*m",
+                "*f",
+                "*F",
+                "*s",
+                "*o",
+                "*O",
+                "*R",
+                "*t",
+                "*U",
+                "*u",
+                "*T",
+                "*g",
+                "*A",
+                "*c",
+                "*k",
+                "*K"
+            ],
+            "--ctf": [
+                "=.text",
+                "=.data",
+                "=.bss"
+            ],
+            "--ctf-parent": [
+                "=.text",
+                "=.data",
+                "=.bss"
+            ]
+        }
+    },
+    "readelf": {
+        "synopsis": "readelf OPTIONS @@",
+        "options": {
+            "-x": [
+                "1"
+            ],
+            "-R": [
+                "1"
+            ],
+            "-p": [
+                "1"
+            ],
+            "--dwarf-depth": [
+                "=1"
+            ],
+            "--dwarf-start": [
+                "=1"
+            ],
+            "-w": [
+                "*l",
+                "*L",
+                "*i",
+                "*a",
+                "*p",
+                "*r",
+                "*m",
+                "*f",
+                "*F",
+                "*s",
+                "*O",
+                "*o",
+                "*R",
+                "*t",
+                "*U",
+                "*u",
+                "*T",
+                "*g",
+                "*A",
+                "*c",
+                "*k",
+                "*K"
+            ],
+            "--ctf": [
+                "=.text",
+                "=.data",
+                "=.bss"
+            ],
+            "--ctf-parent": [
+                "=.text",
+                "=.data",
+                "=.bss"
+            ],
+            "--ctf-symbols": [
+                "=.text",
+                "=.data",
+                "=.bss"
+            ]
+        }
+    },
+    "size": {
+        "synopsis": "size OPTIONS @@",
+        "options": {}
+    },
+    "pdftohtml": {
+        "synopsis": "pdftohtml OPTIONS @@",
+        "options": {
+            "-f": [
+                "1"
+            ],
+            "-l": [
+                "1"
+            ],
+            "-zoom": [
+                "0.75"
+            ],
+            "-opw": [
+                "123456"
+            ],
+            "-upw": [
+                "123456"
+            ],
+            "-wbt": [
+                "20"
+            ],
+            "-enc": [
+                "Latin1",
+                "ASCII7",
+                "Symbol",
+                "ZapfDingbats",
+                "UTF-8",
+                "UCS-2"
+            ],
+            "-fmt": [
+                "png",
+                "jpg"
+            ]
+        }
+    },
+    "pdftopng": {
+        "synopsis": "pdftopng OPTIONS @@ /tmp/foo.png",
+        "options": {
+            "-f": [
+                "1"
+            ],
+            "-l": [
+                "1"
+            ],
+            "-r": [
+                "240"
+            ],
+            "-opw": [
+                "123456"
+            ],
+            "-upw": [
+                "123456"
+            ],
+            "-freetype": [
+                "no"
+            ],
+            "-aa": [
+                "no"
+            ],
+            "-aaVector": [
+                "no"
+            ],
+            "-rot": [
+                "90",
+                "180",
+                "270"
+            ]
+        }
+    },
+    "pngfix": {
+        "synopsis": "pngfix OPTIONS @@",
+        "options": {
+            "--suffix": [
+                "=suf"
+            ],
+            "--prefix": [
+                "=pre"
+            ],
+            "--out": [
+                "=/tmp/foo"
+            ],
+            "--strip": [
+                "=none",
+                "=crc",
+                "=unsafe",
+                "=unused",
+                "=transform",
+                "=color",
+                "=all"
+            ]
+        }
+    },
+    "pspp": {
+        "synopsis": "pspp OPTIONS -o /tmp/foo -O format=odt @@",
+        "options": {
+            "-e": [
+                "/tmp/foo.err"
+            ],
+            "-I": [
+                "/tmp/"
+            ],
+            "-O": [
+                "device=terminal",
+                "device=listing"
+            ],
+            "-a": [
+                "enhanced",
+                "compatible"
+            ],
+            "-x": [
+                "enhanced",
+                "compatible"
+            ],
+            "--syntax-encoding": [
+                "=LOCALE",
+                "=ASCII",
+                "=ISO-8859-1",
+                "=EUC-JP",
+                "=windows-1252",
+                "=Auto,encoding",
+                "=Auto",
+                "=Auto,Local"
+            ]
+        }
+    },
+    "tiff2pdf": {
+        "synopsis": "tiff2pdf OPTIONS @@ -o /tmp/foo",
+        "options": {
+            "-q": [
+                "90"
+            ],
+            "-w": [
+                "10"
+            ],
+            "-l": [
+                "10"
+            ],
+            "-x": [
+                "720"
+            ],
+            "-y": [
+                "480"
+            ],
+            "-e": [
+                "20220909220000"
+            ],
+            "-c": [
+                "creator"
+            ],
+            "-a": [
+                "author"
+            ],
+            "-t": [
+                "title"
+            ],
+            "-s": [
+                "subject"
+            ],
+            "-k": [
+                "123456"
+            ],
+            "-m": [
+                "512"
+            ],
+            "-p": [
+                "letter",
+                "legal",
+                "A4"
+            ],
+            "-u": [
+                "i",
+                "m"
+            ],
+            "-r": [
+                "d",
+                "o"
+            ]
+        }
+    },
+    "tiff2ps": {
+        "synopsis": "tiff2ps OPTIONS @@",
+        "options": {
+            "-M": [
+                "512"
+            ],
+            "-O": [
+                "/tmp/foo"
+            ],
+            "-P": [
+                "L",
+                "P"
+            ],
+            "-r": [
+                "90",
+                "180",
+                "270",
+                "auto"
+            ]
+        }
+    },
+    "tiffinfo": {
+        "synopsis": "tiffinfo OPTIONS @@",
+        "options": {
+            "-o": [
+                "4"
+            ],
+            "-": [
+                "*0",
+                "*1",
+                "*2",
+                "*3",
+                "*4",
+                "*5"
+            ]
+        }
+    },
+    "vim": {
+        "synopsis": "vim OPTIONS -u NONE -X -Z -e -s -S @@ -C \":qa!\"",
+        "options": {
+            "-i": [
+                "NONE"
+            ],
+            "-u": [
+                "NONE"
+            ],
+            "-U": [
+                "NONE"
+            ],
+            "-w": [
+                "/tmp/foo.scriptout"
+            ],
+            "-W": [
+                "/tmp/foo.scriptout"
+            ],
+            "--startuptime": [
+                "/tmp/foo.time"
+            ],
+            "-V": [
+                "*0",
+                "*1",
+                "*100"
+            ],
+            "-r": [
+                "/tmp/foo.swp",
+                " "
+            ],
+            "-T": [
+                "xterm",
+                "xterm-256color",
+                "screen",
+                "screen-256color"
+            ],
+            "-p": [
+                "*0",
+                "*1",
+                "*100"
+            ],
+            "-o": [
+                "*0",
+                "*1",
+                "*2"
+            ],
+            "-O": [
+                "*0",
+                "*1",
+                "*2"
+            ],
+            "-c": [
+                "\"set si\"",
+                "\"source\"",
+                "\":sh\"",
+                "\":!\"",
+                "\":set uc=0\"",
+                "\":set uc=200\"",
+                "\":w!\"",
+                "\":set noro\""
+            ],
+            "--cmd": [
+                "\":qa!\"",
+                "\"set si\"",
+                "\"source\"",
+                "\":sh\"",
+                "\":!\"",
+                "\":set uc=0\"",
+                "\":set uc=200\"",
+                "\":w!\"",
+                "\":set noro\""
+            ]
+        }
+    },
+    "xmlcatalog": {
+        "synopsis": "xmlcatalog OPTIONS @@",
+        "options": {
+            "--add": [
+                "public \"-//OASIS//DTD DocBook XML V4.1.2//EN\" http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"
+            ],
+            "--del": [
+                "text"
+            ]
+        }
+    },
+    "xmllint": {
+        "synopsis": "xmllint OPTIONS @@ ",
+        "options": {
+            "--maxmem": [
+                "102400"
+            ],
+            "--pattern": [
+                "/foo/bar"
+            ],
+            "--xpath": [
+                "\"//element/@attribute\""
+            ],
+            "--output": [
+                "/tmp/foo"
+            ],
+            "--encode": [
+                "UTF-8",
+                "UTF-16",
+                "ISO-Latin-1",
+                "ASCII",
+                "HTML"
+            ]
+        }
+    },
+    "xmlwf": {
+        "synopsis": "xmlwf OPTIONS @@",
+        "options": {
+            "-a": [
+                "80.0"
+            ],
+            "-b": [
+                "2048"
+            ],
+            "-d": [
+                "/tmp/"
+            ],
+            "-e": [
+                "UTF-8",
+                "US-ASCII",
+                "UTF-16",
+                "ISO-8859-1"
+            ]
+        }
+    },
+    "yara": {
+        "synopsis": "yara OPTIONS -r -c -g -s @@ input_yara",
+        "options": {
+            "-d": [
+                "test=value"
+            ],
+            "-i": [
+                "test"
+            ],
+            "-l": [
+                "2"
+            ],
+            "--max-strings-per-rule": [
+                "=100"
+            ],
+            "-x": [
+                "test=dummy"
+            ],
+            "-k": [
+                "16"
+            ],
+            "-t": [
+                "Foo"
+            ],
+            "-a": [
+                "3"
+            ],
+            "-p": [
+                "1",
+                "2",
+                "3"
+            ]
+        }
+    }
+}

@@ -1,0 +1,557 @@
+Shell command iconv -l lists them.
+-I myconfsh` where myconfsh is a script writing the configuration to stdout.
+If no other arguments are given, this will also cause orte-dvm to exit. . .
+dosbox  will close itself when the DOS program specified by file  ends.
+Weight for grid bending energy constraint
+Show summary of options
+This option is for internal testing use only, and runs unit tests without starting a mongos instance.
+Prepend TARGET- to the gcc and binutils calls.
+Open all subsequent files in new tabs.
+Set directory to SYSTEM include search path with prefix
+Path to ASN.1 files
+3278 specifies a monochrome
+Flip output image vertically
+LIFT_REMOTE_remotename=login:
+Build and run the package unit-tests.
+ds9 -bin colsz detx dety time  0
+Only the exact color you specify will be transparent.
+Bind the local end-point of the connection to IP address addr , TCP port port .
+locales/ and $I18NPATH are also searched after the current directory.
+For reading, dar often needs the last slice, but initially it does not know its number.
+The default trace file name is /tmp/x3trc.
+(-x) X11 forwarding.
+Enable the use of MIPS16e2 instructions in MIPS16 mode.
+These options are described in more detail in troff (1). .
+Those
+Write tracks compatible with
+Default is 1 (iH1).
+Default: 0.1.
+This option allows the use of alternative configuration locations for testing purposes.
+[-v] : verbose on stderr
+The initial session would euse: genisoimage -root
+-o option will output GTF format instead of GFF3
+Outputs a space-delimited (but otherwise undecorated) list of directories that the wrapper compiler would have provided to the underlying linker to indicate where relevant libraries are located.
+mode for which types of bounds to minimize via first decision heuristics
+treats warnings as errors
+Number of nameservers to include in test.
+Specifies the unit in which the totals will be printed.
+[Default: 0]
+When a type is unboxable (ia record with a single argument or a concrete datatype with a single constructor of one argument) it will be unboxed unless annotated with [@@ocaml.
+A negative value implies infinity.
+* '\n' <blank line> ::=
+test14input'
+The following options control the storage management strategy used by compiled code:
+
+F_SETOWN,
+It's created at start-up and removed at termination.
+But if your web server does not allow to run CGI which is symlink, you should copy CGI file.
+When this option is given, patterns may usefully contain literal newline characters and internal occurrences of ^ and $ characters.
+The file name cannot begin with - .
+Y = years, and s = seconds).
+Specify output language, one of 'ufc' (default) or 'dolfin'
+If specified, a 32\ bit WAVE will be the output format.
+This model uses crt3as a startup file.
+
+Convert unix timestamp to readable date format (in oops and squid logs, for example).
+Be aware that network equipment or the receiver may be dropping packets because of a bandwidth which is too high.
+the experienced settings.<model>/<layout> use the given model and layout.
+Set the output file FILE
+/usr/share/rost-runpsic/runNewPSICpl
+A value of 'all' will query to run on all clusters.
+The --mpi=
+(default: 30)
+If you want multiple disables then just do multiple --disable-notify on the command line.
+This is to reduce clutter in the reports.
+Current implementation of this option makes the split slower.
+The reason for the existence of the driver= name option is to allow users to use wodim with drives that are similar to supported drives but not known directly by wodim .
+Multicasting - read a list of telephone numbers to send the fax to from the given file.
+This disables this behaviour.
+Specify number of granules per section, default is 8.
+Choose from id3v1.1 or none.
+If --host is not specified, the default is to send the data to localhost.
+Count executions of source lines (omitting setting is equivalent to 'user')
+The type of a function result is declared more than once with the same type.
+be loud and noisy
+The pattern is applied to the full relative path but also to each part of the path individually.
+Specify the maximum width of image (in inches).
+A number prefixed by an equals sign (`= num ') specifies a physical page, i\.e\. the num -th page appearing in the DVI file.
+Network authenticated session expires at: 16 Feb 2010 15:28:39 (10964 secs)
+For example 4:3, 16:9, 1.3333, and 1.7777 are valid argument values.
+The foreground color for text can be set separately with -xrm nedit*textcolor.
+Puts x3270if in iterative mode.
+This selects which tty device the debugger uses to communicate with the target device.
+When defined, the library command can make a shared object (and symbolic links by using the version number.
+Period size [1024]
+The PEM file should contain the full certificate chain, with the leaf certificate as the first entry.
+This option is not supported on Win32 platforms.
+MS_SYNC and MS_INVALIDATE sync operations.
+Input/Output Trailer filename
+Product ID number (assigned by Manufacturer).
+Magenta 3
+Padding bytes to put in header (default: 4096)
+Go to end of range.
+64 - apply a linear taper to the lengths.
+By default, the link-layer Destination Address is automatically set to the link-layer address of the destination host (for on-link destinations) or to the link-layer address of the first-hop router.
+This does not work on X11 with EGL and Mesa (freedesktop bug
+all will load recorded MD5 sums but not test the recorded checksum tags of superblock and directory tree.
+Refer to PCPIntro (1) for a complete description of the syntax for align .
+show this help message and exit
+Owner is unchanged if missing.
+WAVPACK [ clear | album | track ]
+Include metadata from metadata(not validated).
+Generate INSDSeq extraction commands.
+Base16 coding.
+ent esp tpr
+This mode uses stapvirt to execute the script on a domain managed by libvirt.
+When choosing a default visual from those available on the back-end X server, the first visual with that matches the depth specified is used.
+Multiple -m's can be specified.
+Retry failed network or git requests for number times\. .
+Bind defined symbols locally
+This switch is used when a number of subprograms are contained in a file, but not all of them are used by the application.
+defile a web site, headlines of which to show, this option also can be used together with --help to get new defaults.
+Keypad mode
+The 'fast' mode will just try to form an a priori guess without testing all modes.
+/fb0.   nox: display image in console (text) and prompt for manual entering.
+print a short help
+I
+See CONDITION section for the syntax
+Use active_def as the active tag definition(s).
+Additional Packages lists that are checked and used for resolving dependencies (can be repeated)
+Whether to move the file start time to 00:00:00
+Display some help.
+Execute update script FILE in current directory.
+ticks_major_delta
+Read Kg key from IPMI_KGKEY environment variable.
+display this help message
+If the timeout occurs, the graph is written to the output as if it is nonhamiltonian.
+Default help info.
+It allows the specification of an IPv6 prefix in the form -j prefix/prefixlen.
+Playback the left or right stereo channel only.
+This must be as large as the largest edit distance you'll ever use, and there's a performance advantage to have it be bigger than any read you'll process.
+The source and destination systems must have compatible ACL entries for this option to work properly.
+-
+If unspecified, the system default will be preferred, but any type may match in the absence of a stricter specification.
+PDP-11
+This will print a matrix (onsets x time), where the number of columns is identical to the value of --nvols and the number of rows corresponds to the number of specified onsets.
+put messages into this file (stdout by default)
+Note that the '/' is only required when {DISPLAY} is present.
+The default is pre however this parameter is only applied if -antialias has a value other than zero.
+The so generated media is not 100% compatible to manufactured CDs (except for CDplus).
+Do not display entries using N Bytes/KB/MB/GB or less (default Bytes).
+suppress printing of banner (copyright, disclaimer, version)
+The default kernel is cubicK4, which has a flatter passband and sharper cutoff than cubic.
+Hide/expose window via Map/Unmap popup window.
+So for example if you want to make a proper HEAD request, using -X HEAD will not suffice.
+If the unit is absent, the number is understood to be expressed by default in seconds.
+| none]
+/var/log/salt/spm.
+(m) strand of genomic sequence.
+Warning: Data which are hidden from the ISO 9660 tree will not be copied by the write method of modifying.
+This option changes the way Download Results is formatted.
+Use --list-avail to see the list of possible values.
+When the delay expires, the connector command is simply killed.
+No extra threads regardless of CPU and channel count
+The number of different Target Addresses is specified as -T number.
+Do not prepend timestamp to log entries.
+Valid values are: 0 - disable1 - enable
+Set server bits.
+Filter the display to hide sessions that are authenticating.
+print warnings when packets timestamps are out of order
+The encodings UTF-8, UTF-16BE, and UTF-16LE are automatically detected if a byte order mark (BOM) is present.
+Outputs the actual directory where the GIMP plug-ins were installed.
+Use template from file.
+
+the same exchange that leads to persist capture also has the side effect of tarpitting.
+Setting mode to 'h' will output only hours, 'd' days, 'm' months and 't' the top 10.
+This option is useful if the input file starts with an '-' for instance.
+Append the output to file or to typescript , retaining the prior contents.
+-t
+-D
+
+However, in that case, the countdown before results isn't shown.u,
+Macro expansion in the listing file is controlled using the EXPAND and NOEXPAND directives.
+standard deviation of ln[intron length] (default=1.7)
+Respectivily use acquisition or series value in the numbered prefix of the new filename.
+f =
+Number of path levels to show for common paths (default: 2).
+Additional Packages lists that are checked and used for resolving dependencies (can be repeated)
+long help text for examplemetricstring ##  helptext
+run fortune -l
+, W`avrxmega6', W`avrxmega7', respectively.
+The disk will only be fixated (ia TOC for a CD-Reader will be written).
+Prints tool version number.
+print this help
+display usage
+* partition_hd_cyl * 512 is the cylinder size.
+The format is similar to the final tabular output format, except no Cove score is available at this point in the search (if EufindtRNA has detected the tRNA, the negative log likelihood score is given).
+For hardware capture of an MPEG stream and watching it with MPlayer/MEncoder, use 'pvr://' as a movie URL.
+Encrypts the command so that the operation's results are not transmitted across the network in clear text.
+Use plaintext passwords.
+
+NOTE WELL:
+Supported values are:( analyze, datapool, dicom, hdf5, inria, mhd, nifti, vff, vista, vti, vtk, )
+The option's argument is either an absolute path to a local UNIX domain socket, or a hostname and port ( hostname : port ), in order to connect a remote host via a TCP socket.
+The macros in the internal PostScript dictionnaries of l2p allows you to control which  layer to  output,  how  to  plot  rectangles, and specify the colors of the rectangles.
+Following is the list of all supported SFTP quote commands:  chgrp group file
+Search for videos matching expression (optional).
+Timeout, in seconds, after which an attempt to connect to the target or a protocol handshake will be aborted (and the connection dropped) if not completed.
+Use cm^-1 on X-axis instead of 1/ps for DoS plots.
+also reports total count (t) and number of kmers
+Interface location method: bisect, functional
+Value 0 means no, and 1 means yes.
+Otherwise only the entries specified in the local section entries list are printed.
+Strict mode - fail on different image size or sector allocation
+Allows to use an extra SGML Open Catalog that will list other files like customization style sheets, adaptations to the DocBook Document Type Definition, special character entities, etc.
+Index file UNINDENT
+Color of mark line in graphs (default red).
+Set maximum file size (in Kbytes) for auto mode.
+Use PUSH operations to store outgoing parameters.
+a colon-separated list of paths
+File to save trained CF model to.
+If this option is not specified, a link to the KaTeX CDN will be inserted.
+Non-ASCII characters are encoded as XML numerical entities.
+[This option is specific to the i386 PE targeted port of the linker]
+Set the output directory ('-' for stdout) to dir.
+UNINDENT 0.0
+Check individuals
+Ignored
+(slave result file) 3:
+If you have used the contor cont2sh scripts earlier, you may want to use --content=cont to report content checks using the same test name as these scripts do.
+-E
+Don't use this option without good reason.
+The -mosaic option provides a flexible way to composite one or more images onto a solid-color canvas image.
+Print the contents of the data file in XML format.
+This can also be defined through the deflogin command.
+Show citation information for program and exit.
+p
+No SOP marker in the codestream.)
+2 maximum size of a critters body part (default: 200, range: 1-1000000)
+Show version of obex-data-server and exit immediately
+Prints the program's version number and a short usage message to the program's standard error output and exits.
+If the daemon dies due to a signal that indicates a programming error (SIGABRT, SIGALRM, SIGBUS, SIGFPE, SIGILL, SIGPIPE, SIGSEGV, SIGXCPU, or SIGXFSZ) then the monitor process starts a new copy of it.
+Define a complex filtergraph, ione with arbitrary number of inputs and/or outputs.
+Set the name of the home directory to dir.
+Display some help.
+Using this option you can specify different files for input and output streams that uCsimc uses to simulate microprocessor's serial interface.
+Defines the named symbol and an optional value to be associated with that symbol, prior to reading the date file.
+Usually this algorithm is deduced from the respective signing certificate.
+Display only those notes that pass the filter.
+specifies a file to use to store cookies.
+The larger you set this the larger the output polygons will be.
+set AutoRotatePages (default: None); recognized val choices: None, All, PageByPage.
+output toc
+slice2html generates sub-indexes for various Slice symbols.
+The intent is to remove control-flow from the innermost loops in order to improve the ability of the vectorization pass to handle these loops.
+Set number of input channels that should be created as sockets to n.
+Show brief usage information.
+Sync unusual sources too if no specific source information is given
+Note that, by default, moosicd prints this output to a file, not the standard output device.
+Set the verbosity level.
+When --recurse-all is used, attempt to descend into all imported modules.
+This option is provided for backward compatibility, and to aid in debugging problems related to multiple inclusion.
+This setting can be overridden on a per-text basis later.
+(If --detach is specified, N closes its standard file descriptors, so logging to the console will have no effect.)
+Set the characters enclosing the first weight of a printed composite weight (epair weight, tuple weight, and derived classes) to ensure proper I/O of nested composite weights.
+Post-process the jadetex output using a perl filter.
+Note: Up to 32 +, -, < and > are summarized and displayed as only one.
+This closes a given FH at startup time.
+Speed.
+The default for the -a option is to auto-detect the format of the disk image.
+I
+Example:  $ firejail
+@Quiet operation
+[Default: disabled]
+Note that this option is not used with HKP keyservers.auto-key-retrieve
+Most commonly used models are eauto, virtio-scsi for the scsi controller, ehci or none for the usb controller.
+Convert from Unix to DOS.
+This option causes makedepend to emit the list of files included by each input file.
+The sensitive data can be provided in raw format (the default), or base64.
+Optional info on reference assembly (AS), species (SP), taxonomy (TX)
+causes the output to be written to the specified file; by default, output is written to stdout.
+Define slice direction axis: this is the through-slice direction of the acquisition.
+Don't use the Xvideo extension for accelerated video playback (YUV->RGB color space conversion + video scaling in hardware).
+Turn on/off scrollbar; resource scrollBar .
+The default model for a color display is 3279-4.
+Set the token type, one of symbol, byte, or utf8.
+As the kernel evolves, more capabilities are added.
+Halt execution at system messages at or above <level>. Levels as in --report.
+Wcd places the current path in the ban file.
+[string]
+Valid years begin with 1970, although many systems will return years prior to 1970 if e is negative.
+This name is used for heuristics applied to new package versions and for sanity checking of the target distribution.
+In this case only one input file is allowed.
+foo2hp2600-wrapper always runs Ghostscript with the ideal page dimensions, so that the scale of the image is correct, regardless whether or not the printer has unprintable regions.
+This option specifies the fragment type.
+See also the --save-session option.
+Compress input using two-pass rate control.
+PATH can be - to write to standard output.
+You can use the keywords
+Alternatively, if ctags is invoked by a name containing the string etags (either by renaming, or creating a link to, the executable), etags mode will be enabled.
+Value must be a Dataset or a valid identifier of a Dataset (ea path)
+Topology file UNINDENT
+Do not create the headers file.
+Default 20 lines.
+Value 1 tracks tokens locations in a degraded mode for the sake of minimal memory overhead.
+--sh  -c
+If the file is missing, a placeholder string is used.
+If none is given, new MP3 files will not be given ID3v2 tags.
+Ignored for non-PIC.
+By default, the new authentication key is automatically generated.
+If URL is string none then no button is inserted.
+null track images will look like linux dasdfmt'ed images (3390 device type only)
+Print version information and exit
+Without this option, there are no comment markers in the output.
+However, options that redefine directories (common collection, configuration and translation files) will not be considered.
+NOTE:
+Enable writing of CD-TEXT attributes read by option cuefile=.
+The stack is cyclic.
+For example: port,land,
+Disable R-Time 8 emulation
+0
+Use the -l option to list available output devices.
+output color.
+This used to be a separate program called W`supermin-helper'.
+use fast aalib render function.
+disables metadata from input
+@domain
+4 1.
+Print usage information for the command line options and exit.
+For most cases 50% is fine.
+Default for base64pem command.
+newline%t tabulation character%u download url%U same as %u but url is escaped for JSON usage
+Show all morphemes where ambiguity is identified in the best path.
+Scan archives supported by libclamav.
+start N workers that read files from /proc and recursively read files from /proc/self (Linux only).
+Open xpdf in full-screen mode, useful for presentations.
+Specify none for standard output or syslog for the system logging daemon.
+# >
+The invoking user's credentials will be used to check access permissions for the target partition.
+Save the replacement word list on save all.
+]host:port/proxy header [hosts...]
+If no command line options are given, the time in each zone at the given moment is printed.
+,node-name=
+The flag to trigger sampling only after exactly exploring the first leaf.
+As shown, the full syntax for the argument to this option is to specify the WIM file, a colon, and the image; for example, --update-of mywim
+This option requests the tool to produce address statistics from the list of IPv6 addresses read from standard input.
+Prints version information and exits.
+limit time for command to run on the node
+prevent the uploading of tracker data to the Fitbit web service.
+Start in fullscreen mode.
+Set iOS deployment target
+Defaults to /etc/flow-tools/cfg/filter.
+This option is a brute force attempt to fight against the too much constants problem in java.
+2 increase worldsizeY by n when killhalfat triggers (default: 0, range: 0-100)
+Execution delays will still be reported correctly, but replay statistics will not contain the idle time.
+prints the MIME header of a fetched document along with its source.
+The fieldnames are case insensitive.out_fieldname
+An empty serial number will match any serial number in the corresponding mode.
+For C source files, this is the compiler proper and assembler (plus the linker if linking is done).
+Specifying  for new will clear the user.
+absolute gamma correction+g
+Convert to named quantities at start (equivalent to `convert_to_quantities' runtime command).
+Another extended feature, when using time mode, rastream will process the supplied filename using strftime(3), so that time fields can be inserted into the resulting output filename.
+Set the image expansion method to growing.
+show file size in exact number of bytes .
+Similar to Flexible Netflow (FNF), netflow records can be aggregated by any number of given v9 fields.
+Swaps the red and blue values in 24 BPP mode.
+The default is 1,1.
+Exclude backup files files on the ISO9660 filesystem; that is, filenames that contain the characters `~' or `#' or end in .
+MaxDiskRead
+Exercise judicious use of this option, especially on Windows.
+When highlights appear pink, you need to lower the saturation level.
+10 colour
+stop after N bogo RTC interface accesses.
+Generate code for PowerPC 440.
+Tells Iozone to use multiple buffers internally.
+then number of seconds to use as a timeout for closing connections (defaults to 15)
+print this help
+This attempts to disassemble AML in DSDT and SSDT tables and generates DSDTand SSDTxsources.
+Specify the guile procedure which is executed to create the netlist.
+Disable crash handler, to get core dumps
+Generate XML wrappers.
+(See also HOW TO CHOOSE THE CURVE.)
+-x11keysym>, <--help
+The daemon serves various built-in resources from URLs underneath the service mount points.
+Users should use scapin(5) for a correct insertion of a scan-path in a netlist.
+_ plain	0 transparency	1 labels	2 thick1	3 envelope1	4 thin
+etc. are sent to stderr, not to stdout.
+UNINDENT 0.0
+Note that SN_ALL is the default option so every switch network is used.
+Other than that, they work in exactly the same way.
+Enables/disables Strong Skolemization.
+If a viewer argument of the command-line chooses an element that is kept as XWindow program in this list it is treated as a viewer that can run in the background. .
+--key-shortcut=
+Be more verbose.
+Interactive execution.
+-z 50 $@ .
+45
+Options enabled or disabled via pragmas take effect as if they appeared at the end of the command-line.
+Similarly the first video stream in the second input is linked to the second (overlay) input of overlay.
+Send in source mode (not needed if sending to a unix host).
+Displays messages on output even when -q or 'quiet' are specified.
+While picking a specific cpu-type schedules things appropriately for that particular chip, the compiler does not generate any code that cannot run on the default machine type unless you use a -march=cpu-type option.
+--b2-very-fast
+7.0 3.5 If using --out=json, you will probably want --static as well.
+Print all external commands before they are executed, in particular invocations of the C compiler and linker in -custom mode.
+-c
+When no --server option is specified, this domain will be used by the installer to discover all available servers via DNS SRV record autodiscovery (see DNS Autodiscovery section for details).
+If -v is the first command line argument, backtraces for exceptions are enabled and printed if an exception escapes and terminates otags (which is considered a bug, about which I would appreciate a bug report). .
+See entry for --exclude-safecmd directly above for further details.
+--script parameter(s).  Note: W`SCRIPTDIR' must be an absolute path.
+In fullscreen mode, the cursor is shown or hidden according to --cursor-autohide.
+Provide it or the -nosuid flag, or omit both flags to disallow programs from running with setuid privilege.
+Displays extensive statistics about access patterns for each volume stored at the site specified by the -server, and optionally -partition, argument.
+If no output format is specified with the -T option, the full set of supported fonts is listed.
+For legal values see --getsms.
+Specify --nosubmission if the computer is offline and the created file cddbshall be saved in the home directory instead of being submitted.
+Convert the given subtitle (specified with the -sub option) to the time-based SubViewer (SRT) subtitle format.
+ds9 -grid numerics fontweight bold  0
+Compositing window managers can also lead to bad results, as can missing or incorrect display FPS information (see --display-fps).
+See also the -0 option to shift the origin of the x/y/z slice coordinates to the dataset center.
+Convert the given subtitle (specified with the -sub option) to the time-based JACOsub subtitle format.
+See -p option for details of background images.
+Specify both '--isfile' and '--isdir' options is selection can contain both types of items
+The -d switch may be used as often as necessary to activate all the desired messages.
+For example, you can popup and close the buffer list by repeatedly executing:  1 vileget -c q*q
+In signature and delta modes, rdiffdir accepts duplicity -like selection options including --exclude, --exclude-filelist, etc.
+Default: number of interfaces in -i.
+For example, to obtain a DirectClass solid color canvas image rather than PsuedoClass, use gm convert -size
+There are default values, which you can find out by invoking chase with the argument --help.
+The single -F is more reliable if the archive is not too much damaged, so try this option first.
+If the --help-button option is given, the corresponding help text will be printed if the user selects the help button. .
+This can be misused to disable screensavers that do not support the proper X API (see also --stop-screensaver).
+You can suppress the generation of schema migration statements by specifying the --suppress-migration option\.
+By default, virt-resize will try to expand the direct contents of partitions, if it knows how (see --expand option above).
+The APM subsystem consists of power-management hardware, firmware usually referred to as the APM BIOS and a driver in the operating system kernel.
+Align all branch targets to a power-of-two boundary, skipping up to n bytes like -falign-functions.
+This parameter can be given as a coma-seperated list with values corresponding to the multi-resolution levels, see option --mg-levels for more information.
+3.0,0.3,4) -C  radius,amount,threshold CbCr (chroma) unsharp parameters.
+The default is to send the amount which was clipped by -u and -l, and should be good in most cases.
+Enables bitrate management mode (see --managed).
+For example  1 ffmpeg -i INPUT -map 0 -c:v libx264 -c:a copy OUTPUT   encodes all video streams with libx264 and copies all audio streams.
+subsequent timeouts are multiplied by the backoff factor which is set with --backoff.
+For example, --volume will only be reset if it is explicitly set in the config file or the command line.
+See PROFILES below for a list of valid values for --profile.
+Print dependency information in XML format to standard output by default, or to the file specified by the --depend-file option.
+There can be several -L options with different dir values.
+Unless --noprintcfg is used, your previous settings will be loaded when Tux Paint starts up, and setting changes will be saved for next time.
+This currently includes -Waliasing, -Wampersand, -Wconversion, -Wsurprising, -Wc-binding-type, -Wintrinsics-std, -Wtabs, -Wintrinsic-shadow, -Wline-truncation, -Wtarget-lifetime, -Winteger-division, -Wreal-q-constant and -Wunused.
+auto    -> honer
+Identifies the partition (on the file server machine specified by the -server argument) from which to remove the volume.
+If the -T png or -T gif option is used, a transparent PNG file or a transparent pseudo-GIF, respectively, may be produced by setting the TRANSPARENT_COLOR environment variable to the name of the background color.
+File names are converted to the text encoding specified by the -enc switch.
+-r q\-A
+(Or in all packages if -A is specified).
+Specify -1 for infinite retrying, which is default, too.
+If this flag is given, it will complain about the failure to standard error (unless -b was given) but continue running, waking up to try again after the next check interval (see -K).
+(experimental)0 --foreground=RRGGBB[AA]
+(See also --prodvd_cli_compatible, --grow_overwriteable_iso)fast Minimally blank an entire CD-RW or blank an unformatted DVD-RW.
+Instead use an additional -glevel option to change the debug level for DWARF.
+Example: when --calendar_today_style=bold,fgred,bgcyan c
+All facet pairings generated using --genpairs are guaranteed to satisfy this condition.
+[-splineprecision number] number of samples to take from spline curve when doing approximation with -splineaspolyline
+Use timezone when displaying the date and time, or interpreting the -S and -T options.
+The output is intended for human consumption, not tools; for tool consumption, see --json below.
+number of seconds of loop memory per channel (default is 40), at least  -L <pathname> , --load-session=<pathname
+Extract any raw EDID byte blocks contained in the specified X log file LOG ; raw EDID bytes are printed by the NVIDIA X driver to the X log as hexidecimal when verbose logging is enabled with the -logverbose
+-A string, --agent=string 4 -A ``string'', --agent=``string''
+To make the second subtitle stream the default stream and remove the default disposition from the first subtitle stream:  1 ffmpeg -i INPUT -disposition
+Disable the use of the temporary outputfile and write directly to the output-file specified with -f.
+locate given filename in database (default) or system (--first --all --detail)
+7.0 3.5 Examples 0.0 --video-aspect=4:3  or --video-aspect=1.3333
+Specify the effective wavelength; for example, -effwave=1.6micron.
+Invert the matches to --grep patterns.
+By default, the first menu in the first menufile will be displayed when pdmenu starts, but this can be overridden by the --menu= option.
+When the -H switch is used, all dates specified on the command line are assumed to be hebrew dates.
+Pattern to use to fill non-solid layers (default: honeycomb)  --external-fill-pattern Pattern to use to fill solid layers (default: rectilinear)
+The rules for automatically determining appropriate time width from -e if no -z option is given are: 4 * period >= 2 years then time format YY is used rounded down to the nearest year start;     * 2 years < period <= 2 months then time format YYMM is used rounded down to the nearest month start;   * 2 months < period <= 2 days then time format YYMMDD is used rounded down to the begining of the nearest day;   * 2 days < period <= 2 minutes then time format YYMMDDhhmm is used rounded down to the begining of the nearest minute;
+When --external-ca-type is ms-cs the following specifiers may be used: <oid>:<majorVersion>[:<minorVersion>]
+When using this option for presentations, you might want to get rid of all the control widgets as well, using the -expertmode option.
+systems.0 -v
+The default value of -1 leaves the stack space limit unchanged.
+As of this writing, -fno-trampolines is enabled by default only for Ada.
+With setting nondir, only directories are protected by such events, other existing file types get treated with -rm before the new file gets added.
+If the -option form is used, -stats causes counters to be summed over the whole compilation unit while -details dumps every event as the passes generate them.
+Note that if the file name read is a directory and --recurse
+(See -jsv option above or find more information concerning JSV in jsv 1 .) .
+-C file, --cfgfile=file
+Shows information about function name0 --rclass
+See also --photo-viewer.
+-B1 -O1 -E1 -L0
+If -V is specified with no dependency information, the current version of the package is plugged into a dependency that looks like packagename (>= packageversion).
+When using this option for presentations, you might want to get rid of all the control widgets as well, using the -expertmode option.
+The -d switch may be used as often as necessary to activate all the desired messages.
+Specify -1 for infinite retrying, which is default, too.
+Also note that --arg-options is not needed as long as you specify option and option value in a single word, like `--suffix=bak' instead of `--suffix bak' when passing extra options to mv via imv.
+whistle while you work (enable debug, use -d -d for more output)
+There you have used the -W1 option to optimise only for gain (see -W option section of man page) but have changed the weight of the FB ratio from its default 1.0 to 2.5.
+To get more detailed information, use also the --verbose option.
+This will be on the same open (or closed with -n)
+This currently includes -Waliasing, -Wampersand, -Wconversion, -Wsurprising, -Wc-binding-type, -Wintrinsics-std, -Wtabs, -Wintrinsic-shadow, -Wline-truncation, -Wtarget-lifetime, -Winteger-division, -Wreal-q-constant and -Wunused.
+Instead use an additional -glevel option to change the debug level for DWARF.
+When using this option for presentations, you might want to get rid of all the control widgets as well, using the -expertmode option.
+Also note that --arg-options is not needed as long as you specify option and option value in a single word, like `--suffix=bak' instead of `--suffix bak' when passing extra options to mv via imv.
+Useful to be used in conjunction with the --concurrent-shell option so that the output is slightly more parsable.
+However, -Wno-error=foo does not imply anything.
+Recommend to use it with --nest-libcall.
+This option is also used for the exec prefix if --exec-prefix was not specified.
+Filenames are of the same form as with the -o option.
+If -t is not specified with -o, -t defaults to ossdsp.
+However, when used in combination with the --show-installed option, all already installed alternatives will be included for satisfied dependencies (unless the --no-alternatives option is also given).
+Consider using this option together with -fno-include-deps to prevent circular references.
+you must use this -d option.
+Only use --index or --autoscan if you know what you are doing.
+When running Wget with -r or -p, but without -N, -nd, or -nc, re-downloading a file will result in the new copy simply overwriting the old.
+Only the options -verbose, -v and -V will be interpreted.
+Option -s should come before -a if both are specified.
+The following two options do not apply to the -A and -D commands.
+The presence or absence of the -s option has some effect on which glyphs are included: without the -s option, only the “text” symbol sets are searched for matching glyphs; with the -s option, only the “mathematical” symbol sets are searched. .
+You should use --mkfs-options at most once.
+Note that repositories without the ability to update the private working copies will need the --input-file, --input-type and --object-property options.
+and -f are enabled with this
+SASL mechanism to use if -D and -w are not specified.
+Directories specified with -iquote
+(This syntax is also used by the -a option.)
+When used in conjunction with the -d option, this specifies the libvirt URI to use.
+Also, unless otherwise specified with the -o, -s and -b options, the section-global comment and the BUG entry of the given SID file will also get printed (provided they exist).
+Independent of --quiet.
+-iwithprefixbefore puts it in the same place -I would; -iwithprefix puts it where -idirafter would.
+However, with this command:  1 wget -r -l
+This is useful when combined with --delay-updates and/or --fuzzy, and is more efficient than using --delete-after (but can behave differently, since --delete-after computes the deletions in a separate pass after all updates are done).
+This corresponds to groff s -K encoding option. .
+(Useful with --port 0, which is used to assign a random port)
+This is only applicable binaries built with -pg\ -mfentry\ -mnop-mcount on x86_64.
+When used in conjunction with the -march option, only instructions of the processor specified by the -march option will be generated.
+This option is also used for the exec prefix if --exec-prefix was not specified.
+When using this option, consider also using -L to report k5start errors to syslog.
+As with -Z it only affects newly created files.
+Those which are hidden in some tree match -not -hidden off.
+The -flatten option accomplishes this composition.
+Useful in combination with xargs -0.
+Exclusions are handled in the same way as with the --wimboot option.
+From the general options it seems only -vm and -b
+-1 to disallow.
+This option is not required in conjunction with -H , -T , or -Z .
+If you use custom transforms with aggressive mode with the --trans option, note that all transforms should have the same DH Group and this should match the group specified with --dhgroup or the default if --dhgroup is not used.
+Useful for using axcall in shellscripts (together with option -r) in order to be really transparent.
+* virtualization server in the order that the --autopkgtest-virt-server-opt and --autopkgtest-virt-server-opts options are given on the command line.
+In signature and delta modes, rdiffdir accepts duplicity -like selection options including --exclude, --exclude-filelist, etc.
+Note that this option is not used with HKP keyservers.auto-key-retrieve
+Wildcards may be used as with --ignore-keywords.
+By using the parameters -K, -R, -V, -Z you can make use of your defined network security settings (libtclThe named options are identical to the ones defined for isql.
+This is most likely to occur with the --set-conf option.
+Pass --qemu-img-options option(s) to the qemu-img(1) command to fine-tune the output format.
+Files in the user data directory are ignored.
+This option has effect with Group 3 encoded output only.
+The only difference between using an -l option and specifying a file name is that -l surrounds library with lib and a and searches several directories.
+ipv4 and ipv6 specify that either IPv4 or IPv6 must be used.
+4 --html-column-beg=``SPEC HTML-SPEC''
+This is a bug -- the Vorbis format can safely store null characters, but most other tools wouldn't handle them anyway.
+Files will only be compared if they are present in both being compared.
+ar does not support any of the other -X options; in particular, it does not support -X32 which is the default for AIX ar.
+When combined with the -A option, only reads with a single alignment within the mismatch threshold (see -v option) will be output\. .
+Objects compiled with -mrelocatable-lib may be linked with objects compiled with any combination of the -mrelocatable options.
+The initial affine matrix is not affected; that matrix is only changed by the appearance of another -affine option.
+The format is like with find -exec
+This does not imply the -server option, nor does it imply the -log option for logging to the file system, nor -syslog which might also be applicable to a daemon.
+Note: If -c option is used only -d, -e, -D, -3, -E, -t, & -T options will output to file

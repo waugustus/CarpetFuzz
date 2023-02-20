@@ -1,0 +1,963 @@
+This is ignored with private colormaps and on TrueColor visuals. 
+quiet.
+Insert text at the beginning of each generated file for which there is no file-specific
+See the --export-maps option documentation for details\.
+Turn off all warnings
+This is useful for printing data from a UNIX or similar host to an MS-DOS system's printer that expects CR/LF line termination.
+Output the bytecode -c generates into name instead of outcnut
+Set the sound device to use to name, where name is the device name shown by the --show-sound-devices option.
+Enable/disable the FGCom (voice ATC) integration.  
+Add a time offset to the startup time specified with the --timeofday option.
+Use option -Tc or switch on-the-fly with the <m> key.
+for the a POSIX compatible shell this would be:  5 wcd () { wcd
+If no output format is specified with the -T option, the full set of supported fonts is listed.
+If you use -ZZ, the command will require the operation to be successful
+Typical value for the PI camera is -hf  
+If the ``-v'' option is used with the ``-o'' option then the Message-ID of each article will be sent to standard output as it is processed.
+In order to override multiple settings, the -o option may be specified multiple times.
+coverfile must be in groff_ms(7) format.
+By default this option is unset.
+Curated profile databases may define specific bit score thresholds for each profile, superseding any thresholding based on statistical significance alone.
+You can have multiple --firstboot options.  
+Use --no-network to disable access.  
+build a visual index of a bunch of Netpbm imagespcdindex build a visual index of a photo CD from PCD overview filepnmmontage build multiple Netpbm images into a single montage imagepgmbentley Bentleyize a PGM imagepgmcrater create cratered terrain by fractal forgerypamoil turn a PNM or PAM image into an oil paintingppmforge fractal forgeries of clouds, planets, and starry skiespgmkernel
+e. g. for setting=`gom --quiet --extract-settings
+See \ MISCELLANEOUS\ OPTIONS.
+The option must be specified with the necessary preceding minus sign(s) - or -- because groff does not prepend any dashes before passing it to the postprocessor. .
+Example: `imwheel -k -q' =
+WARNING: Do not use this option unless you know what you are doing.
+--smallfiles can lead your mongod to create a large number of files, which may affect performance for larger databases.
+You can set --noobjcheck to disable object checking at run-time.  
+For use with the --slave option, the --slavedelay option configures a delay in seconds, for this slave to wait to apply operations from the master node.
+Only a key that was previously generated for the same clonename will be accepted.
+exports a composite, that is, overlays all visible layers, paying attention to layer transparency, etc.
+Guide Star Catalog class (-1=all,0,3) (default -1)
+Parallel planes, concentric spheres or concentric cylinders may be used as fading surfaces.
+This option can be used more than once.
+Print the commands that would be executed, but do not execute them (except in certain circumstances).
+You would like to archive these photos to CD, but you want them to be stored in chronological order.  
+It can be le or ge.
+If an output grib file is required and -o is not used, the output grib is written to filteredout
+Using -nb the old style can be activated again in case the -dDELAYBIND gives different results as before.
+But it is restricted to rectangles only, iit is not supported for general polygons [-mergetext]
+[-size:fullpage] set the size to that of the full page
+[-polyaslines] use LINE instead of POLYLINE in DXF [-mm] use mm coordinates instead of points in DXF (mm=pt/72*25.4)
+but you want it rebuilt as non-pipable.
+Only one -f flag is permitted, but the jambase may explicitly include other files.
+It is allowed to give this option more than once.  
+Basically, this option behaves exactly like passing the following options to lintian:  
+start Silverjuke in kiosk mode
+To find SPU streams in a ripped from a DVD:  $ mpegcat -iDa
+Integration limit for the -ot output (nm)
+When used with --unlock or --sign, use the specified NSS token's certificate database.
+If specified, use PREFIX instead of the installation prefix that LIBMCRYPT was built with when computing the output for the --cflags and --libs options.
+If -u is used, the signed log is not saved to disk but is instead uploaded and submitted to Logbook of the World.  
+This option only has an effect on filesystems which use MAC block headers.  
+Eg:  1 mount encfs#/home/me-crypt /home/me -t fuse -o kernel_cache   Note that encfs arguments cannot be set this way.  
+(OpenSSL only)
+Used by --stylesheet-path when expanding relative path arguments.
+The default behavior is -copy comments .
+To do this, add the -trim switch:
+Subtraction.
+If you want to use the hash sign, be sure to place the entire color specification in single or doubles quotes, because the hash sign can confuse some shells: they think the hash sign is the start of a comment, causing the rest of your command line to be ignored, causing an error because the -b will not have an argument in this case. .
+If this is specified in addition to --debug-classes, only the intersection of the two lists will be displayed
+The default is lpr.
+Import the specified library, looking for a corresponding libnamefile in the directories specified with the -L option.
+Set test duration to Time.  
+Use <lang> as language for aspell (when option -D is set).
+field-name combination.  
+For example, --public-macro=FOO=42 generates  #define FOO 42
+Note that MIBs specified using the -m option will be loaded from one of the directories listed by the -M option (or equivalents).
+Unihit local alignment scores (Smith/Waterman; --sw mode) also obey our statistical conjectures.
+Note: Do not include a count value in the event spec, as that parameter is only needed when profiling.   
+Does not affect document title & subtitle (see --no-doc-title).
+Long-running applications can use the W`__gcov_reset' and W`__gcov_dump' facilities to restrict profile collection to the program region of interest.
+--secondary_configs SECONDARY_CONFIGS Secondary configuration files to load (These override previous configuration files.).
+-p PARAMETER, --parameter PARAMETER Global override of config values.
+Any file path / subdir / foo ur will define a module called Name .
+If the score is not normalized and expressed in similarity, it is the length of the Longest Common Subsequence.
+If -s is used, include header in SAM output.
+encode entire data in 8-bit mode.
+This option indicates that a digital clock should display seconds since the Epoch (in format '970012340 seconds since Epoch' instead of a standard 24-hour time.
+In JIS output, ESC-(-I is used.
+TCP option: no op
+Withdrawn route.  
+Load drivers from path, a ':' separated search path similar to $PATH.
+d 'k' specify 'none' for no kernel -K
+Output Options for VCF/BCF format (with -g or -v):
+[ -rpcm ] [ -O format ] inoutbam  
+Note that this may be overridden by the configuration of the ackinfoutility.
+This search will be done if you use this option.
+all[-no]-warn-signed-downcast generates alarms when signed downcasts may exceed the destination range (defaults to no).[-no]-warn-signed-overflow generates alarms for signed operations that overflow (defaults to yes).[-no]-warn-unsigned-downcast generates alarms when unsigned downcasts may exceed the destination range (defaults to no).[-no]-warn-unsigned-overflow generates alarms for unsigned operations that overflow (defaults to no).  
+For the process into a background daemon
+Returns the XYZ coords for a Rack/Midplane id or vice-versa.
+Also see the pcap-filter-option if you use an interface which does not only get smtp-traffic.
+The units displayed with this option supersede any other default units (eg. kilobytes, sectors...) associated with the metrics.
+Note that there is also a per-session option to control this behavior but this command line option takes precedence.
+Using --runtime-map you could override the pairs development package name, runtime package name.
+Functions are defined like so:  9 \func stats \if [ $# -ne 1 ]
+(Again, this requires that pbuilder has been set up correctly).
+When --external-ca-type is ms-cs the following specifiers may be used: <oid>:<majorVersion>[:<minorVersion>]
+Use this option with --external-ca if the external CA does not support the default signing algorithm.  
+Removes the signature (separated by W`-- ') in the printing.
+Only useful for debugging.
+When untracked is used subdatasets are not considered modified when they only contain untracked content (but they are still scanned for modified content).
+Valid debug options include  Show diagnostic information relating to -exec, -execdir, -ok
+-h Use the specified step height  --nozzle-angle, -a
+This is written from anew, so it differs from man 's whatis output by the following concepts  each retrieved file name is added, local files are handled as well, the language and system locale is supported, the display is framed by a groff output format similar to a manpage , wildcard characters are allowed without a further option.  . .  
+This has the same effect, but overwrites  $LANG . . .
+--pdf2
+0 for auto; -1 to disable) [0]
+Do not omit similar results.p, --proxy=PROXY Tunnel traffic through an HTTP proxy.
+As an example, the command:  ) basefile fileA fileB -c -u 3  will send to the standard output all changes made by either sets of edits, with only three unchanged lines surrounding each edit.  
+The environment variable VNC_VIA_CMD can override the default tunnel command of /usr/bin/ssh\ -f\ -L\
+If you would like to force xtigervncviewer to use reduced color level use -AutoSelect=0 parameter. .
+Usage: ubuntu-build --batch [options] <package>...
+Batch mode and mix mode are mutually exclusive.
+ignore tests matching IGNORE pattern
+If this option is given without any data, it is equivalent to --colour=auto.
+If -f is used with -e, the command line patterns are matched first, followed by the patterns from the file(s), independent of the order in which these options are specified.
+The comments given for the non-argument case above also apply to this option.
+If -o is combined with -v (invert the sense of the match to find non-matching lines), no output is generated, but the return code is set appropriately.
+Streams that operated on the same reads are joined, then everything is merged.   
+If this option is used, then Oz will undefine the libvirt guest with the same name or UUID and delete the diskimage, so it should be used with caution.
+(since dpkg 1.19.0).
+It tries to match (-modules|^nvidia
+Configure everything except the given bundle(s).
+To set the linking rule, use the option -l.
+Some people also like combining the -v and -nv flags, being quite senseless.
+Compiler option takes precedence over the attributes.
+throw a warning when an unreconised -W... flag is encountered on the command line.
+This option corresponds to the -F option for Apple's Linker.
+This flag does not imply validation; use -V if required.
+If --use-server has not been specified, -pN has not been specified with N < 5, and the invoking user not root, is not a member of the group stapdev, but is a member of the group stapusr, then stap will automatically add --use-server to the options already specified.
+If scm is started from a tty, it will assume that it should be interactive unless given a subsequent -b option.
+Similar to Special Rounding
+-s c switches are unused.
+This option is ignored for compatibility with the AIX version of nm.  
+Squeeze.
+Disable the use of the temporary outputfile and write directly to the output-file specified with -f.
+exec prefix that kadu was built with when computing the output for the --cflags and --libs options.  
+Use --exact to print only matching nodes but no descendants.
+flag to crawl subdatasets as well (for now serially).
+To allow the CLI to supersede environment or configuration file values, --verbose false is also supported.
+See also --copyright if you would like to have copyright notice printed.
+Pass flags to the compiler such as -Wa,OPTION.
+Use --help=language for list.
+-partition_offset number is -boot_image any partition_offset=number.  
+This is mutually exclusive with other boot blocks.
+When refusing an image, give up the input drive and issue an event of the given severity (like FAILURE, see -abort_on).
+Files with truncated names get deleted and re-added unconditionally during -update and -update_r.
+If -backslash_codes encode_output is enabled, then the strings undergo encoding as if they were enclosed in quotes.
+See -find for a description of parameter mode.  
+With -pathspecs on, the character '\\' must not be escaped.
+-extract_cut and best_effort file extraction.
+Severity ALL disables this event.  
+Disk file exclusions by -not_mgt, -not_leaf, -not_paths apply.
+See also commands -getfattr, -setfattr and above paragraph about xattr.
+-disk_name pattern :
+Always match.
+*_secret -exec hide on  
+Unless the -n option is given, the permissions of the mask entry are further adjusted to inclu de the union of all permissions affected by the mask entry.
+Select between the IEEE 754-2008 (-mnan=2008) or the legacy (-mnan=legacy) NaN encoding format.  
+You may combine these options; for example, use -aln for assembly listing without forms processing.  
+Usually used with --nolog by the debug launcher
+Use rendom GA seed (same as --ga-seed 0).
+When option -n is used to display section numbers, references for which no section number can be found are shown as phrase instead.
+out-2ogv and so on (no ad-infinitum though, more like ad-short-integer...)
+Use the verbose option to print the filename first, followed by the keywords.  
+Tar is patched so that it can handle --no-recursion, --listed-incremental and --files-from together.
+The -V and -q options do not effect each other.
+--user and --password always override values from ~/mycnf.
+name of output CSV data file.
+suppress production of CSV output text file.
+This option can be used along with syslog.
+For example, in the case that the format option avoid_negative_ts is enabled.  
+For the W`vpre', W`apre', and W`spre' options, the options specified in a preset file are applied to the currently selected codec of the same type as the preset option.  
+verbose, 40   Same as W`info', except more verbose.
+Similarly the first video stream in the second input is linked to the second (overlay) input of overlay.  
+As an input option, ignore any timestamps stored in the file and instead generate timestamps assuming constant frame rate fps.
+--http2 requires that the underlying libcurl was built to support HTTP/2.
+--no-alpn requires that the underlying libcurl was built to support TLS.
+This transfers the specified local file to the remote URL.
+If used in combination with -I, --head, the POST data will instead be appended to the URL with a HEAD request.
+When --data is told to read from a file like that, carriage returns and newlines will be stripped out.
+See also --basic
+Note: When combined with -X, --request, this option can be used to send an UIDL command instead, so the user may use the email's unique identifier rather than
+--post303
+Use the specified SOCKS proxy before connecting to an HTTP or HTTPS -x, --proxy.
+Works like vimdiff(1).
+As --remote-wait, but without the warning when no server is found.
+If you specify neither -cieramp nor -srgbramp , the transfer function defaults to a simple power function.
+If you specify neither -cieramp nor -srgbramp , the transfer function defaults to a simple power function.
+--packaging-date date Use provided string as the packaging date instead of the current date.  
+-fixall : performs all checks and fixes.
+--constraint=graphics*4 ... indicates that the job requires 16 nodes and that at least four of those nodes must have the feature graphics.AND
+Note that if the job's --mem-per-cpu value exceeds the configured MaxMemPerCPU, then the user's limit will be treated as a memory limit per task; --mem-per-cpu will be reduced to a value no larger than MaxMemPerCPU; --cpus-per-task will be set and the value of --cpus-per-task multiplied by the new --mem-per-cpu value will equal the original --mem-per-cpu value specified by the user.
+The partition's node limits supersede those of the job.
+If task confinement (iTaskPlugin=task/affinity or TaskPlugin=task/cgroup with the ConstrainCores option) is not configured, this parameter is ignored.
+You should not normally set this option.
+Giving -v3 or -v5 will force certain lumps to use the new formats, but is only useful for testing since glBSP will automatically switch to V5 format whenever the ordinary limits are exceeded.
+Note that -C does not affect the regular expressions used in --input-separator and --input-element.  
+This option suppresses that.
+This option needs /proc/command_pid/wchan, so it only works with linux kernels configured with CONFIG_KALLSYMS.
+This option is ignored when the Layout section specifies a core keyboard.  
+The setting of the environment variable CDDA_DEVICE is overridden by this option.
+It can be used in place of --host-arch or as a complement to override the default GNU system type of the host Debian architecture.
+A string of modifiers to apply to the regex.
+This is like either -activate or -cycle, depending on which is more appropriate, except that the graphics hack that will be run is the next one in the list, instead of a randomly-chosen one.  
+Manual W`cdrecord -swab' option mode.
+-t, --tmpdir tmpdir 4 -t, --tmpdir ``tmpdir'' 4   Put temporary files in tmpdir.
+--config  CONFIGFILE Use the file CONFIGFILE for configuration. .
+If given together with the -V option, makes only consecutive duplicates in the group be removed.
+This option (to show enabled commands) is in effect by default, but may be combined with -d; -de in combination with -F, -B, -w, -a, -R and
+For example, in    compctl -f -J files -t+
+over-ride config file setting if you had set option --three-month as a default there
+\ \ --no-bidi \     over-ride config file setting if you had set  7 \ \ \ --no-visual \   option -bidi as a default there
+don't daemonize the process and log to stdout -f, --foreground don't daemonize the process
+It allows the specification of an IPv6 prefix in the form -j prefix/prefixlen.
+not send to a printer if there is a warning.
+This option tells objcopy to change the leading character of every symbol when it converts between object file formats.  
+output_format> -B <architecture
+If binutils was configured with --enable-deterministic-archives, then this mode is on by default.
+* The same directory as the executable.
+If you’d like to use a different prefix (ebecause the same input file is checking multiple different tool or options), the --check-prefix argument allows you to specify one or more prefixes to match.
+This option overrides any CHANGELOG environment variable setting.  
+Note that -w, -c, and -p are not exclusive, that is, you can choose any combination of the three.
+This special-feature flag will also override the Always-Headers special-feature flag in the event that both have been specified.
+For example, use: --mtftp client-port 76 to configure client side port to use.
+--input *flac
+If -c is used with -f , only aggregate totals for all traced processes are kept.
+The same effect can be achieved with -e\ trace = /fstatv?fs regular expression.
+Using the -b option doodle builds or updates the database (equivalent to updatedb), without -b it behaves similar to locate.
+A font pattern must be specified.
+When used with --libs, reports the static libraries instead of the default (shared) libraries.
+Option -D sets the default script for handling OpenType features.  
+In addition to the specific options above, additional options to be used with gs can be specified with either or both of the two cumulative options
+enable exactly the listed warnings  
+This means that specifying the given option with + will enable more warnings than the default, and specifying - disables some that are enabled by default.  
+You can print only lines that do not match by using the -n option, and you can suppress printing of line numbers with the -l option.
+Run this number of steps, overrides file option (-1 means infinite, -2 means use mdp option, smaller is invalid)
+The -verify option takes either W`on' or W`off'.
+Note: option -R
+this option gives you more control when using the --eopts command.  
+like monitor but never stop (similar to watch progress )
+htmltext is often set to the same value as for -header.
+: cluster the input transcripts into loci, collapsing matching transcripts (those with the same exact introns and fully contained)  -d
+If the -r option is omitted, the orignal envelope recipient address will be used instead (see -a option for more info).
+Force lzop to  4 - overwrite existing files - (de-)compress from stdin even if it seems a terminal - (de-)compress to stdout even if it seems a terminal - allow option -c in combination with -U   Using -f two or more times
+Used to select the extension tests.
+Only report failures.
+If the -b option is not supplied, the default boot file is used.  
+Decrement.
+Linklint will tell you which (previously cached) URLs have been modified since the last -netset.
+You can change this with the -url_doc_prefix option.  
+If passwords are needed to check your site, Linklint will tell you which realms need passwords in warning messages.  
+-l, --log FILE append all output to a specified log file
+The values may be from -32767 to 32768.
+Warning: These options are mostly intended to be used by experts only.
+Ignore dependency-checking for specified packages (actually, checking is performed, but only warnings about conflicts are given, nothing else).
+The default precision is 3. '
+The most common ways of invoking deskmenu  deskmenu --button=[1
+Pixels to disturb the surface when a bubble is formed/pops
+Used in conjunction with `--infer` or `--install` to force the installation of packages, even if previous information about `findlib' libraries are already known for that package.
+The key must be appropriate for use with the algorithm specified in the x-amz-server-side-encryption-customer-algorithm header.
+Manually specify the internal computational grid to have nx, ny, and nz
+After the computation is completed, some statistics are printed about the container geometry, the internal computational grid, the number of particles imported, the number Voronoi cells computed, and the volume of the computed Voronoi cells.
+output x/y/z-ecef position [latitude/longitude/height]
+The C News ``-N'' flag is treated as the ``-D'' flag.
+PRINT_ALL_DIST = boolean Same as -a flag described above.
+Initially ~ (tilde).  
+If used in conjunction with --desktop or --menu-type
+If --enable-mini-icons is used the size of the icons can changed with this parameter.
+Specifying any mountpoint disables the inspection of the guest and the mount of its root and all of its mountpoints, so make sure to mount all the mountpoints needed to work with the filenames given as arguments.  
+Write tab table output file imagenamecat -z Use AIPS classic projections instead of WCSLIB; use CD matrix or CDELT instead of polynomial solution.
+iec61966-2-1, bt2020-10,
+bt2020-12, smpte2084, smpte428
+Low-latency but lower-efficiency threading
+This supersedes the Eddy/Mitchison/Durbin maximum discrimination algorithm, which gives almost identical weights but is less robust.
+By running: capsh --decode=0x0100 we observe that the missing capability is: cap_setpcap .
+Enable C++17 relaxed template template argument matching
+This option is added for compatibility with OpenCL 1.0.
+So, if you want to use arename in scripts, those are the options you should use.
+A list of options that changed from arename
+The recommended portable way to store a cleartext password in a file for use with this option is to use slappasswd (8) with {CLEARTEXT} as hash and the option -n.
+Show what would be done, but don't actually perform the compare.  
+Include zeros into output basic data statistics (--stats, --counts)
+Use NSEC3 instead of NSEC.If you use NSEC3, you can specify the following extra options:
+a--same-interlace bcgif  will make ‘ainterlaced, but leave ‘band
+Curated CM databases may define specific bit score thresholds for each CM, superseding any thresholding based on statistical significance alone.  
+--max, --nohmm, --mid, --default, (this is the default setting),
+This does not affect the global settings.
+--caseless=BNUMBER set case sensitiveness according to the bits of WNUMBER.
+By choosing --noneighboring_months, you can avoid printing out months not included in the range set by --past and --future.
+This parameter has all the properties of a resource request and will be merged with requirements derived from the -l option described above. .
+The default is -ab=50 -ac=50 -as=50 -acr=50
+If N's certificate is self-signed, then --certificate and --peer-ca-cert should specify the same file.
+If --pidfile is not specified, no pidfile is created. .
+This option makes ovsdb-server start as a backup server; add --active to make it start as an active server.
+With this option, this behaviour can be turned on or off.
+If --input-osabi isn't specified, it will match any ELF OSABIs.  
+When running a login shell a number of potential shells will be considered, in this order: the command in the SHELL environment variable (if --preserve-environment is used, or preserve-environment is enabled), the user's shell in the passwd database, /bin/bash and finally /bin/sh.  
+You can also use --au and --cdr for AU and CDR format, respectively.
+I normally use something like --width=14 for DIN A4 in landscape.
+The -i option prevents this by moving all files individually.
+--read-max-mismatch-fraction N Exclude reads with more than N
+Like py--pdb.
+If foo is excluded, both foo and foowill be considered when matching the exclude.
+tiff, jpeg compression, histogram, 4 threads ossim-preproc -r
+only update
+This option will not override possible per-metric specifications.
+(The PKG_CONFIG_DISABLE_UNINSTALLED environment variable keeps pkg-config from implicitly choosing -uninstalled packages, so if that variable is set, they will only have been used if you pass a name like foo-uninstalled on the command line explicitly.)
+Set the name of the variable that pkg-config overrides instead of prefix when using the --define-prefix feature.
+Using the same \<jack-name\> for multiple meterec instances is not supported.
+This option will only affect the tiff writer.
+If aespipe encounters end-of-file before 64 keys are read, then only first key is used in single-key mode.
+Format XML output so that it is readable -d, --disable-buffering=<boolean> Disable output file buffering to prevent truncated tags --idmef-criteria-filter=<INAME>
+The -colorize option may be used in conjunction with -modulate to produce a nice sepia toned image like: gm convert input-modulate 115,0,100
+xn,yn polygon         
+Some images may require use of an alternative highlight style (see -highlight-style) or highlight color (see -highlight-color) before the changes are obvious.fill <color
+The color is specified using the format described under the -fill option.format <type>
+primary pointhald-clut <clut
+Note that -compress none used to be used to trigger ASCII output but provided the opposite result of what was expected as compared with other formats.raise <width
+The -type option may be used to tailor the output subformat.
+The W`--min' switch can be used to select the threshold at which entries are kept or deleted.
+-X# is present.
+Each page number opens a new window with the previously given geometry, device, and display.pppstands for a page number and an optional subpage number (example: 123.4).The -child option requires a parent window.
+or --output=
+To change the directory name use the W`--directory' option.
+With W`--verbose', it outputs copious status messages.
+DataFile
+By default all files under the -R directory are considered.
+Else, if one or more -g option is given, just those are selected (if they do not match any -P option).
+-P, -Z, -Y, -u and -U options.
+As seem previously -u and -U options can be used to filter which EA entry to consider and which to ignore.
+Another difference is when the argument is a directory -g will include all the subdirectories under that directory, while when the same entry is found in a listing file given to -[ only that directory will be included, no subdirectory or subfile would be enrolled in the backup, with -[ you need to list the exact set of file you want to backup.
+This option is available for archive testing (-t), comparison (-d), restoration (-x), listing (-l) and to read the archive of reference (-A option) for isolation (-C) and archive creation (-c).
+By default, all EA are included if no -u or -U option is present and if the support for EA has been activated at compilation time.
+While when extracting files to filesystem, the Attributes of the file in filesystem will not be changed (whatever is the overwriting action taken for its data, unless the file is removed using the 'R' policy, which would remove the inode and thus also any Attributes it had).o means 'Overwrite', same as 'O' (but lowercase letter) overwrite the whole EA set and FSA.
+Modify the -A option behavior, making it receiving a <date> as argument in place of the [<
+Instead of the usual merging where each files of both archives are added to the resulting archive with eventually a tie using the overwriting policy (see -/ option), here the merging builds an archive which corresponds to the decremental backup done based on two full backups.
+Same remark here, - may be used as basename (see -x
+If no -height or -ysize option is specified, the height will be adjusted to preserve the pixel aspect ratio.
+Note that this will match even files that are already present, unless limited with e--not --in .
+If you pass the -preserve option, existing XML descriptions are not replaced.
+You can also combine an empty -f option with an initialization script (-I option) and the child process will be started if there is an active VCL at the end of the initialization.  
+--process-begin code1 -B
+name1 --rz
+1 preprinted	514 letterhead	513 transparency	2 prepunched	515 labels	265 bond	260 recycled	516 color	512 tough	276 envelope	267 light	258 heavy	262 cardstock	261 lightglossy	268 glossy	269 heavyglossy	270 cover	277 photo	278
+With the -v ,  --invert-match option (see below), count non-matching lines.
+If this option is used multiple times or is combined with the -e ( --regexp ) option, search for all patterns given.
+This means that if -om would generate more than -omax secondary alignments, SNAP will write out only the best -omax of them, where 'best' means 'with the lowest edit distance'.  
+Non-root users can also use the -u option.  
+This option defines W`\DIFadd' and W`\DIFdel' commands.
+n --append-textcmd=append-file or -x append-file or
+This option defines W`\DIFaddbegin', W`\DIFaddend', W`\DIFdelbegin' and W`\DIFdelend' commands.
+The --exclude-safecmd and --append-safecmd options can be combined with the ---replace-safecmd option and can be used repeatedly to add cumulatively to the lists.
+Like W`CFONT' but with additional changebars (Requires color and changebar packages).
+Note that W`DVIPSCOL' only works with the dvips converter, enot pdflatex.
+WZLABEL 10   can be used to highlight only changed pages, but requires post-processing.
+Include old and new filenames (or labels set with W`--label' option) as visible output.
+If, however, this option is specified, myproxy-logon will accept the CA to bootstrap trust.
+The source override file is in a different format from the binary override file.
+If the --user option is given without --group , primary group of the user <username> is assumed for <groupname>.
+All VRML files describe the same VRML scene with same the nodes, but some numeric fields are animated.  
+Note that you can't have a space between -b and a negative argument, because otherwise getopt will interpret things like -10 as an option and fail (iwrite -b-10 instead of -b -10).
+-r  size Allocate size space for the return stack instead of using the default specified in the image (typically 16K).
+-d  size Allocate size space for the data stack instead of using the default specified in the image (typically 16K).
+The nochecks directive in the rc file has the same effect.
+combined   
+Vienna Pretty format options:
+You will almost certainly want to use this with -p to limit, which packages are affected by the call.  
+Window geometry as Width x Height+X coord+Y coord, i100x200+0+100
+With option -F \ s the annotation will be (
+Do not warn about objects with incompatible wchar_t sizes
+Also note that socks is equivalent to socks5.
+This option sets the PostScript option for duplex printing (see also -tumble).
+This option will override the $ SYSTEM environment variable.
+This is similar to the var-unused keyword described below, but applies only to arguments.com-block-unused: a common block is declared but none of the variables in it are used by any subprogram.
+If this setting is used when the -f77=long-line option is in effect, a warning will be given for any lines in which characters past column 72 are processed.
+-I --IGNORE-CASE ignore case in all searches  
+On startup, Jack creates a blank FreeDB entry file (except if --query-now is used, then the file is queried from your FreeDB server).
+make the terminal ring when user interaction is required (like for example the creation of a new slice when using the -p option)
+llgal behavior may be modified with the following options, either when generating a gallery or not.
+directory to put final built distributions in (default='deb_dist')
+This option has no effect, is here for backwards compatibility, and may be removed someday.
+(split -d -l 1000 - outputcsv.)
+[ default: bowtie -v        ]
+It is uglier, but more portable, than the GTK-based toolbox.
+Equivalent to specifying:  --format=jobid,jobname,partition,maxvmsize,maxvmsizenode,maxvmsizetask, avevmsize,maxrss,maxrssnode,maxrsstask,averss,maxpages,maxpagesnode, maxpagestask,avepages,mincpu,mincpunode,mincputask,avecpu,ntasks, alloccpus,elapsed,state,exitcode,maxdiskread,maxdiskreadnode,maxdiskreadtask, avediskread,maxdiskwrite,maxdiskwritenode,maxdiskwritetask,avediskwrite, allocgres,reqgres,avecpufreq,reqcpufreqmin,reqcpufreqmax,reqcpufreqgov
+The following command will skip the entire build subdirectory:  8 svn-clean --exclude '^build(/|$)'   8
+If -s is not given, a cipher list of ALL:-aNULL is used.
+When dropping privileges using -u, override the target primary group to be set to group.
+Print all key/value pairs in a directory.
+Instead of trying to guess the major number of the library with objdump, use the major number specified after the -m parameter.
+This option may fix some crashing issues with Synergy.
+See also discussion of -o null below.  
+compat=0.10 option to the output file for compatibility with RHEL 6 (see https://bugzillaredhatcom/1145582).  
+Generally the same as CLIENTHOST.
+Warning: it is possible to produce empty keytabs with the --remove-empty option by successively removing all encryption types.
+On most modern systems, however, such behavior of ps is disabled and the -E option should be safe there.
+This option disables command-line variable assignments.0 -g
+(or --file ) options may be used.0 -F  fs
+horn speedwhirlhornacceleration D* (0.161)
+Convert the given subtitle (specified with the -sub option) to the time-based SubViewer (SRT) subtitle format.
+Useless with modern Linux kernels configured for desktop use as they already wake up the process with similar accuracy when using normal timed sleep. .
+Otherwise, use all.  
+Use -- to pass options to the plugin.
+Horizontal (-H) and vertical (-V) offset when using hardware-playback.
+Similar behaviour can be achieved by including a `SingleInstance=True' key pair in the \.desktop file. .
+The only default is a hang-up (ATH) command that is sent before exiting only if no other -k options are given.  
+When -s option below with a valid channel is given, speaker-test will perform always a single-shot without looping.
+A command like 'cat myfile| ed myfileoriginal' should be executed.
+This option disables the generation of this cover.
+Complain to Amazon.
+centos4 /bin/true Segmentation fault
+If you specify this option without any argument, it is the same as that you have specified the auto.
+= regular expression to match the file(object) path.
+Mode -1 keeps it unchanged.
+Ithose copies would then be marked by -scms as offering no permission for further copies.
+Option -multi is tolerated in order not to hamper true multi-session media.  
+Purpose specifier   | Content example  -------------------------------------------------------------  
+Without option -text, cue sheet file command CDTEXTFILE will be ignored and no CD-TEXT attributes will be read from the file.
+Note that --height can be mixed with either --top or --bottom option.
+When --recurse-none is used, do not descend into any imported modules at all, overrides all other recursion options.
+The -r option must be followed by a number which specifies the temporal resolution for the match.
+This option is not for use with the pandoc-citeproc filter or with PDF output.
+The first line of output contains the name of the output file specified with the -o option, or - (for stdout) if no output file was specified.
+However, you can use this option to speed up things.
+If used together with -I, excluded blocks override included blocks.
+Default is VncAuth if -localhost is not given and VncAuth, TLSVnc if -localhost no is given. .
+In this case, matesfq is ignored.
+Using this switch without using the tcp-auth option is not recommended, and is a major security risk (especially when passing 0.0.0.0)!
+Ignore case for searching.
+Override orientation.
+By default, strict parameters are used.  
+Also all logging will be done to stderr.
+If reads are paired-end, we additionally use options '--no-mixed' and '--no-discordant'.
+Note that this option alone doesn't turn on any warnings; it only affects those warnings that have been turned on so far or will be turned on later.
+The only option currently supported is -strip all.   
+For example: -out newfile\ <=> \
+extended view of hostnames
+Several -F flags can also be specified on the command line, in which case filters will be applied in order of appearance.
+Remotes defined via this option supersede those defined via liftfiles.
+Consolidate whitespace in the results of a --data-path query.  
+When the polling period (-Cp) is an increment of 60 seconds and the timestamp is displayed in the output (-Cs), then the default display shows the timestamp in the format hh
+Use the specified gemfile instead of the Gemfile(5) .
+Use this option multiple times with -t to define multiple titles/buttons.[-o <Output directory>] Directory where the final DVD filesystem files VIDEO_TS/ will be written.[-n
+Create vcd and files (requires vcdimager)[-svcd] (alpha)
+Directory structure should obey freedesktop standard, but desktop files are ignored, instead file name is expected to be equal to application class\. . 2: Prefer icon from file when it better match requested size (see -i option)\. .
+When -b is in use, specify the path where upstream tarballs should be looked for.
+If the --bytes option is not used, this will output an unlimited stream of entropy until the process is halted.
+If used (once) with the --scan option this will show more information about each device, but otherwise it's mostly only information useful for debugging.  
+Set a time format string as accepted by strftime(3) for use with the `%T' conversion in the --format option.
+If combined with W`--git', W`--svn' or W`--hg' option or the corresponding modes, check out the revisions to compare in a separate temporary directory, and then pass on option W`--flatten' to latexdiff.
+This option does not exist in rifiuti-vista.
+Useful for NAS and embedded devices.   
+This option allows one to ignore this condition.
+T}    Note that some of these options are mutually exclusive, for example, there can be only one method of writing or reading.  
+Selection of specific translations is possible using the --include and --exclude options.
+The meaning of these modes is the same as that of the corresponding \commands.
+/csh -f set file=$1 shift hdfed -batch
+Removing namespace_packagesfrom egg-info directory has the same effect.
+(HTML-like style), W`<!--#eperl code=q' and W`q -->' (NeoScript and SSI style) or even W`<?'
+You can also set the enviroment variable DEBUG_ME_FROM_EMAIL to configure this.
+bootcd2disk -url http://192.168.1.1/cdimageiso  
+When this option is used, the transferspeed (in KB/s) is shown.
+symbols.<--help-x11keysym> List all allowed X11 Keysym symbols.<--help-axis
+You switch between those multiple configurations by pressing the Guide button by default, but you can also set another button via the option <--toggle>.<--config-slot>
+Just like with <--ui-buttonmap> you can add button filter to each button.<--axismap>
+The sensitive of an axis can be adjusted via --axis-sensitivty:  <$ xboxdrv
+> <--square
+The DPad sends button instead of axis events.<--dpad-only>
+You can customize it by the usual means, just make sure that <--mouse> comes before your customization options on the command line.
+Launch an external TV player when the screen is double clicked.
+>   Indicates the cumulative number of store RPCs from client processes at which to highlight the statistic.
+# end of task marker fflush() }  output of paexec -s -l -c cmd__flex -n +10 \ < tasks  3 devel/autoconf
+--ignore
+End option parsing.
+If the optional argument is supplied, also sets the exec prefix to dir for any subsequent flags.  
+The different modes and their meaning are explained in the DESCRIPTION section above.
+--print=
+In SVG, PNG, PDF, PS, and EPS export, exported area is the drawing (not page), ithe bounding box of all objects of the document (or of the exported object if --export-id is used).  
+Do not really run latex2html.
+Titles given with --legend override these.
+If specified, use PREFIX instead of the installation prefix that GIMP was built with when computing the output for the --cflags and --libs options.
+the path to the file that will be saved as an object; if provided, the --object-name and --object-data options are not necessary
+For a list of available options for each format, use --options=help or see below.. . .
+Use the any of the names returned by the options -l or --list.
+mark the end of program's options and the beginning of FUSE's ones (useful if you want to pass something like -d to FUSE)  
+Recursively cross down the tree each level directories (see -L option), and at each of them execute tree again adding `-o 00Treehtml' as a new option.
+When --wrap is used, a script name and arguments may not be specified on the command line; instead the sbatch-generated wrapper script is used.
+Furthermore, the pathname can be constructed with pseudo environment variables as described for the -e option above.
+The -hard and -soft options in effect act as toggles during the scan.
+\  m , and s will be available through the environment variables SGE_TASK_FIRST, SGE_TASK_LAST and  
+keep testcases matching the given regular expression (or simple string).
++ 10mins keep backups from the rest of the days like spcified in --keepAll (default $keepAll) if you also use the qarchive flagq it means to not delete the affected directories via --keepMaxNumber:
+This value is used for calculating --keepFirstOfWeek and --keepLastOfWeek
+Ignore case distinctions in both the pattern and the file names.
+Instead of searching the default file name database, search the file name databases in path, which is a colon-separated list of database file names.  
+(This is also guaranteed if you use -s\ 1.)  
+Print out the stacktrace also for user exceptions (eg. compile error).
+The GNU find -print0 option produces input suitable for this mode.
+-outfile foo --------
+This option is useful, if you want to have blown-up images of high quality for print, but downscale them in HTML using W`<IMG WIDTH=x HEIGHT=y>'.
+The whitespace is added at the bottom.
+Also note that choosing LZMS compression does not automatically imply solid-mode compression, as it does with DISM.  
+Must be last option.
+N The integer value N must be in the range 0 to 65535; default
+The REST command, needed to resume a failed  download, is badly specified and likely to be misinterpreted and -implemented.
+Set days to 0 or -1 to disable the warning.
+The -name option allows you to specify the prefix string which is printed in the resulting XPM output.  
+6 adds -xx; -v 7 adds -xxx
+- Adds full partition data (-p), unmounted partition data (-o), optical drive data (-d); triggers -xx extra data option.
+Example: inxi -y 130 -Fxx
+For -xt c will also show system Used/Total ram data if -t m (memory) is not used AND -I is not triggered.
+Define a macro named define.
+but you can override this with the -S file argument.
+If an option is redefined, it overrides the previous value (except for the url option, as you are allowed to specify multiple URLs).
+When using -m it would instead look something like:   Old: ..
+<Ctrl> 'O'     - increase opacity of patch layer  
+Note that the examples given above for levels 2 and 3 are just that: examples.
+Using this option along with --enable-progress-filter may be used to cleanly cancel long running gpg operations.
+The key set with --default-key is always tried first, but this is often not sufficient.  
+Causes --list-keys, --list-signatures, --list-public-keys, --list-secret-keys, and verifying a signature to also display the photo ID attached to the key, if any.
+This option  is   only  used  for  default   mode.   0  means unlimited.  
+See --backend option about the pattern match.  
+exec prefix that SDL was built with when computing the output for the --cflags, --libs and --static-libs options.  
+play only the audio stream (to 'stdout', unless the -P <interval-in-seconds> option is also given)
+--option value --opt=val
+Show the total number of correct DNS packets, and percentage of -u and -c values  (of the total of matching on the -f filter.
+P  is similar to   CR  
+Switch between shell wildcard pattern matching and exact name matching (without interpreting any wildcard characters) for the patterns supplied in the -y ,  -Y ,  -w , and  -W options.  
+This can be useful when using multiple pattern files or when combining with the -t option.
+2) the file is very large (see the -2 option), 3) the file has a certain extension, so it probably contains compressed data already (see the -E option), 4) the file pathname matches a certain pattern, as set by the -6 option, 5) the file has hard links (this due to an internal limitation of afio, but this limitation does not apply if the -l option is also used).
+Introduce MRI script files with the option -c
+Automatically choose the image base for DLLs, optionally starting with base value, unless one is specified using the W`--image-base' argument.
+This allows options placed after the --default-script option on the command line to affect the behaviour of the linker script, which can be important when the linker command line cannot be directly controlled by the user.  
+The default behaviour (of not listing the sections that are removed) can be restored by specifying --no-print-gc-sections on the command line.
+By default or if --no-ignore-branch-isa is used a check is made causing the loss of an ISA mode transition to produce an error.
+Any directories specified by -rpath-link options.
+In this case the root of symbols kept must be explicitly specified either by an --entry or --undefined option or by a W`ENTRY' command in the linker script.
+The GNU linker uses other mechanisms for this purpose: the -b, --format, --oformat options, the W`TARGET' command in linker scripts, and the W`GNUTARGET' environment variable.
+-//W3C//DTD HTML 3.2 Final//EN>\\n <
+Continue on download errors, for example to skip unavailable videos in a playlist  
+-split <-number <int
+See also SOURCES OF TEMPLATES below.  
+Each accessible drive is shown by a line like:  0  -dev '/dev/sr0'
+--auto-hosts does things like poll local SMB servers for lists of local hostnames, but can speed things up if you use this option to give it a few names to start from.  
+Use the DLP (Data Loss Prevention) module to detect SSN and Credit Card numbers inside documents/text files.
+Stalin can generate such uses of unary & when you specify -de or don't specify -df.
+During flow analysis, when processing procedure-call expressions that can allocate structures, generate a single abstract structure that is shared among all sets of potential slot types for that structure.
+During flow analysis, when processing procedure-call expressions that can allocate structures, generate a new abstract structure for each set of potential slot types for that structure.
+Does not affect --debug.
+Lens name, for database query 4  4 Specify --camera-maker and --camera-model for fixed lens cameras or --lensname for interchangeable lenses.   
+=custom requires complete command in --foo-args parameters.
+Format numbers 0 through 4 will supersede the built-in format types, while numbers 5 through 9 will supplement them.
+This option sets limits to the newline action option above.
+This option has no effect on data tracks.
+At Once and Packet writing; this mode is selected in wodim via a the -dao
+The driver for Philips CDD-521 is auto-selected when wodim finds a Philips CDD-521 drive (which is the first CD writer ever made) or one of the other drives that are known to behave similar to this drive.
+If you like to set driver options without running a typical wodim task, you need to use the -setdropts option in addition, otherwise the command line parser in wodim will complain.
+To get data in a format suitable for this option use wodim -vv
+As long as wodim does not have a coder for converting data sectors to audio sectors, you need to force CD-ROM sectors by including the -data option if you like to record a multisession disk in SAO mode.
+indicate to generate the zero sequencing errors SAM file as well the regular one NOTE: the reads in the zero-error SAM file have the same alignment positions as those in the regular SAM file, but have no sequencing errors
+Using this option only emulates a scripts behaviour, and doesn't affect the windows that the scripts otherwise would modify.
+If -netcdf was used previously, read from the netCDF file X_var and Y_var variables and create a set.
+Note that changing the ripper implies to update this option.
+@Verbose operation @-q         :
+Default: -b Option v (q) will be set according to verbosity chosen.
+This may override option merge.
+Note that most command line options that would affect an actual sync operation will be incorporated into the new config file as well; exceptions are --fast
+This option affects only the connection, not the GPG encryption of the backup increment files.  
+This option needs to come before any other include or exclude options.
+This option supersedes any environment variable.  
+Normalize by covered fraction with -os
+The default is not to use anything, except that if --user is supplied or root on the testbed is not available the default is fakeroot.
+Use the --targets option to see all the available formats.
+For example, adding the url http://wwwexamplecom/dir/subdir/bigfile with --pathdepth=1 will use dir/subdir/bigfile, while --pathdepth=3 will use bigfile.
+This means that if -j3 is given and this option is turned on and 3 downloads are active and one of those enters seed mode, then it is excluded from active download count (thus it becomes 2), and the next download waiting in queue gets started.
+Use output format FORMAT for printing.
+It also enables syslogging.
+Default: 1 [Default: -1]
+Give the precision in percent to render the coloured map.
+used to choose the windowing mode.
+runs the docstring examples  -v,
+]  --reverb=(d|n|g|f|G)[,level] d, 0 Disable MIDI reverb effect control.n, 1 Enable MIDI reverb effect control.  
+The default is ~/if this option is not used.  
+Number of threads to use (default=0 -> up to 4 CPU cores)   Options for output definition: Normally mirabait writes separate result files (named 'bait_match_*' and 'bait_miss_*') for each input to the current directory.
+Warn verbosely when a given mode does not completely correspond with CVT standards.
+If >= -1, do not vary the number of PME-only ranks, instead use this fixed value and only vary rcoulomb and the PME grid spacing.
+Assigns attributes to identify tetrahedra in certain regions.
+This option can be used in conjunction with --call or --cmd
+Examples: twinkle --cmd answer twinkle --cmd mute twinkle --cmd 'transfer 12345'
+Valid operations are chip, color-relief, hillshade, psm(pan sharpened multispectral), 2cmv(two color multi view) and ortho.
+Note that even if --users is not given, git-notifier will still look for such a file in ..
+If not given, the current directory is the default.
+If this option is specified, only branches listed are included.
+but with bad luck this can also make it worse.
+For even more information, use --verbose twice, but note that this may be slow, because getting all the extra information requires many seeks.
+Specifying --verbose twice will give even more verbose output.
+Give help
+If you are using the short form of the option (-T) then the value must immediately follow the option letter with no spaces, e-T2 not -T 2.
+generate an equivalent LTS, preserving equivalence NAME: 'none' identity equivalence (default) 'bisim' strong bisimilarity 'bisim-sig' strong bisimilarity using signature refinement 'branching-bisim' branching bisimilarity 'branching-bisim-sig' branching bisimilarity using signature refinement 'dpbranching-bisim' divergence preserving branching bisimilarity 'dpbranching-bisim-sig' divergence preserving branching bisimilarity using signature refinement 'weak-bisim' weak bisimilarity 'weak-bisim-sig' weak bisimilarity using signature refinement 'dpweak-bisim' divergence preserving weak bisimilarity 'dpweak-bisim-sig' divergence preserving weak bisimilarity using signature refinement 'sim' strong simulation equivalence 'trace' strong trace equivalence 'weak-trace' weak trace equivalence 'tau-star' tau star reduction
+This option enables recognition of ANSI color-change escape sequences.
+This option indicates that  should start in VTxxx mode.
+Set the vt100 resource cutToBeginningOfLine to `false'.cb Set the vt100 resource cutToBeginningOfLine to `true'.
+The option sets the dynamicColors option to `false'.dc
+If the statusline is not active, all messages that would normally be printed to the statusline will be printed to stdout , unless the -hushstdout option is used. .
+( ) Sets the special string that causes xdvi to pause when the -pause option is active.
+This option can also be toggled with the ` V ' keystroke. .
+This is useful with the GNU find -print0 option.
+Running nfexpire next time doing file expiration will take these new limits unless -s -t or -w are specified.
+When replaying from an archive, this option requests that the prevailing real-time delay be applied between samples (see -t ) to effect a pause, rather than the default behaviour of replaying at full speed.
+If --silent and --list-languages are combined with --list and/or --gog-game-id, the languages list will be terminated with an empty line and will precede both the game ID and files list.
+The --list, --test, --extract and --output-dir options are passed along to unrar/unar, but other options may be ignored for the RAR files.
+The --list action can be combined with --test, --extract, --list-languages and/or --gog-game-id to display the names of the files as they are extracted even with --silent.
+This option also enables the use of dithering, described below.
+The name can have any form you like but must be unique within your center.
+In some cases a large segment will supersede another or group of other accession numbers (records).  
+The opannotate option to show the POWER7-specific instructions is: --objdump-params=-Mpower7
+Print an options summary page
+Set the compression suffix.
+In such cases the -a option can be used to avoid using the BFD library and instead just print all of the strings found in the file.
+Error messages only.  
+When that both the -w option and the COLUMNS variable are missing, the default of 80 columns is used.
+For example, agrep -w -1 car will match cars, but not characters.
+It is possible to adjust the relative cost of insertions, deletions and substitutions (see -I -D and -S options).
+Same as a simple pattern argument, but useful when the pattern begins with a ` - '.
+A locker's name is inserted in the value of the Header , Id , and Locker keyword strings only as a file is being locked, iby ci\ -l and co\ -l.
+The algorithms currently supported are shown with the --list parameter.  
+If used in combination with the -x flag, rc will print each command as it is parsed in a form similar to the one used for exporting functions into the environment.
+Used with restore command.  
+Transpose semitones
+(This is because single-tune entries with nothing but a COMMENT field are assumed to be file-global comments.)  
+Commandoincluding the section-global comment and the BUG entry (if any), but since the default value for this option is 0, it might as well be omitted in this example.
+If neither -f nor --stdin are provided, <words> are spoken, or if no words are provided then text is spoken from stdin a line at a time\. .
+If you want to view only the pkgs from this repository combine this with --repoid.
+Make the output as quiet as possible.
+If -t is used (disable wav header), LAME will output raw pcm in native endian format.
+More options can be seen with links -h
+No purge.
+The following options are accepted but ignored for sendmail compatibility:  -Btype, -bm, -G, -hN, -i, -L tag, -m, -n, -O option=value, -ox value
+However, if --reps=once, then each user will run through the urlstxt file exactly one time.  
+This option can be combined with the -cc option, which specifies the default color visual class, to force the use of a specific depth and color class for the root window.
+This option ignores font paths that are not available on all back-end servers by removing the bad font path(s) from the default font path list.  
+This configuration accepts the -z flag to generate QMAGIC afiles instead of the normal OMAGIC.
+--architecture
+The type of probe packets to be used can be specified with the -p option.
+feef:7998%tun0 prefixlen 64 scopeid 0x7 inet 62.214.33.49 -->
+This option is used to select a different tree then the default /usr/share/texmf, and to switch on additional options.
+If used in combination with -j resource only the stamps minted for the given resource are purged.  
+--opt=!a,!b,!c        
+This is typically the Jacobian determinant map of a spatial unwarping deformation.
+Dock when obscured
+Soft target also allows an optional -v setting to specify a minimum allowed quality.
+you can use ffmpeg's vhook system, example: ffmpeg2theora --vhook '/path/watermark-f wminputdv
+Only search indices from the listed suites or codenames (eunstable).  
+filter-mirror on netdev netdevid,mirror net packet to chardevchardevid, if it has the vnet_hdr_support flag, filter-mirror will mirror packet with vnet_hdr_len.
+--drive file=
+This option specifies the fs driver backend to use.
+-net nic,
+=qemubr0 -net nic,model=virtio
+This option does not affect any explicitly set forwarding rules.
+When using the VNC display, you must use the -k parameter to set the keyboard layout if you are not using en-us.
+Number of threads to use for building STAR's genome indices.
+It may be an integer or a Texinfo sectioning command (without the W`@')
+Use unnumbered sectioning commands (W@unnumbered, ...) instead of the default numbered sectioning Texinfo @-commands (W@chapter, W@section, ...).
+If -p is also specified the pseudo-tty will have its window size set to match.  
+These settings apply both to user macros and to meta-macros, unless the -M option is used to define other settings for meta-macros.
+This option overrides the setting of environment variable $PAGER.
+This option overrides the setting of environment variable $BROWSER.   
+This option overrides the setting of environment variable $SOURCE_LANG.
+This option is enabled in dictionary mode.
+Use this option only when you have your own preference.  
+The --timeout option also gets passed to ssh-add invocations, so any keys added to a running ssh-agent will be individually configured to have the timeout specified, overriding any ssh-agent default.  
+If called as lpq, the following options differ from GtkLPQ`s options:
+As of version 4.1, parsable output that was previously generated by this option is now enabled separately via the -S option.
+Note that use of this option makes it impossible to return to the command prompt from the F command.
+The z and w commands can also be used to change the window size.
+This can be combined with the -frames and -size options, and a split occurs whenever a specified event arises.
+(only out) file         
+Print only the values, with no indication of the corresponding option keys.
+When combined with -f or redirection of stdin, drop into an interactive session after executing the commands from the file.
+This option is not meant to be used directly.  
+The --permit option, which can be specified more than once on the command line, enables finer-grained control over the perltex sandbox.  
+If -kej is specified instead, all jobs running on the execution hosts are aborted prior to termination of the corresponding sge_execd 8 .
+If no level is specified, each -v or -verbose flag raises the level by 1.
+7.0 3.5 The window is created only after initialization (to make sure default window placement still works if the video size is different from the --force-window default window size).
+, SMPTE 170M/240Mbt.601-625 ITU-R BT.601
+SMPTE RP177 Annex Bbt.2020 ITU-R BT.2020
+It does not affect subtitles or overlays created by scripts (in particular, the OSC needs to be disabled with --no-osc).  
+The --sub-ass-override option doesn't affect how this option is interpreted.
+Each use of this option will add a new external files.
+lavf enables libavformat's genpts option.
+no option is set.  
+See also: --start.
+The texture which to hook into.
+rpi always uses the hardware overlay renderer, even with --vo=opengl.  
+7.0 3.5 Some messages are printed before the command line is parsed and are therefore not affected by --msg-level.
+7.0 3.5 Without --hr-seek, skipping will snap to keyframes.
+Some will silently ignore it.  
+Determines how often the dithering pattern is updated when --temporal-dither is in use.
+If external files are forcibly added (like with --sub-files), they will not be auto-selected.  
+For example, specifying 'pre' would translate 'filenameto 'pre_0000See also the '--suppress-prefix' option.
+As with -m except that the compressed size (in bytes) is printed instead of the compression ratio.
+This option specifies that the probe packets must be fragmented.
+The default preprocessor argument is W`gcc -E
+This is the default option: you will probably only need to specify it explicitly if you have changed the default using the ScrollBar resource.
+(ov2)tmpro TopoMapPro Places
+Use remote COMMAND instead of rsh.
+You may supply any number of -r and -a options.
+Normally, hspell -a only checks the spelling of Hebrew words.
+It can also be combined with the -vlservers argument, but does not interact with it.
+This argument can be combined with the -servers argument, -file argument, -stdin flag, or any combination of the three, but does not interact with any of them.
+Default 0 creates a \\picture environment with bounding box exactly enclosing the picture (but see -x and -y ).  
+Only use TeX fonts, even where PostScript-fonts are specified.
+With -f\ 5.3 the following number 12345678 corresponds to 12345.678.
+See also -F (no font properties).
+The syntax is similar to that used by printf.
+\ -l\ Title|Short description|Synopsis\ ... could be used instead of english. .
+For instance some applications prefer that the outermost of the three loops (stripes, layers, planes) is over all layers so that all data of the lowest resolution layer is transmitted first.  
+( --attributes-table= ) option for details.braille-device device,...
+( --braille-device= ) option for details.braille-driver driver,...
+( --braille-driver= ) option for details.braille-parameters [driver:]name=value,...
+A line with only -- is printed between blocks of changes.
+Append a custom headerfield onto the header; but only if a similar field does not exist yet.  
+Using --xz can take some time.  
+For example:  1 --graphics vnc,password=foobar   
+Use --boot=?
+Use --serial=?
+The most simple invocation is:  1 --filesystem
+This option uses the same options as --serial and --parallel for specifying the host/source end of the channel.
+output vbc-like tree information to file 'file'Solver-specific switches:symphony [ -H ] [ -FL file ]
+For example:    pterm\ -xrm\ qScrollbarOnLeft:\
+Increase --test verbosity
+Try it -- it's quite interesting to watch netrik work :-)
+If unsure, try running autotrash with both --dry-run and --stat to see the effect.
+It's also possible to use cat.
+Install the model template specified by -t option into the player.
+If a hostname is not specified with the -n option, then the address will be used instead, and the record will be flagged as unresolved.
+Print the control file to standard output (or filename if specified, since dpkg 1.17.2), rather than to debian/tmp/DEBIAN/control (or package-build-dir /DEBIAN/control if -P was used).
+Use --no-pull to disable all pulling.
+This option, when combined with --content, makes all available versions of all files be synced, when preferred content settings allow.
+This does not override any other options, since cloud-init metadata is not otherwise tunable.
+Unless --user-data is used to override this behaviour, uvt-kvm generates cloud-init userdata with some sensible defaults when a VM is created.
+4 --append-line FILE:LINE (see Wcustomize below)
+--hostname HOSTNAME (see customize below)
+If the --operations option is not given, then we default to trying most sysprep operations (see --list-operations to show which are enabled).  
+Pass following options to cdrecord(1).
+If -l is used (ionly file names are sought), then the limit is on the number of files; otherwise, the limit is on the number of records.
+Add Books --
+Cancels the previous option.
+how many pages)<-m>, <--in-memory> using IN-MEMORY
+If the given directory does not exist, it is created with appropriate permissions.
+With -r /home/backup the pathname
+> 1 (options: luma=0|1)
+See documentation for ’-i’ and ’-o’ options.
+By giving multiple -a options, you can control to which chains effects, inputs and outputs are assigned to.
+There’s also a realtime variant, rtnull, which behaves just like null objects, except all i
+To use ’auto’ in the previous example, ecasound -f:16,2,44100 -i resample,auto,foo-o /dev/dsp.
+EFFECT SETUP  
+Provides authentication information for the proxy, e''-proxy-auth=username:password'
+Any of the options that accept boolean values ('true'/'false') can also accept 'yes'/'no'.  
+The same works for POLYGONs vs. MULTIPOLYGONs.
+This can be combined with -a, -c and -d.
+Allow coredumps if -u is given (only for debugging).
+This is equivalent to setting v=63 in the OCAMLRUNPARAM environment variable (see below).
+-C,--category=ITEM   post category (can specify more than one) -T,--tag
+The generated HTML pages are stored in the current directory, or in the directory specified with the -d option.
+The generated LaTeX document is saved in file ocamldoc, or in the file specified with the -o option.
+If the given file is a simple one and does not exist in the current directory, then ocamldoc looks for it in the custom generators default directory, and in the directories specified with the -i option.
+Include all modules in the dot (1) output, not only modules given on the command line or loaded with the -load option.
+bits=
+A workaround is to use -geometry +5+23 when using fvwm.
+Sets the default paper size (now used only for color-correction output produced by the -g option).
+If necessary, use pnmcut to remove everything except the text.  
+Ignore everything except file and directories matching this expression.
+On systems where dpkg supports triggers, -a turns update-yorickdoc into a no-op.
+This matches all and files anywhere in the directory tree except those in the legacy directory and its subdirectories.
+Also, other command line options may influence the box size (such as -p).  
+This option also gets passed to some of the filtering programs.
+1 guestfish --ro -d myguest -i   (for active domains, readonly), or specify the block device directly:  1 guestfish --rw
+Can be combined with the --unique option to display a dialog at start-up where the instance name can be chosen with all instances that have tabs stored as suggestions.
+Example: hhblits_omp -i query-
+Apply -fillscreen and -fullscreen options to all images and not just the first.
+That is, getting code produced by GNU Fortran to link to code produced by some other compiler using this or any other method can be only a small part of the overall solution---getting the code generated by both compilers to agree on issues other than naming can require significant effort, and, unlike naming disagreements, linkers normally cannot detect disagreements in these other areas.  
+The kind of real constants like W`1will not be changed by -fdefault-real-8 though, so also -fdefault-double-8 does not affect it.
+The following combinations are expanded W`\a', W`\b', W`\f', W`\n',
+-u1000,69 to make the packets look like TFTP/UDP packets.
+[-d depth]
+info [-f fmt]
+You may use multibyte filters like: 0xFFF0FEFF
+Normally you would not need to use the deny-list.
+If the deny-list  ( -y ) is enabled and you specify -M twice, the message's addresses are removed from the deny-list instead.
+(this would be done by, as root, doing qsf -d
+Store file capabilities UNINDENT  (and similar:
+This argument is kept only to maintain compatibility with older versions.
+A warning is issued if this option is omitted.
+-nobottomline -dock -clockgeom 63x42+2+190 -dateformat
+By default, synchronization does not occur when the zoom window is opened, unless option -zoomsync has been set.
+Use this only if your server requires a password.
+Under MSDOS, -d is case sensitive when it matches names in the zip archive.
+But see the new option -ic to ignore case in the archive.0 -db
+When using -ws, use
+Also possible:  zip -r foo foo -x@excludelst  which will include the contents of foo in foozip while excluding all the files that match the patterns in the file excludelst.
+and does the same thing as the short option form.
+Neither option will recover archives that have been incorrectly transferred in ascii mode instead of binary.
+If -c is used also, you are prompted for comments only for those files that do not have
+If no input files appear on the command line and --out is used, copy mode is assumed:  zip inarchive --out outarchive  
+All commands take the selector of the style to be defined.
+ticks_minor_sep_min ticks_side transform transparency valign vertical_scale vpadding watermark watermark_alignment watermark_angle watermark_color
+Mostly used for debugging when operations like merge-datasets or join-datasets don't work as expected.   
+Corresponding command: verbose()
+SoftProof intent (0,1,2,3)
+] Override any Sync options from the config file.
+When used with the driver options -MD or -MMD, -MF overrides the default dependency output file.  
+Any directories specified with -I options before -I- are searched only for headers requested with W`#include\ IfileW'; they are not searched for W`#include\ <IfileW>'.  
+--email
+Print condensed output in grep -n like manner FILE:
+If an error log is specified with --error-log, all messages will be sent there instead of syslog.
+This includes things like InsertionQV and DeletionTag.
+Bind to address, Supply as many addresses (using multiple --local statements) to listen on as required.
+(Beware, this option is not usually what you want).
+The global setting of auto-repeat can be set with xset(1).
+Meaning of other optional parameters: -r | --report - request for delivery report -8 | --8bit - set 8bit coding -C
+| --read - mark
+It is a very good idea to first try a run using the --dry-run option (-n) to see what files are going to be deleted.
+See also --copy-dirlinks for an analogous option for the sending side.
+This overrides the socket options setting in the rsyncdfile and has the same syntax.
+For instance, if rsync 2.6.4 is being used with the --write-batch option, but rsync 2.6.3 is what will be used to run the --read-batch option, you should use --protocol=28 when creating the batch file to force the older protocol version to be used in the batch file (assuming you can’t upgrade the rsync on the reading system).
+--max-size=1.5mb-1 is 1499999 bytes, and --max-size=2g+1 is 2147483649 bytes.
+don’t have that option.  
+the --partial-dir should not be writable by other users or it is a security risk.  
+Not all options may be prefixed with a no-: only options that are implied by other options (e--no-D, --no-perms) or have different defaults in various circumstances (e--no-whole-file, --no-blocking-io, --no-dirs).  
+Using the --partial option tells rsync to keep the partial file which should make a subsequent transfer of the rest of the file much faster.
+The default setting of this option is site-specific, and can also be affected via the RSYNC_ICONV environment variable.
+Older rsync versions erroneously preserved the three special permission bits for newly-created files when --perms was off, while overriding the destination’s setgid bit setting on a newly-created directory.  
+src/ dest/ rsync -avA
+Specify which debug options are wanted.
+When tracing (-T), start from this domain instead of the root.
+PDF file will be encrypted with option owner password
+Ignored, for (semi-)compatibility with dvipdfm .
+leave CSS files as is: merge, but do not minify.
++, ti92, ti89
+t, ti89, ti86, ti85, ti84
+Fortran linker options.
+The corresponding configuration file option is no_path .q, --quiet Decrease message verbosity.
+Use dcraw -E -4 to get the raw pixel values.
+Use the SWR  -g32
+However, increasing the weight of a parameter (using the -F, -G, -R, -S or -X options) will make  the associated parameter have a greater effect on the fitness.
+LSB (iX86) Product:    
+The program defaults to parsing all of the standard RFC2616 method strings if this option is not set.
+Combine this with --skip-version if you periodically update files.
+Exact behaviour of the commands affected by this option is described below.
+When using apt-get source, pass --tar-only to it.
+: Saturation: preservation of saturation at the expense of hue and lightness is preferred, example: charts and graphs.
+Appears only for backwards compatibility.  
+This option tells ctest to run only the tests whose labels match the given regular expression.
+-A if needed.
+Use this to add your own include directories to search to the build process.
+Neither option affects the behavior on non-MIME input files.
+The analysis method of LMND (Levenberg-Marquardt minimization using numerical derivatives, see -U, --lmnd) requires the differences that are used during the computations of the partial derivatives of the model function(s).
+In the definition expression one should use only the fit/regression variables (as defined by the -v, --variables command line argument).
+Do not add C extension code (overrides --ext specified in the global config)\. .
+only use test FILTERs specified with this option when filtering
+When used with --group-map=FILE, affects only those files whose owner group is not listed in FILE.
+Instruct subsequent -T options to read null-terminated names verbatim (disables special handling of names that start with a dash).
+--extract
+ds9 -plot error yes  
+ds9 -bg red   
+ds9 -scale mode zscale  0
+It accepts an option specifying which files/devices to use in the following format : [execfile][,[corefile][,swapfile]] (see kvm_open(3) for details on those fields).
+Aggregation configuration: Require that an input field may only be aggregated with other fields if they all have the given CF property (standard or non-standard), but not requiring the values to be the same.
+--exist=
+For example, to insist that a group of aggregated input fields must all have the same CF properties (other than those accounted for in the structural signature), regardless of their values, but also insisting that the long_name properties have equal values, you can use B --exist_all --equal=
+This is the default behaviour in the absence of all the B --exist --equal
+P options and supersedes the behaviour for the given property that may be implied if any of these options are set.
+Be `initial' Aleph for dumping formats; this is implicitly true if the program is called as inialeph . 
+This option is very useful and flexible.  
+Currently, --body-file is not for transmitting files as a whole.
+/etc/passwd and asking W`root' to run Wget with -N or -r
+Without this option, Wget will ignore all the FTP links.
+Use --no-hsts to make Wget act as a non-HSTS-compliant UA.
+Send header-line along with the rest of the headers in each HTTP request.  
+This example instructs Wget to connect to localhost, but to specify fooin the W`Host' header:  1 wget --header=Host:
+When in recursive mode, only HTTPS links are followed.
+If --ftps-implicit is passed and no explicit port number specified, the default port for implicit FTPS, 990, will be used, instead of the default port for the normal (explicit)
+Using -r together with -l can help, but since Wget does not ordinarily distinguish between external and inlined documents, one is generally left with leaf documents that are missing their requisites.  
+If you need to specify more than one wgetrc command, use multiple instances of -e.    
+This works in a similar manner to W`-cp' above, except it excludes the directory from the scan itself.
+Ignored if there is no compression (see the B --compress P option). . .
+r-- 1 netblue netblue
+Example:   $ mkdir ~/test  $ touch ~/test/a  $ firejail --read-only=~/test
+OUTPUT -p udp
+=shell --ignore
+Ignore validation errors when converting, and pass --force to git-fast-import(1)
+Specifying the password as a command line option is not recommended.
+This value is ignored and always set to ADMINISTRATOR when combined with -t target address.
+The --css option provides a means to append additional style rules to the end of the default stylescss sheet.
+prints out only image projection information ossim-info -p -s
+--no-recursion Disable recursive anchor search
+Warning: When an application does not properly join all threads (or creates an detached thread), a profile file can be still corrupted.  
+Some traditional implementations do not recognize W`#elif', so this option suggests avoiding it altogether.
+These -m options are supported on the SPU:
+;  return total; }   compiling to (x86_64) assembly via -S and emitting the result direct to stdout via -o -  1 gcc -S test-fverbose-asm -Os -o -   gives output similar to this:  5 testc # GNU C11 (GCC) version 7.0.0 20160809 (experimental)
+Note also that this option changes the ABI; compiling a program with a different stack offset than the libraries have been compiled with generally does not work.
+-mstack-protector-guard-symbol=symbol overrides the offset with a symbol reference to a canary in the TLS block.  
+If an explicit version number is provided and -fabi-compat-version is not specified, the version number from this option is used for compatibility aliases.  
+For example, to pass -assert definitions, you must write -Xlinker -assert -Xlinker definitions.  
+It does not work to write -Xlinker -assert definitions, because this passes the entire string as a single argument, which is not what the linker expects.  
+If profiling is active (-pg), generate a
+joined   Display options taking an argument that appears after an equal sign in the same continuous piece of text, such as: --help=target.
+Instead of describing the displayed options, an indication is given as to whether the option is enabled, disabled or set to a specific value (assuming that the compiler knows this at the point where the --help= option is used).  
+This option is required for fully standards-compliant handling of static destructors, but only works if your C library supports W`__cxa_atexit'.
+This is the default unless you configured GCC using powerpc-*-eabiaix.
+When -fuse-linker-plugin is not enabled, when a file is compiled with -flto, the generated object file is larger than a regular object file because it contains GIMPLE bytecodes and the usual final code (
+GCC enables this option by default.  
+See -ffloat-store for more detailed description.  
+-musermode is the default when the target is W`sh*-*-linux*'.  
+This is the warning level of -Wshift-overflow and is enabled by default in C99 and +11 modes (and newer).  
+The default is zero for -O0 and -O1, and 100 for -Os, -O2, and -O3. prefetch-latency   Estimate on average number of instructions that are executed before prefetch finishes.  
+Do not use W`abshi2' pattern.
+If you specify neither -fpcc-struct-return nor -freg-struct-return, GCC defaults to whichever convention is standard for the target.  
+For some ARM implementations better performance can be obtained by using this option.
+Turn on all options, except raw, slim, verbose and lineno.
+Similarly, W`RAMPD' is used together with direct addressing.
+These -m options are defined for the IBM RS/6000 and PowerPC:
+-mrelax-pic-calls is the default if GCC was configured to use an assembler and a linker that support the W`assembly directive and -mexplicit-relocs is in effect.  
+Dump after jump bypassing and control flow optimizations.
+Note that -fvisibility does affect + vague linkage entities.
+The standard system libraries are used normally, unless -nostdlib or -nodefaultlibs is used.
+For example, -std=c90 turns off certain features of GCC that are incompatible with ISO C90, such as the W`asm' and W`typeof' keywords, but not other GNU extensions that do not have a meaning in ISO C90, such as omitting the middle term of a W`?
+There isn't an archive version of libdld Thus, when the -static option is specified, special link options are needed to resolve this dependency.  
+These -m options are defined for the ARM port:
+For the last triplet, the max_size must be W`-1'.
+These -m options are defined for the LatticeMico32 architecture:
+However, in case of any conflicts, the later options override the earlier options on the command line.  
+With -fno-semantic-interposition the compiler assumes that if interposition happens for functions the overwriting function will have precisely the same semantics (and side effects).
+This is a more fine-grained version of -fkeep-inline-functions, which applies only to functions that are declared using the W`dllexport' attribute or declspec.
+Enable support for -Wl,--as-needed in all ltmainfiles identical to the one of the libtool package.
+This is the default behavior if no other mode action is specified (but note that --setup is a mode action, and has different default behavior).
+Use VERTEX as the starting vertex (for sbs, bfs, prim, and dijk)
+Adds the --tempdir option with argument path when invoking remote instances of rdiff-backup.
+disable logcatgories (show list with --showlogcategories)
+This option can used to specify the directory search list.
+Do not quote the output.  
+Command Option --top is similar to the UNIX top command, however it applies only to sandboxes.
+This is mostly a shortcut to avoid specifying the argument twice: zzuf -c cat filetxt has the same effect as zzuf -I '^file\\cat
+A summary of all the possible options.
+Explicitly force IPv4 or IPv6 tracerouting.
+This flag can be combined with any combination of the -prefix, -server, -partition, and -xprefix options.
+The specified exchange should already exist unless the --exchange-type                         option is used to request the creation of an exchange.
+Treat the value of -w option as point instead of pixel.
+These flags can be used to invert the sense of the corresponding normal option.
+Terse output, just print the number of open deleted files and exit with a code suitable for use by Nagios and similar monitoring tools (see Exit Status).  
+One can combine --remote with -c
+Set the metadata user to group during --edit.  
+You might need this or the -nt option to fixup things in case you transformed the image with some utility which ignores the exif thumbnail.
+The option must be repeated when used with multiple files.
+In -bgr233 mode, use 8 colors instead of 256.
+-use8 Scale Viewer
+Use a normalized starting point for optimization.
+Only the root of the filename should be specified for this option, for example: ramp for a grey level colormap.  

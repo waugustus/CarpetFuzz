@@ -1,0 +1,443 @@
+pass ⟨option⟩ to cpp (with -cpp only)
+this is used for -m.
+The difference with -X is that the mask is not applied only to the filename, but also include the path.
+The opposite of --fixed-width is --proportional-width . '
+Do not use this option with -long, -refcounts, -callbacks, or -cache.
+This is equivalent to groffer -Z . . .
+Cannot be used with -listen or -tunnel options.
+This is effective only with -msched-control-spec enabled.
+Same as -floop-nest-optimize.
+This option is ignored if optimisation is not used (see -O option), and it also implies the -fprecompute_ip_const option.
+like\  -then-last , but also removes the previous current project.
+Ignored with -I, -P, and -R unless -S is specified (see below).
+Print pages firstpage through lastpage; but not quite equivalent to -p firstpage -l lastpage.
+If this option is not specified, the expiration time set via --default-cert-expire is used.
+A combination of -fweb and CSE is often sufficient to obtain the same effect.
+This is only meaningful when --export-all-symbols is used.
+May not work with -vo directx and -vf crop combination.
+Should only be specified with --bytes.
+Do not apply any lossless image reduction: enable the options -nb, -nc and -np.
+This option cannot be used with -o or -s.
+This option should not be applied together with any of -s
+Mostly only useful with the --fetch option at present.
+Identical to -cfexp.
+Set the Block‐Size (don't use both  -b  and  -s )
+Generally used in conjunction with either the --overlay or --templates options.
+This option has no effect unless -b option is also used; it has no effect on platforms other than MS-DOS and MS-Windows.
+This option is the same as -target.
+If an explicit --template is given then --guest-arch has no effect.
+The same as -r  or  --raw .scan
+This switch must be used either with -mh or -ms.
+(Same as --report=1.)
+Omitting the -T option is equivalent to specifying -T meta .
+This deprecates the --accelerate option, which is now the default behavior.
+equivalent to '-o ssh_protocol=1'
+Options will be passed to autopkgtest in the order that the --autopkgtest-opt and --autopkgtest-opts options are given on the command line.
+Only useful with -p/--picture or -P/--picture-series.
+This flag is not useful with -i or -s.
+This is the same as -p3.
+Only useful with -v/--visual-compare.
+Either -J or -A must be given.
+With -fontconfig it is used for both libass and OSD, with -nofontconfig it is not used at all, ionly then -font and -subfont will work with a given path to font. .
+This has only effect when the channels are joined with -joinchannels.
+These options are similar to -fpic and -fPIC, but generated position independent code can be only linked into executables.
+Cannot be combined with --recent or --include/--exclude\.
+Only has effect if --once is used.
+Force upgrade (alias for --skip-version-check)
+You cannot use it in conjunction with -f .
+(This option has no effect without -b\.) .
+Same as -q -o.
+This is like --dry-run but different in some cases.
+In general, -B may be slower than -#, but not by very much.
+Note that explicitly giving -k overrides -U.
+The differences to the SVG backend are: the --opaque option has no effect, the --flat option is always on, and the dimensions are pixel-based.
+Only useful with -m.
+This option can not be used with option -ident.
+(For use with -H or -D) Suppress ordinary output to stdout.
+For the --usermap option to have any effect, the -o (--owner) option must be used (or implied), and the receiver will need to be running as a super-user (see also the --fake-super option).
+Follow symlinks in sources (used only with --buildsrpm).
+This is only really useful when used with --predict.
+Discarded when --part is used.
+-Z implies -z.
+This option is only valid if the -y option is specified (as the concept of unfragmentable part only makes sense when fragmentation is employed).
+For that, use --mf-fps instead.
+For backwards compatibility (same as --dirnames= 250,40,1).
+Useful for benchmarks when used with --no-audio.
+Synonymous with --case-id.
+This flag implies (and is incompatible with) -e .
+You cannot use -equalpixels with -imagewidth , -imageheight , or -scale .
+Configuration can only be set with the -D option.
+Has no effect if -u is omitted.
+So this option is only useful with options such as --cflags or --modversion that print errors by default.
+-x implies -t.
+This option is only meaningful when used with --chrome or --flame-graph options.
+This option only makes sense if -docfilessubdirs is also specified.
+is called with the --no-verify option.
+This option has no effect if --video-unscaled option is used.
+It cannot be combined with -efi-boot-part or -hfsplus.
+-gdwarf does not accept a concatenated debug level, to avoid confusion with -gdwarf-level.
+Suppresses --readline.
+Same as -ansi for + code.
+Print pidfile to <filename>, only used under -d option.
+This option is incompatible with -hostfile.
+Implies -meta.
+The --build-generator option must be provided to use --build-and-test.
+like -a , but also show errors;
+So either this option or --all-interfaces must be used if you would like to respond via an interfaces sub-IP.
+Cannot be combined with -uparams, --update-rcd-params=params, or -- params.
+Otherwise, they are just like the --setup-commands .
+This option was formerly known as --ftp-ssl-reqd.
+Conflicts with all -o * options.
+Like -i, but searches ignore case even if the pattern contains uppercase letters.
+-Wcatch-value is enabled by -Wall.
+This requires --uppercase having exactly that string but uppercase.
+(only valid with -s )
+For combinations with the -d/-D option see there.
+must be  enabled using  --client-ciphers option.
+This option is only meaningful if SSL is in use (see --ssl option).
+This option performs the same function as the -f option, extracting (with query) files that are newer than those with the same name on disk, and in addition it extracts those files that do not already exist on disk.
+If --name is present, -d flag will be ignored.
+Use -Wno-if-not-aligned to disable it.
+Normally --server should be used.
+This option must be specified before any --libs or --cflags options.
+Automatically create a calendar and an addressbook; implies --autocreate.
+(Using -p is deprecated).
+--no-ask-cert-expire disables this option.
+Using this parameter will typically require that the options -rate and -count are also provided.
+This option is equivalent to man option --pager=prog .
+Enabled with -fprofile-use.
+alias of --url, used for historical compatibility
++0 and -b -0 are all equivalent.
+This option is meaningful only when using -L, --location.
+Implies --no-pty.
+As --remote-wait, but without the warning when no server is found.
+Synonymous with -l 0 -b
+Do not use this option for quality settings, use option --quality instead.
+The --dirs option is implied by the --files-from option or the --list-only option (including an implied --list-only usage) if --recursive wasn’t specified (so that directories are seen in the listing).
+This option is effective only when --enable-rpc=true is given.
+This option overrides option -multi.
+This affects the output of the -d, -r and -s options.
+This warning is not enabled by -Wall, and is only active when -ftree-vrp is active (default for -O2 and above).
+Same as --halt=info.
+This option is only useful within a cracking method, so -y, -r or -b must be used in conjuntion with it.
+This option is the inverse of --kernel-skip-out.
+specify the video frame rate (used only with -q, -4, or -i)
+Use -Y0 to disable.
+This should be used in conjunction with -std=
+Same as -m option, used for POSIX compatibility.
+This option cannot be used with --dim4.
+This is simply a shortcut to --kernel-depth=1.
+Like -D, but print timestamps in UTC instead of local time (needs gawk).
+In this case set at least -sao or -tao explicitly.
+'=ALL, AND -NOINTRINSIC IS EQUIVALENT TO -INTRINSIC
+The test to run with the --build-and-test option.
+Must be given in conjunction with --btsuser.
+Higher levels also correspond to more effort, similar to the way -O works.
+You need to use the -I, --head option.
+On platforms where --relax is accepted the option --no-relax can be used to disable the feature.
+In fact, --exec-title=tcsh is equivalent to --command-title='Exec cd
+You cannot use --syslog with --logpath.
+With both -E
+Should not be used without -x.
+Must be given in conjunction with --packages.
+This option is mutually exclusive with the -V option.
+This setting must be used with --managed to have any effect.
+(This option applies to --tx mode only).
+This option has no effect if the -z/--zipfile option is used.
+Overrides --bbox and --padding.
+Use the -unroll option instead, which provides better fine-grained control.
+This option precludes -f and --rotate.
+This enforces -f mode.
+If --interface is used, this option will be ignored.
+Only usable with --remove.
+Implies --opaque.
+This option is ignored if -root, otherwise this option implies -doublebuffer.
+This is the same as -fn.
+Same as --cacert but used in HTTPS proxy context.
+Equivalent to '--webdriver' option above
+(Definitions in included-files are copied, unlike the -l option).
+Implies -x and ignore calculator's stdout.
+This affects only the -outdev not the -indev.
+This also implies --linear-scaling.
+Only the -t and -q options are valid when using this option, all other options are ignored.
+When -maltivec is used, rather than -maltivec
+So, you must enable --json along with --batch.
+Has no effect if -fnesc-deputy is not set.
+Same as --event, in nonblocking mode.
+Like --retry but for all following files.
+enable debug output (implies -f)
+This option is ignored if -root.
+set the SMSC number (requires --number)
+This option is equivalent to -Cfr (see below).
+Cannot be used in conjunction with -i, requires -p.
+The --strict, --ignore-all-space, and --ignore-garbage options provide alternative behaviors.
+Only has effect if --pam option is also in use.
+Conflicts with -s.
+Replaced by -mbarrel-shifter.
+Cannot be used together with --bugcount .
+like --section, but only use TEXT if no sections are present in INFO-FILE (replacing Miscellaneous).
+Must be used with -q or -Q.
+Same as -i  file but add the output to the previous window (so the output is
+This option only has an effect if -ffast-math or -funsafe-math-optimizations is used as well.
+(it is same as --refer-header .)
+These two options have been deprecated because of the similarity of their names to the --as-needed and --no-as-needed options.
+In order to get a warning about an unused function parameter, you must either specify -Wextra -Wunused (note that -Wall implies -Wunused), or separately specify -Wunused-parameter.
+This command is similar to --list-config but in general only internally used by the gpgconf tool.
+Together with -t.
+(Deprecated: use -v option instead)  Enable debugging messages.
+Daemon -d mode should not be used.
+This option must be specified before any --libs or --cflags options.
+Combining -c and -E is a no-op, since -c implies the behaviour of -E.
+-mdouble-float implies -msingle-float.
+Like -flto-report, but only print for the WPA phase of Link Time Optimization.
+This option is only for --provider dyndns
+Only one -B allowed, cannot be combined with -b.
+-mno-fp-regs implies -msoft-float.
+It cannot be combined with the -c option.
+This option also sets --batch.
+It makes no sense to use this option without -D . .
+Use -doctitle text instead.
+This option only makes sense together with the --preserve-anonymous option\.
+It requires that -fipa-cp is enabled.
+One should avoid using --wsesslog in conjunction with other httperf options that also control session behavior and workload URI's, namely --burst-length, --wsess, --wlog, and --wset.
+It overrides -s and -S.
+This option only shows an effect if both the -w and the -h option are given.
+-to and -t are mutually exclusive and -t has priority.
+This option only has effect with --tags or --posix-captures options.
+If -/ option is used, this option without argument is ignored!
+This option is only effective in combination with -ini .
+This option only makes sense with the -s option.
+This option must be specified before any --libs or --cflags options.
+Explicit parameters are expected by --stdio_sync and --scdbackup_tag.
+The --newline option has no effect on this option.
+When the --force-sequential option is used, this option is ignored.
+This option  is meaningful when --http2-proxy  option is used.
+This option is valid only with the -g or -P command.
+This option is only useful within a cracking method, so -y, -r or -b must be used in conjuntion with it.
+display no tray icon (useful only with the --key option).
+Only use plain python shell; should be used with --shell option
+Like --sub-scale-with-window, but affects subtitles in ASS format only.
+This is the same as specifying -font BUILTIN1.
+Use rendom GA seed (same as --ga-seed 0).
+It can only be used with -mcpu=
+This overrides -force.
+use POP over SSL with --pop option and use IMAP over SSL with --imap option.
+Same as --monitor, except run in the background logging events to a file that must be specified by --outfile.
+In that case, bilinear is used instead of whatever is set with --scale.
+Same as --create-device-config but preserves your existing config from being overwritten
+This option implies -pthread, and thus is only supported on targets that have support for -pthread.
+This option must be specified before any --libs or --cflags options.
+This option must be specified before any --libs or --cflags options.
+This option has been deprecated in favor of private options, try -video_size.
+--screen is a synonym for --logical-screen . '
+Used in conjunction with -dd to get communication dumps in ascii rather than hexadecimal format.
+These options require that you have set the -C option .
+Same as --tlsuser but used in HTTPS proxy context.
+This option must be specified before any --libs or --cflags options.
+This option should be used together with -j to avoid fork bombs.
+Enabled by -Wextra along with -fsized-deallocation.
+Only the directories explicitly specified with -I, -iquote, -isystem, and/or -idirafter options (and the directory of the current file, if appropriate) are searched.
+Only relevant when  when accounting_summary is false, and probably only useful with -j to prune the output. .
+This option conflicts with --commands-from-stdin. .
+If you think this option still doesn't give you enough details, consider using --trace or --trace-ascii instead.
+There's no progress bar in case both -q and -p options are used.
+If you use this option, all other keep options are ignored.
+The --share option has been replaced by the --oversubscribe option described below.
+Defaults to  (not to confuse with -Sn).
+Overrides -bt ; other segments still have to be taken care of with -b .
+The -nogssafer option runs Ghostscript without -dSAFER .
+The option must be combined with either -fsanitize=kernel-address or -fsanitize=address The option cannot be combined with -fsanitize=thread and/or -fcheck-pointer-bounds.
+This option and the -radius option are mutually exclusive.
+Likewise, the option -fno-signed-char is equivalent to -funsigned-char.
+When the -#, -c, or -l options are specified, the -B option is ignored.
+Only useful in conjunction with --to= FORMAT .
+Same as --halt=info.
+This flag is enabled by default at -O2 and -Os.
+In principle, this should work with the --stack-auto optionc , but that has not been tested.
+Works with --sany, --sall, --sreg and --stag.
+If -Wfatal-errors is also specified, then -Wfatal-errors takes precedence over this option.
+--quiet option is suppressed.
+It is recommended to use the -R or -S options instead.
+You should not use the -f image with the -l option.
+This is exactly equivalent to -chain .
+This option is only useful with the -duplex option.
+the -n and -s options will not work in conjunction with this option.
+Running under a debugger can cause an implicit -nograb, use -dograb to override.
+The -t option is ignored when used with -L (list files without matches), because the grand total would always be zero.
+This option is meaningful for session workloads only (see the --wsess and --wsesslog options).
+As with --auto-find, the filenames that are eligible for matching are obtained by traversing the directory named with the --music-dir option (defaulting to ~/music/ if --music-dir is not used).
+The -q flag takes precedence over the -v flag.
+Like -last, but busy versions are ignored.
+Fillmode=0 is equivalent to -coastlines, fillmode=1 is equivalent to -contour, and fillmode=2 is equivalent to -landfill.
+Can not be used with -s.
+If the -P option is used more than once, there must be a separate -v option for each instance of the -P option. .
+Do not check data (useful with -i option and default with -l).
+With the -o or --only-matching option, this has no effect and a warning is given.
+(Same as --report=1.)
+This option cannot be used in conjunction with -t .
+This option is equivalent to --forward-prob=1.0.
+-G supersedes the usage of any -l or -m options.
+To disable this behaviour, use the --no-subpages option.
+Only useful with -p/--picture or -P/--picture-series.
+This is only useful with --debug-dump=info.
+Note that this option does not apply to files specified by the -f, --exclude-from, or --include-from options, which are expected to use the operating system's standard newline sequence.
+-fno-align-labels and -falign-labels=1 are equivalent and mean that labels are not aligned.
+Same as -background.
+Only effective in combination with -ini .
+This option is most useful in conjunction with -b to allow management of the running k5start daemon.
+This options acts the same as --device-names CURRENTSLOTauto=
+Will override the one set by the --anglemethod.
+Print help, as with -h, but also include expert options that are not displayed with -h.
+For names listed above, --name=WORD is equivalent to --WORD.
+This deprecates the old --soundhw option.
+This can only be used with the -k option.
+Valid under -v option.
+This is the same as --exec-on-fail, except it only works when the command returns 0.
+This changes the -a, -d and -m options so that disks are added and mounts are done read-only.
+The option is now deprecated in favor of the equivalent -mcpu=5307.
+This option is deprecated, please use --compression or -z.
+Incompatible with -l.
+You cannot use this option and --in-place together.
+The option is now deprecated in favor of the equivalent -mcpu=5407.
+--no-ask-sig-expire disables this option.
+Like -fstack-protector except that all functions are protected.
+This option is incompatible with -g.
+Options such as --verbose, --extra-verbose, and --debug are ignored if --quiet is specified.
+--no-ask-cert-level disables this option.
+This is the same as -multilisten described below.
+Implies -k . . .
+Also, do not combine the -localauth and -noauth flags.
+equivalent to -m#2074 -m5 equivalent to -m#2488
+No -A option is used.
+Implies -r.
+Not guaranteed to work correctly with -oac copy.
+(The deprecated shorthand -n is also still accepted.)
+This is a synonym for -mapcs-frame and is deprecated.
+This option implies --no-automatic-dbgsym and cannot be used with --automatic-dbgsym.
+Writes output as hocr file (only works with the -o option).
+Implies --archudeb and --indepudeb.
+-ffree-line-length-0 means the same thing as -ffree-line-length-none.
+Note: this option is deprecated and may be removed in a future version, use the --exclusive option to explicitly declare an exclusive queue.
+This option is mututally exclusive with -N .
+This option conflicts with the -s parameter.
+This option is the same as running the --edit-key command minimize after import.
+The option cannot be combined with -fcheck-pointer-bounds.
+If this option is specified, it implies the -b option.
+This option is meaningful only when the -i option is used.
+-Wnonnull-compare is included in -Wall.
+The same as -t.
+This option is equivalent to specifying all files in the directory with the --descr option.
+This option is the opposite of --arch-any and only useful when used together with --arch-all or --source.
+A deprecated synonym for -mtune.
+Pad the hdimage with zero up to the total size given by -t or -k (only in conjunction with -f ).
+Most of them have both positive and negative forms; the negative form of -ffoo is -fno-foo.
+This option is the inverse of --kernel-skip-out.
+This is only relevant when --daemon is specified.
+Implies --kernel.
+(Same as --not --exclude.)
+It is enabled by default when generating code for SH4A.  Using -mno-fsrra disables reciprocal square root approximations even if -funsafe-math-optimizations and -ffinite-math-only are in effect.
+this switch can only be used with the -s switch.
+--sub-ass-* style override options.
+This is incompatible with the --password option, and will work only against a FreeIPA server more recent than version 3.3.
+--load will set both --start-load and run-load.
+This option cannot be used with --sigs.
+Implies -pdf.
+This also forces foreground mode and cannot be used with -d.
+This is the opposite of the -S option.
+This has to be used with --query.
+Obsolete synonym for -i .
+Same as -Cn.
+Contrary to option -i, this option does not depend on name resolution.
+Note that -C does not affect the regular expressions used in --input-separator and --input-element.
+In DVD mode the options -p and -X have no effect.
+This option must be specified before any of the options --cflags, --libs and --static-libs.
+This option is the opposite of --arch-all.
+When no output options are supplied to pkg-config, --exists is implied.
+A combination of -J -input-charset charset .
+is similar to -notname, except that the WM_CLASS property of the window is used.
+--noswap will set both --start-noswap and run-noswap.
+This option is identical to --cflags, only it prints the link flags.
+Without the -I or the -M option, this only registers users at a registrar.
+(This is equivalent to -L +=pedantic).
+This option overrides -colors and -onepass .
+This option cannot be used together with -G ( --replay-gain ).
+This option can not be used with the option -anon.
+This can only be activated when -c is in use.
+(For use with -l only) Report whether each substitution is a transition or a transversion.
+Enabled by default by any -O option.
+Used together with --min-bps.
+Alternatively provide option --config
+Only if configured with --enable-tcb=btree
+This option should be combined with --cpuset or --cpuset-only, otherwise it will imply --cpuset.
+This option can not be used with the --thread-spec option.
+Implies -XKindSignatures.
+Recovery block count (don't use both  -r  and  -c )
+This option must be specified before any --libs or --cflags options.
+This option has been replaced by the --console plain option.
+Only makes sense in combination with -d.
+This option is similar to the -a option.
+This option is only meaningful if --s2k-mode is set to the default of 3.
+This is also the default with --openpgp.
+If in doubt use -framerate instead of the input option -r.
+These affect only the -l (--limits) option.
+Disable the -capslockhack behaviour.
+This test is always run by default in both --encrypt and --decrypt mode.
+This option is the same as --file=-.
+Same as --command-fd, except the commands are read out of file file
+This has no effect without --compound-enumeratorsdisabled.
+Must be used with --from.
+Any waiting times specified in the --groups option will be ignored.
+Overrides previous --stylesheet and --stylesheet-path settings.
+This option must be used in conjunction with one or more of the --guess options listed above, or deborphan will not display anything.
+This only works if option -i is also given.
+This option can't be used in conjunction with --assembly.
+foo--\ -e\ latin1    is equivalent to   pandoc\ -o\ foo-s
+Both --current and --target dir imply --notemp.
+This is useful in conjunction with options -hide_menubar and -disable_menubar for limiting the user's interaction with the application.
+The --altselector-char mechanism uses the features specified by --altselector-feature options.
+Implies -F.
+As -sf, but also show Unicode version of the path if exists.0 -sU
+You can not combine --insensitive with --consistent.
+You can not use this option with -p.
+If you give more than one of -dumpaudio, -dumpvideo, -dumpstream on the command line only the last one will work. .
+If used, this option overrides the -1 and -2 options.
+In such cases, use option --locateSame.
+Use the long listing format (same as -m -o -v).
+Like -a but write only the image dimensions.
+You must specify -bg  and  -fg colors.
+This takes precedence over -h and -p.
+Not available with -t.
+Use system settings for keyrepeat delay and rate, instead of --input-ar-delay and --input-ar-rate.
+This option has no meaning when the --notail option is also specified.
+Implies -s.
+Only meaningful for parallel jobs, itogether with the -pe option.
+Ignored if -H is not specified.
+Equivalent with -V 0.
+Can only be used when -B is also set.
+The only times that the --partial option does not look for this environment value are (1) when --inplace was specified (since --inplace conflicts with --partial-dir), and (2) when --delay-updates was specified (see below).
+Same as --dw '\\0'.
+Only in combination with -g option.
+Like -use_pattern, but automatically appending the test by -or rather than by -and.
+This option is only useful in conjunction with -origin_file.
+Show ID (only valid together with -p)
+Deprecated in favor of -H.
+(in conjunction with \bF-M)
+This option is similar to --recipient except that it encrypts to a key stored in the given file.
+This requires a new signing-key-pair which can be auto-created with the --auto-create parameter.
+Similar to -x but applies only to reads and then to the clipped length.
+Enable SASL Interactive mode.
+If SIGN_KEYID is not set, this option will be ignored entirely.
+This is because a file listing implies the --dirs option w/o --recursive, and older rsyncs
+Incompatible with all other options.
+Same as the -output option, except set the background to be transparent when writing a PNG file.
+Note that the -u option with no input file arguments acts like the -f (freshen)
+This reverses the effect of the --phono option, and is the default.
+If the option --buildep option is not present, this option will be ignored.
+enable debug output (implies -f)
+Migrate to --rpc-secret option as soon as possible.
+This option is only useful when generating a table style report (-T).
+If you want to enable NTLM for your proxy authentication, then use --proxy-ntlm.
+(Can be useful when used in conjunction with -v or -d)
+Forces -S and -C. Forces and supplies values for -s and -b.
+Use this option to enable infinite buffers for all inputs, use -noinfbuf to disable it.
+As -sf, but also show Unicode version of the path if exists.0 -sU

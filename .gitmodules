@@ -1,0 +1,6 @@
+[submodule "pict"]
+	path = pict
+	url = git@github.com:microsoft/pict.git
+[submodule "fuzzer"]
+	path = fuzzer
+	url = git@github.com:waugustus/CarpetFuzz-fuzzer.git
