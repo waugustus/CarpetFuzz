@@ -113,6 +113,16 @@ CarpetFuzz has found 56 crashes on our real-world dataset, of which 42 are 0-day
 |CVE-2022-4645|tiffcp|heap buffer overflow|
 |CVE-2022-29977|img2sixel|assertion failure|
 |CVE-2022-29978|img2sixel|floating point exception|
+|CVE-2023-0795|tiffcrop|segmentation violation|
+|CVE-2023-0796|tiffcrop|segmentation violation|
+|CVE-2023-0797|tiffcrop|segmentation violation|
+|CVE-2023-0798|tiffcrop|segmentation violation|
+|CVE-2023-0799|tiffcrop|heap use after free|
+|CVE-2023-0800|tiffcrop|heap buffer overflow|
+|CVE-2023-0801|tiffcrop|heap buffer overflow|
+|CVE-2023-0802|tiffcrop|heap buffer overflow|
+|CVE-2023-0803|tiffcrop|heap buffer overflow|
+|CVE-2023-0804|tiffcrop|heap buffer overflow|
 
 ## Citing the paper ##
 
