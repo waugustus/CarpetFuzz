@@ -126,7 +126,7 @@ CarpetFuzz has found 56 crashes on our real-world dataset, of which 42 are 0-day
 
 ## Credit ##
 
-Thanks to Ying Li (@fr3ya) and Zhiyu Zhang () for their valuable contributions to this project.
+Thanks to Ying Li (@Fr3ya) and Zhiyu Zhang () for their valuable contributions to this project.
 
 ## Citing this paper ##
 
