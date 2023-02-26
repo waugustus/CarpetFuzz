@@ -124,7 +124,11 @@ CarpetFuzz has found 56 crashes on our real-world dataset, of which 42 are 0-day
 |CVE-2023-0803|tiffcrop|heap buffer overflow|
 |CVE-2023-0804|tiffcrop|heap buffer overflow|
 
-## Citing the paper ##
+## Credit ##
+
+Thanks to Ying Li () and Zhiyu Zhang () for their valuable contributions to this project.
+
+## Citing this paper ##
 
 In case you would like to cite CarpetFuzz, you may use the following BibTex entry:
 
