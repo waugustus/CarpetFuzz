@@ -54,7 +54,7 @@ def getDryRunCoverage(stub, program_dir, seed_dir, showmap_path):
     os.remove(tmpfile_path)
     # Execute
     output = execution_util.executeCommand(cmd)
-    coverage = re.compile(r'Captured (\d+) tuples').findall(output.decode("utf-8"))
+    coverage = re.compile(r'Captured (\d+) tuples').findall(output)
     if len(coverage) == 0:
         print("[Error] Failed to get bitmap through cmd line: %s" % cmd)
         exit(1)
