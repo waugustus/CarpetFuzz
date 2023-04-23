@@ -67,7 +67,7 @@ pyarrow==8.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pydantic==1.7.4
-pyinflect==0.5.1
+lemminflect==0.2.3 
 pyparsing==3.0.9
 pytest==7.1.2
 python-dateutil==2.8.2

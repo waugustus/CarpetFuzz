@@ -1,12 +1,12 @@
 # CarpetFuzz #
 
-<p><a href="http://kaichen.org/paper/conference/usenix2023_wang.pdf"><img alt="CarpetFuzz thumbnail" align="right" width="200" src="images/CarpetFuzz-thumbnail.png"></a></p>
+<p><a href="https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf"><img alt="CarpetFuzz thumbnail" align="right" width="200" src="images/CarpetFuzz-thumbnail.png"></a></p>
 
 CarpetFuzz is an NLP-based fuzzing assitance tool for generating valid option combinations.
 
 The basic idea of CarpetFuzz is to use natural language processing (NLP) to identify and extract the relationships (e.g., conflicts or dependencies) among program options from the description of each option in the documentation and filter out invalid combinations to reduce the option combinations that need to be fuzzed.
 
-For more details, please refer to [our paper](http://kaichen.org/paper/conference/usenix2023_wang.pdf) from USENIX Security'23.
+For more details, please refer to [our paper](https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf) from USENIX Security'23.
 
 The [CarpetFuzz-experiments](https://github.com/waugustus/CarpetFuzz-experiments) repository contains the data sets, scripts, and documentation required to reproduce our results in the paper.
 
@@ -50,6 +50,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 python3 -m spacy download en_core_web_sm-3.0.0 --direct
+echo -e "import nltk\nnltk.download('averaged_perceptron_tagger')\nnltk.download('omw-1.4')"|python3
 
 # Download AllenNLP's parser model
 wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parser-2020.02.10.tar.gz
