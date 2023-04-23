@@ -110,4 +110,4 @@ if __name__ == "__main__":
     with open("%s/ranked_stubs_%s.txt" % (output_dir, program), "w") as f:
         f.write("%d\n%s"% (len(stubs_ranked_list), "\n".join(stubs_ranked_list)))
 
-    print("[OK] Successfully generate the combination file - %s/combination_%s.json" % (output_combination_dir, program))
+    print("[OK] Successfully generate the ranked stub file - %s/ranked_stubs_%s.txt" % (output_dir, program))
