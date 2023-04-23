@@ -111,3 +111,4 @@ if __name__ == "__main__":
         f.write("%d\n%s"% (len(stubs_ranked_list), "\n".join(stubs_ranked_list)))
 
     print("[OK] Successfully generate the ranked stub file - %s/ranked_stubs_%s.txt" % (output_dir, program))
+    
