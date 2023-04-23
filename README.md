@@ -84,7 +84,7 @@ python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/ou
 
 # Step 3
 # Fuzz with the ranked stubs
-${CarpetFuzz}/fuzzer/afl-fuzz -i input/ -o output/ -K $CarpetFuzz}/output/stubs/ranked_stubs_tiffcp.txt -- $PWD/build_carpetfuzz/bin/tiffcp @@
+${CarpetFuzz}/fuzzer/afl-fuzz -i input/ -o output/ -K ${CarpetFuzz}/output/stubs/ranked_stubs_tiffcp.txt -- $PWD/build_carpetfuzz/bin/tiffcp @@
 ```
 
 ## CVEs found by CarpetFuzz ##
