@@ -4,3 +4,4 @@ output/*
 models/elmo-constituency-parser-2020.02.10.tar.gz
 .VSCodeCounter/*
 *.pyc
+!.gitkeep
