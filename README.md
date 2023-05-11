@@ -2,7 +2,7 @@
 
 <p><a href="https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf"><img alt="CarpetFuzz thumbnail" align="right" width="200" src="images/CarpetFuzz-thumbnail.png"></a></p>
 
-CarpetFuzz is an NLP-based fuzzing assitance tool for generating valid option combinations.
+CarpetFuzz is an NLP-based fuzzing assistance tool for generating valid option combinations.
 
 The basic idea of CarpetFuzz is to use natural language processing (NLP) to identify and extract the relationships (e.g., conflicts or dependencies) among program options from the description of each option in the documentation and filter out invalid combinations to reduce the option combinations that need to be fuzzed.
 
@@ -135,5 +135,12 @@ In case you would like to cite CarpetFuzz, you may use the following BibTex entr
 
 ```
 @inproceedings {
+  title = {CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing},
+  author = {Wang, Dawei and Li, Ying and Zhang, Zhiyu and Chen, Kai},
+  booktitle = {Proceedings of the 32th USENIX Conference on Security Symposium},
+  publisher = {USENIX Association},
+  address = {Anaheim, CA, USA},
+  pages = {},
+  year = {2013}
 }
 ```
