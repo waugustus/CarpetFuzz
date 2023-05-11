@@ -137,7 +137,7 @@ In case you would like to cite CarpetFuzz, you may use the following BibTex entr
 @inproceedings {
   title = {CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing},
   author = {Wang, Dawei and Li, Ying and Zhang, Zhiyu and Chen, Kai},
-  booktitle = {Proceedings of the 32th USENIX Conference on Security Symposium},
+  booktitle = {Proceedings of the 32nd USENIX Conference on Security Symposium},
   publisher = {USENIX Association},
   address = {Anaheim, CA, USA},
   pages = {},
