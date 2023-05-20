@@ -40,20 +40,21 @@ def restoreStub(combination, dict_data):
     return stub
 
 def getDryRunCoverage(stub, program_dir, seed_dir, showmap_path):
-    # Replace space with 0x00
-    new_stub = stub.replace(" ", "\x00")
     # Save stub into a temporary .argv file
-    tmpfile_path = "/tmp/.dry-run-tmpfile-%s" % (md5(new_stub.encode("utf-8")).hexdigest())
+    tmpfile_path = "/tmp/.dry-run-tmpfile-%s" % (md5(stub.encode("utf-8")).hexdigest())
+    # Replace space with 0x00
+    new_stub = ' '.join(stub.split()).replace(" ", "\x00") + "\x00"
+    # Choose the first seed since it is more likely to be fuzzed in a limited time
+    new_stub = new_stub.replace("@@", os.path.join(seed_dir, os.listdir(seed_dir)[0]))
     with open(tmpfile_path, "w") as f:
         f.write(new_stub)
-    # Choose the first seed since it is more likely to be fuzzed in a limited time
-    seed_path = os.listdir(seed_dir)[0]
     # Pass the temporary file to the program since it has been instrumented
-    cmd = ("%s -e -o /dev/null -- %s/%s %s" % (showmap_path, program_dir, stub.split(" ")[0], tmpfile_path)).replace("@@", seed_path)
-    # Delete the temporary file
-    os.remove(tmpfile_path)
+    cmd = ("%s -e -o /dev/null -- %s/%s %s" % (showmap_path, program_dir, stub.split(" ")[0], tmpfile_path))
     # Execute
     output = execution_util.executeCommand(cmd)
+    # Delete the temporary file
+    os.remove(tmpfile_path)
+    # Find the coverage data
     coverage = re.compile(r'Captured (\d+) tuples').findall(output)
     if len(coverage) == 0:
         print("[Error] Failed to get bitmap through cmd line: %s" % cmd)
