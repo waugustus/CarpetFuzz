@@ -141,6 +141,6 @@ In case you would like to cite CarpetFuzz, you may use the following BibTex entr
   publisher = {USENIX Association},
   address = {Anaheim, CA, USA},
   pages = {},
-  year = {2013}
+  year = {2023}
 }
 ```
