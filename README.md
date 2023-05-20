@@ -76,7 +76,6 @@ cp ${CarpetFuzz}/fuzzer/testcases/images/tiff/* input/
 
 # Step 2
 # Use CarpetFuzz to analyze the relationships from the manpage file
-# The manpage files are usually in the build directory (share/man/man1).
 python3 ${CarpetFuzz}/scripts/find_relationship.py --file $PWD/build_carpetfuzz/share/man/man1/tiffcp.1
 # Based on the relationship, use pict to generate 6-wise combinations
 python3 ${CarpetFuzz}/scripts/generate_combination.py --relation ${CarpetFuzz}/output/relation/relation_tiffcp.json
@@ -87,6 +86,25 @@ python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/ou
 # Fuzz with the ranked stubs
 ${CarpetFuzz}/fuzzer/afl-fuzz -i input/ -o output/ -K ${CarpetFuzz}/output/stubs/ranked_stubs_tiffcp.txt -- $PWD/build_carpetfuzz/bin/tiffcp @@
 ```
+
+## FAQ ##
+
+1. How to find the manpage file of a new program?
+   
+   In our experience, manpage files are typically located in the `share` directory within the compilation directory, such as `/your_build_dir/share/man/man1`.
+
+2. How to know which option combination triggered a crash?
+   
+   You can extract the corresponding argv index from the crash filename. For instance, the filename `id:000000,sig:07, src:000000,argv:000334,op:argv,pos:0` indicates that the crash was triggered by `argv:000334`. You can then find the corresponding argv in `line 336` (i.e., 334+2) of the ranked_stubs file.
+
+3. How to reduce memory consumption when using pict to combine a large number of options?
+   
+   When there is a large number of options (e.g., `gm`), PICT consumes a significant amount of memory (more than 128GB). In such cases, you can restricted the number of options by sorting all individual options based on their dry-run coverage and selecting the top 50 options with the highest coverage for combination. The whole process can be done by the `simplify_relationship.py` script.
+
+    ```
+    # Restrict the number of options based on their coverage
+    python3 ${CarpetFuzz}/scripts/simplify_relation.py --relation ${CarpetFuzz}/output/relation/relation_gm.json --dict ${CarpetFuzz}/tests/dict/dict.json --bindir $PWD/build_carpetfuzz/bin --seeddir input
+    ```
 
 ## CVEs found by CarpetFuzz ##
 
