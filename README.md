@@ -28,6 +28,18 @@ The [CarpetFuzz-experiments](https://github.com/waugustus/CarpetFuzz-experiments
 
 ## Installation ##
 
+For easy installation, we provide a `Dockerfile` to  setup and install CarpetFuzz:
+
+```
+# Download CarpetFuzz repo with the submodules
+git clone --recursive https://github.com/waugustus/CarpetFuzz
+cd CarpetFuzz
+# Build image
+sudo docker build -t carpetfuzz:latest .
+```
+
+And you can also build CarpetFuzz yourself:
+
 ```
 # Download CarpetFuzz repo with the submodules
 git clone --recursive https://github.com/waugustus/CarpetFuzz
@@ -50,11 +62,12 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 python3 -m spacy download en_core_web_sm-3.0.0 --direct
-echo -e "import nltk\nnltk.download('averaged_perceptron_tagger')\nnltk.download('omw-1.4')"|python3
+echo -e "import nltk\nnltk.download('averaged_perceptron_tagger')\nnltk.download('omw-1.4')\nnltk.download('punkt')\nnltk.download('wordnet')"|python3
 
 # Download AllenNLP's parser model
 wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parser-2020.02.10.tar.gz
 ```
+
 
 ## Usage ##
 
