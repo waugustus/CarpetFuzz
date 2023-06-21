@@ -4,9 +4,9 @@
 #
 
 From ubuntu:20.04
-COPY ./ $HOME/CarpetFuzz
+COPY ./ /root/CarpetFuzz
 
-WORKDIR $HOME/CarpetFuzz
+WORKDIR /root/CarpetFuzz
 
 # Install required dependencies
 RUN apt update
@@ -78,12 +78,24 @@ RUN ["python3", "-c", "import nltk; nltk.download('averaged_perceptron_tagger');
 RUN wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parser-2020.02.10.tar.gz
 
 # Build submodules
-WORKDIR $HOME/CarpetFuzz/fuzzer
+WORKDIR /root/CarpetFuzz/fuzzer
 RUN make clean all
-WORKDIR $HOME/CarpetFuzz/pict
+WORKDIR /root/CarpetFuzz/pict
 RUN cmake -DCMAKE_BUILD_TYPE=Release -S . -B build && cmake --build build
-WORKDIR $HOME/CarpetFuzz/pict/build
+WORKDIR /root/CarpetFuzz/pict/build
 RUN ctest -v
 
+ENV CarpetFuzz=/root/CarpetFuzz
+
+# Build libtiff for test
+RUN mkdir /root/programs
+WORKDIR /root/programs
+
+RUN git clone https://gitlab.com/libtiff/libtiff libtiff; cd libtiff; git reset --hard b51bb157123264e26d34c09cc673d213aea61fc7; \
+    bash ./autogen.sh; \
+    CC=${CarpetFuzz}/fuzzer/afl-clang-fast CXX=${CarpetFuzz}/fuzzer/afl-clang-fast++ ./configure --prefix=$PWD/build_carpetfuzz --disable-shared; \
+    make -j;make install;make clean; \
+    mkdir input; cp ${CarpetFuzz}/fuzzer/testcases/images/tiff/not_kitty.tiff input/
+
 # Finished
-WORKDIR $HOME/CarpetFuzz
+WORKDIR /root/CarpetFuzz
