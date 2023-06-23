@@ -354,6 +354,9 @@ class NLPUtil:
         item_generator = self.getReplaceItem()
         for option in option_list:
             if option not in option_map_dict:
+                # Prevent the single slash from escaping the next char
+                if option.endswith("\\") and not option.endswith("\\\\"):
+                    option += "\\"
                 if included_list:
                     # e.g., --keep-*
                     r = re.compile("^%s.*$" % option[:-1]) if option[-1] == "*" else re.compile("^%s$" % option)
