@@ -354,19 +354,16 @@ class NLPUtil:
         item_generator = self.getReplaceItem()
         for option in option_list:
             if option not in option_map_dict:
-                # Prevent the single slash from escaping the next char
-                if option.endswith("\\") and not option.endswith("\\\\"):
-                    option += "\\"
                 if included_list:
                     # e.g., --keep-*
                     r = re.compile("^%s.*$" % option[:-1]) if option[-1] == "*" else re.compile("^%s$" % option)
                     # Options not belong to this program
                     if not any(r.match(opt) for opt in included_list):
-                        sent = re.sub("%s(?![a-zA-Z0-9\-\*])" % option, "option", sent).strip()
+                        sent = re.sub("%s(?![a-zA-Z0-9\-\*])" % re.escape(option), "option", sent).strip()
                         continue
                 replace_item = next(item_generator)
                 option_map_dict[option] = replace_item
-                sent = re.sub("%s(?![a-zA-Z0-9\-\*])" % option.replace("*", "\*"), replace_item, sent).strip()
+                sent = re.sub("%s(?![a-zA-Z0-9\-\*])" % re.escape(option.replace("*", "\*")), replace_item, sent).strip()
             
         r = sorted(option_map_dict.items(), key=lambda kv: len(str(kv[0])), reverse=True)
         option_map_dict = {i[0]: i[1] for i in r}
