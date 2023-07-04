@@ -26,6 +26,22 @@ The [CarpetFuzz-experiments](https://github.com/waugustus/CarpetFuzz-experiments
 |[tests/dict](tests/dict)|Sample dictionary file used to generate stub (involving 49 programs).|
 |[tests/manpages](tests/manpages)|Sample manpage files.|
 
+## Supported Environments ##
+
+CarpetFuzz is recommended to be run on Linux systems. We have tested it on the following operating system versions:
+
+- Ubuntu 18.04
+- Ubuntu 20.04
+
+While our testing has primarily focused on these operating systems, it may also work on other Linux distributions. Ensure that your system meets the following requirements:
+
+- Linux operating system (Ubuntu 18.04 or 20.04 is recommended)
+- Python 3.6 or higher
+- LLVM 12.0.0 or higher
+- Required dependencies (detailed instructions will be provided during the installation process)
+
+Please note that CarpetFuzz may not be compatible with non-Linux systems or may encounter compatibility issues on other operating systems. We recommend running CarpetFuzz on a supported Linux distribution for the best user experience and performance.
+
 ## Installation ##
 
 For easy installation, we provide a `Dockerfile` to  setup and install CarpetFuzz:
@@ -69,7 +85,7 @@ wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parse
 ```
 
 
-## Usage ##
+## Usage (Minimal Working Example) ##
 
 We take the program `tiffcp` as an example,
 
