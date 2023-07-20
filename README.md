@@ -56,7 +56,7 @@ Please note that CarpetFuzz may not be compatible with non-Linux systems or may 
 
 ## Installation ##
 
-For easy installation, we offer a ready-to-use Docker image for download, or you can compile the image yourself using the Dockerfile we provide.
+For easy installation, we offer a ready-to-use Docker image for download,
 
 ```
 sudo docker pull 4ugustus/carpetfuzz 
