@@ -69,7 +69,7 @@ or you can compile the image yourself using the Dockerfile we provide.
 git clone --recursive https://github.com/waugustus/CarpetFuzz
 cd CarpetFuzz
 # Build image
-sudo docker build -t carpetfuzz:latest .
+sudo docker build -t 4ugustus/carpetfuzz:latest .
 ```
 
 And you can also build CarpetFuzz yourself:
@@ -105,22 +105,14 @@ wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parse
 
 ## Usage (Minimal Working Example) ##
 
-We take the program `tiffcp` used in the paper as an example,
+We take the program `tiffcp` used in the paper as an example, 
 
 ```
-export CarpetFuzz=/path/to/CarpetFuzz
-
 # Step 1
-# Download and build the tiffcp repo with CarpetFuzz-fuzzer
-git clone https://gitlab.com/libtiff/libtiff
-cd libtiff
-git reset --hard b51bb
-sh ./autogen.sh
-CC=${CarpetFuzz}/fuzzer/afl-clang-fast CXX=${CarpetFuzz}/fuzzer/afl-clang-fast++ ./configure --prefix=$PWD/build_carpetfuzz --disable-shared
-make -j;make install;make clean
-# Prepare the seed
-mkdir input
-cp ${CarpetFuzz}/fuzzer/testcases/images/tiff/* input/
+# Create container
+sudo docker run -it 4ugustus/carpetfuzz bash
+# Libtiff has already been built
+cd /root/programs/libtiff
 
 # Step 2
 # Use CarpetFuzz to analyze the relationships from the manpage file
@@ -133,6 +125,24 @@ python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/ou
 # Step 3
 # Fuzz with the ranked stubs
 ${CarpetFuzz}/fuzzer/afl-fuzz -i input/ -o output/ -K ${CarpetFuzz}/output/stubs/ranked_stubs_tiffcp.txt -- $PWD/build_carpetfuzz/bin/tiffcp @@
+```
+
+If you build CarpetFuzz yourself, you need to change Step 1 as following,
+
+```
+# Step 1 (without docker)
+# Set the environment
+export CarpetFuzz=/path/to/CarpetFuzz
+# Download and build the tiffcp repo with CarpetFuzz-fuzzer
+git clone https://gitlab.com/libtiff/libtiff
+cd libtiff
+git reset --hard b51bb
+sh ./autogen.sh
+CC=${CarpetFuzz}/fuzzer/afl-clang-fast CXX=${CarpetFuzz}/fuzzer/afl-clang-fast++ ./configure --prefix=$PWD/build_carpetfuzz --disable-shared
+make -j;make install;make clean
+# Prepare the seed
+mkdir input
+cp ${CarpetFuzz}/fuzzer/testcases/images/tiff/* input/
 ```
 
 ## FAQ ##
