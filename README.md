@@ -1,5 +1,7 @@
 # CarpetFuzz #
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8166412.svg)](https://doi.org/10.5281/zenodo.8166412)
+
 <p><a href="https://www.usenix.org/system/files/sec23fall-prepub-467-wang-dawei.pdf"><img alt="CarpetFuzz thumbnail" align="right" width="200" src="images/CarpetFuzz-thumbnail.png"></a></p>
 
 CarpetFuzz is an NLP-based fuzzing assistance tool for generating valid option combinations.
@@ -54,7 +56,13 @@ Please note that CarpetFuzz may not be compatible with non-Linux systems or may 
 
 ## Installation ##
 
-For easy installation, we provide a `Dockerfile` to  setup and install CarpetFuzz:
+For easy installation, we offer a ready-to-use Docker image for download, or you can compile the image yourself using the Dockerfile we provide.
+
+```
+sudo docker pull 4ugustus/carpetfuzz 
+```
+
+or you can compile the image yourself using the Dockerfile we provide.
 
 ```
 # Download CarpetFuzz repo with the submodules
