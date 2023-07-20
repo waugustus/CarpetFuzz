@@ -23,8 +23,9 @@ RUN DEBIAN_FRONTEND=noninteractive apt install -y \
     libpixman-1-dev \
     cargo \
     libgtk-3-dev \
-    linux-headers-$(uname -r) \
+    linux-headers-generic \
     vim \
+    git \
     wget \
     curl \
     gnupg \

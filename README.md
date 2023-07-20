@@ -26,6 +26,16 @@ The [CarpetFuzz-experiments](https://github.com/waugustus/CarpetFuzz-experiments
 |[tests/dict](tests/dict)|Sample dictionary file used to generate stub (involving 49 programs).|
 |[tests/manpages](tests/manpages)|Sample manpage files.|
 
+We have highly structured our code and provided extensive comments to enhance readers' comprehension. The implementations for various components of CarpetFuzz can be found in the following functions,
+
+| Section | Component | File | Function |
+|----|----|----|----|
+| 3.2 | EDR Identification | [scripts/find_relationship.py](scripts/find_relationship.py) | identifyExplicitRSentences |
+| 3.3 | IDR Identification | [scripts/find_relationship.py](scripts/find_relationship.py) | identifyImplicitRSentences |
+| 3.4 | Relationship Extraction | [scripts/find_relationship.py](scripts/find_relationship.py) | extractRelationships |
+| 3.5 | Combination | [scripts/generate_combination.py](scripts/generate_combination.py) | main |
+| 3.5 | Prioritization | [scripts/rank_combination.py](scripts/rank_combination.py) | main |
+
 ## Supported Environments ##
 
 CarpetFuzz is recommended to be run on Linux systems. We have tested it on the following operating system versions:
@@ -87,7 +97,7 @@ wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parse
 
 ## Usage (Minimal Working Example) ##
 
-We take the program `tiffcp` as an example,
+We take the program `tiffcp` used in the paper as an example,
 
 ```
 export CarpetFuzz=/path/to/CarpetFuzz
@@ -96,6 +106,7 @@ export CarpetFuzz=/path/to/CarpetFuzz
 # Download and build the tiffcp repo with CarpetFuzz-fuzzer
 git clone https://gitlab.com/libtiff/libtiff
 cd libtiff
+git reset --hard b51bb
 sh ./autogen.sh
 CC=${CarpetFuzz}/fuzzer/afl-clang-fast CXX=${CarpetFuzz}/fuzzer/afl-clang-fast++ ./configure --prefix=$PWD/build_carpetfuzz --disable-shared
 make -j;make install;make clean
