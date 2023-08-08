@@ -123,9 +123,8 @@ cd /root/programs/libtiff
 python3 ${CarpetFuzz}/scripts/find_relationship.py --file $PWD/build_carpetfuzz/share/man/man1/tiffcp.1
 # Based on the relationship, use pict to generate 6-wise combinations  ( depends on #OPT )
 python3 ${CarpetFuzz}/scripts/generate_combination.py --relation ${CarpetFuzz}/output/relation/relation_tiffcp.json
-# Rank each combination with its dry-run coverage
-python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/output/combination/ ( < 10mins )
-combination_tiffcp.txt --dict ${CarpetFuzz}/tests/dict/dict.json --bindir $PWD/build_carpetfuzz/bin --seeddir input
+# Rank each combination with its dry-run coverage ( < 10mins )
+python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/output/combination/combination_tiffcp.txt --dict ${CarpetFuzz}/tests/dict/dict.json --bindir $PWD/build_carpetfuzz/bin --seeddir input
 
 # Step 3
 # Fuzz with the ranked stubs
