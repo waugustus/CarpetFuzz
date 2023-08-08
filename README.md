@@ -12,6 +12,10 @@ For more details, please refer to [our paper](https://www.usenix.org/system/file
 
 The [CarpetFuzz-experiments](https://github.com/waugustus/CarpetFuzz-experiments) repository contains the data sets, scripts, and documentation required to reproduce our results in the paper.
 
+## Prerequisites ## 
+
+We believe that mainstream computers on the market are sufficient to run CarpetFuzz, such as computers with a 1-core CPU, 8GB RAM, and a 128GB hard drive.
+
 ## Structure ##
 
 |Directory|Description|
@@ -108,19 +112,20 @@ wget -P models/ https://allennlp.s3.amazonaws.com/models/elmo-constituency-parse
 We take the program `tiffcp` used in the paper as an example, 
 
 ```
-# Step 1
+# Step 1 ( < 5mins )
 # Create container
 sudo docker run -it 4ugustus/carpetfuzz bash
 # Libtiff has already been built
 cd /root/programs/libtiff
 
 # Step 2
-# Use CarpetFuzz to analyze the relationships from the manpage file
+# Use CarpetFuzz to analyze the relationships from the manpage file  ( < 10mins )
 python3 ${CarpetFuzz}/scripts/find_relationship.py --file $PWD/build_carpetfuzz/share/man/man1/tiffcp.1
-# Based on the relationship, use pict to generate 6-wise combinations
+# Based on the relationship, use pict to generate 6-wise combinations  ( depends on #OPT )
 python3 ${CarpetFuzz}/scripts/generate_combination.py --relation ${CarpetFuzz}/output/relation/relation_tiffcp.json
 # Rank each combination with its dry-run coverage
-python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/output/combination/combination_tiffcp.txt --dict ${CarpetFuzz}/tests/dict/dict.json --bindir $PWD/build_carpetfuzz/bin --seeddir input
+python3 ${CarpetFuzz}/scripts/rank_combination.py --combination ${CarpetFuzz}/output/combination/ ( < 10mins )
+combination_tiffcp.txt --dict ${CarpetFuzz}/tests/dict/dict.json --bindir $PWD/build_carpetfuzz/bin --seeddir input
 
 # Step 3
 # Fuzz with the ranked stubs
