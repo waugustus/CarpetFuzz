@@ -133,6 +133,8 @@ ${CarpetFuzz}/fuzzer/afl-fuzz -i input/ -o output/ -K ${CarpetFuzz}/output/stubs
 
 If you build CarpetFuzz yourself, you need to change Step 1 as following,
 
+(**Notice**: I've noticed that starting from libtiff v4.5.0, manpages are **no longer** generated during the compilation process. I'm not aware of the reasons behind this decision by the developers. If you wish to obtain these manpage files, an easy way is to revert to an earlier version.)
+
 ```
 # Step 1 (without docker)
 # Set the environment
