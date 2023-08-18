@@ -135,6 +135,8 @@ If you build CarpetFuzz yourself, you need to change Step 1 as following,
 
 (**Notice**: I've noticed that starting from libtiff v4.5.0, manpages are **no longer** generated during the compilation process. I'm not aware of the reasons behind this decision by the developers. If you wish to obtain these manpage files, an easy way is to revert to an earlier version.)
 
+(**Update**: You can use the command `sphinx-build -b man source/rst/dir build/man/dir` to generate the manpage for the new version of Libtiff. Thanks to @Mist1987 for providing the method.)
+
 ```
 # Step 1 (without docker)
 # Set the environment
