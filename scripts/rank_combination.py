@@ -34,7 +34,7 @@ def restoreStub(combination, dict_data):
     
     if "SUB" in synopsis and "SUB" in dict_data["options"]:
         sub_command = random.choice(dict_data["options"]["SUB"])
-        stub = synopsis.replace("SUB", sub_command)
+        synopsis = synopsis.replace("SUB", sub_command)
     
     stub = synopsis.replace("OPTIONS", new_combination)
     return stub
