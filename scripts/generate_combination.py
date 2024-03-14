@@ -89,7 +89,7 @@ if __name__ == "__main__":
     with open("%s" % relation_path, "r") as f:
         relation_data = json.loads(f.read())
 
-    program = relation_path.split("_")[1][:-5]
+    program = relation_path.split("_")[-1][:-5]
     
     model_path = generatePictModel(program, relation_data)
 
