@@ -213,6 +213,10 @@ CarpetFuzz has found 56 crashes on our real-world dataset, of which 42 are 0-day
 
 Thanks to Ying Li ([@Fr3ya](https://github.com/Fr3ya)) and Zhiyu Zhang ([@QGrain](https://github.com/QGrain)) for their valuable contributions to this project.
 
+## News & Updates
+
+We are excited to share that an enhanced version of CarpetFuzz — [**ProphetFuzz**](https://github.com/NASP-THU/ProphetFuzz) — powered by Large Language Models (LLMs), has been accepted to **ACM CCS 2024**. We warmly invite the community to try it out and share feedback!
+
 ## Citing this paper ##
 
 In case you would like to cite CarpetFuzz, you may use the following BibTex entry:
