@@ -91,7 +91,7 @@ if __name__ == "__main__":
     seed_dir = args.seeddir
     showmap_path = args.showmap
 
-    program = combination_file_path.split("_")[1][:-4]
+    program = combination_file_path.split("_")[-1][:-4]
     
     with open(combination_file_path, "r") as f:
         combination_list = f.read().splitlines()
